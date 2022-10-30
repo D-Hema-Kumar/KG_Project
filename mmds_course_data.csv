@@ -1,0 +1,1309 @@
+,module_code,module_name,property,property_value
+0,CS 500,Advanced Software Engineering,Form of module,Lectures and accompanying tutorials
+1,CS 500,Advanced Software Engineering,Type of module,Computer Science Fundamental
+2,CS 500,Advanced Software Engineering,Level,Master
+3,CS 500,Advanced Software Engineering,ECTS,6
+4,CS 500,Advanced Software Engineering,ECTS,Hours per semester present: 56 h (4 SWS)
+5,CS 500,Advanced Software Engineering,ECTS,Self-study: 112 h per semester
+6,CS 500,Advanced Software Engineering,Workload,• 28h: pre and post lecture studying and revision
+7,CS 500,Advanced Software Engineering,Workload,• 56h: tutorial exercises
+8,CS 500,Advanced Software Engineering,Workload,"• 28h: directed independent study (reading papers, books"
+9,CS 500,Advanced Software Engineering,Workload,etc.)
+10,CS 500,Advanced Software Engineering,Prerequisites,-
+11,CS 500,Advanced Software Engineering,Prerequisites,The course deals with the model-based specification of
+12,CS 500,Advanced Software Engineering,Prerequisites,"software systems and components as well as their verification,"
+13,CS 500,Advanced Software Engineering,Prerequisites,validation and quality assurance. The emphasis is on view-
+14,CS 500,Advanced Software Engineering,Prerequisites,"based specification methods that use multiple views,"
+15,CS 500,Advanced Software Engineering,Prerequisites,"expressed in multiple languages, to describe orthogonal"
+16,CS 500,Advanced Software Engineering,Aim of module,aspects of software systems/components. Key examples
+17,CS 500,Advanced Software Engineering,Aim of module,"include structural views represented using class diagrams,"
+18,CS 500,Advanced Software Engineering,Aim of module,operational views expressed using constraint languages and
+19,CS 500,Advanced Software Engineering,Aim of module,behavioral views expressed using state diagrams. An
+20,CS 500,Advanced Software Engineering,Aim of module,important focus of the course is the use of these views to
+21,CS 500,Advanced Software Engineering,Aim of module,define tests and extra-functional properties.
+22,CS 500,Advanced Software Engineering,Aim of module,Expertise:
+23,CS 500,Advanced Software Engineering,Aim of module,"After taking the course, students will be familiar with the latest"
+24,CS 500,Advanced Software Engineering,Aim of module,state-of-the-art techniques for specifying the externally visible
+25,CS 500,Advanced Software Engineering,Aim of module,"properties of a software system/component – that is, for"
+26,CS 500,Advanced Software Engineering,Learning outcomes,"describing a software system/component as a “black box”,"
+27,CS 500,Advanced Software Engineering,qualification goals,and for verifying them.
+28,CS 500,Advanced Software Engineering,qualification goals,"(MK1, MK2)"
+29,CS 500,Advanced Software Engineering,qualification goals,Methodological competence:
+30,CS 500,Advanced Software Engineering,qualification goals,Participants will know how to use the expertise acquired
+31,CS 500,Advanced Software Engineering,qualification goals,during the course to describe the requirements that a
+32,CS 500,Advanced Software Engineering,qualification goals,whether a system/component fulfils these requirements.
+33,CS 500,Advanced Software Engineering,qualification goals,"(MF1, MF3)"
+34,CS 500,Advanced Software Engineering,qualification goals,Personal competence:
+35,CS 500,Advanced Software Engineering,qualification goals,"With the acquired skills and know-how, students will be able"
+36,CS 500,Advanced Software Engineering,qualification goals,to play a key role in projects involving the development of
+37,CS 500,Advanced Software Engineering,qualification goals,"systems, components and software applications."
+38,CS 500,Advanced Software Engineering,qualification goals,(MKO3)
+39,CS 500,Advanced Software Engineering,Media,"Printed Lecture Notes, Presentations, Tool Demonstrations"
+40,CS 500,Advanced Software Engineering,Media,"• C. Atkinson et. al., Component-Based Product Line"
+41,CS 500,Advanced Software Engineering,Media,"Engineering with the UML, Addison-Wesley, 2001."
+42,CS 500,Advanced Software Engineering,Literature,
+43,CS 500,Advanced Software Engineering,Literature,"• Paul Ammann & Jeff Offutt., “Introduction to Software"
+44,CS 500,Advanced Software Engineering,Literature,"Testing”, Cambridge University Press, January 2008."
+45,CS 500,Advanced Software Engineering,Methods,"Lectures, tutorials, independent study"
+46,CS 500,Advanced Software Engineering,Form of assessment,Written examination
+47,CS 500,Advanced Software Engineering,Admission requirements,
+48,CS 500,Advanced Software Engineering,Admission requirements,-
+49,CS 500,Advanced Software Engineering,for assessment,
+50,CS 500,Advanced Software Engineering,Duration of assessment,90 minutes
+51,CS 500,Advanced Software Engineering,Language,English
+52,CS 500,Advanced Software Engineering,Offering,Fall semester
+53,CS 500,Advanced Software Engineering,Lecturer,Prof. Dr. Colin Atkinson
+54,CS 500,Advanced Software Engineering,Person in charge,Prof. Dr. Colin Atkinson
+55,CS 500,Advanced Software Engineering,Duration of module,1 Semester
+56,CS 500,Advanced Software Engineering,Further modules,-
+57,CS 500,Advanced Software Engineering,Further modules,"M.Sc. Wirtschaftsinformatik, M.Sc. Wirtschaftspädagogik,"
+58,CS 500,Advanced Software Engineering,Range of application,
+59,CS 500,Advanced Software Engineering,Range of application,Lehramt Informatik
+60,CS 500,Advanced Software Engineering,Semester,1./ 2. semester
+0,CS 500,Advanced Software Engineering,Form of module,Lectures and accompanying tutorials
+1,CS 500,Advanced Software Engineering,Type of module,Computer Science Fundamental
+2,CS 500,Advanced Software Engineering,Level,Master
+3,CS 500,Advanced Software Engineering,ECTS,6
+4,CS 500,Advanced Software Engineering,ECTS,Hours per semester present: 56 h (4 SWS)
+5,CS 500,Advanced Software Engineering,ECTS,Self-study: 112 h per semester
+6,CS 500,Advanced Software Engineering,Workload,• 28h: pre and post lecture studying and revision
+7,CS 500,Advanced Software Engineering,Workload,• 56h: tutorial exercises
+8,CS 500,Advanced Software Engineering,Workload,"• 28h: directed independent study (reading papers, books"
+9,CS 500,Advanced Software Engineering,Workload,etc.)
+10,CS 500,Advanced Software Engineering,Prerequisites,-
+11,CS 500,Advanced Software Engineering,Prerequisites,The course deals with the model-based specification of
+12,CS 500,Advanced Software Engineering,Prerequisites,"software systems and components as well as their verification,"
+13,CS 500,Advanced Software Engineering,Prerequisites,validation and quality assurance. The emphasis is on view-
+14,CS 500,Advanced Software Engineering,Prerequisites,"based specification methods that use multiple views,"
+15,CS 500,Advanced Software Engineering,Prerequisites,"expressed in multiple languages, to describe orthogonal"
+16,CS 500,Advanced Software Engineering,Aim of module,aspects of software systems/components. Key examples
+17,CS 500,Advanced Software Engineering,Aim of module,"include structural views represented using class diagrams,"
+18,CS 500,Advanced Software Engineering,Aim of module,operational views expressed using constraint languages and
+19,CS 500,Advanced Software Engineering,Aim of module,behavioral views expressed using state diagrams. An
+20,CS 500,Advanced Software Engineering,Aim of module,important focus of the course is the use of these views to
+21,CS 500,Advanced Software Engineering,Aim of module,define tests and extra-functional properties.
+22,CS 500,Advanced Software Engineering,Aim of module,Expertise:
+23,CS 500,Advanced Software Engineering,Aim of module,"After taking the course, students will be familiar with the latest"
+24,CS 500,Advanced Software Engineering,Aim of module,state-of-the-art techniques for specifying the externally visible
+25,CS 500,Advanced Software Engineering,Aim of module,"properties of a software system/component – that is, for"
+26,CS 500,Advanced Software Engineering,Learning outcomes,"describing a software system/component as a “black box”,"
+27,CS 500,Advanced Software Engineering,qualification goals,and for verifying them.
+28,CS 500,Advanced Software Engineering,qualification goals,"(MK1, MK2)"
+29,CS 500,Advanced Software Engineering,qualification goals,Methodological competence:
+30,CS 500,Advanced Software Engineering,qualification goals,Participants will know how to use the expertise acquired
+31,CS 500,Advanced Software Engineering,qualification goals,during the course to describe the requirements that a
+32,CS 500,Advanced Software Engineering,qualification goals,whether a system/component fulfils these requirements.
+33,CS 500,Advanced Software Engineering,qualification goals,"(MF1, MF3)"
+34,CS 500,Advanced Software Engineering,qualification goals,Personal competence:
+35,CS 500,Advanced Software Engineering,qualification goals,"With the acquired skills and know-how, students will be able"
+36,CS 500,Advanced Software Engineering,qualification goals,to play a key role in projects involving the development of
+37,CS 500,Advanced Software Engineering,qualification goals,"systems, components and software applications."
+38,CS 500,Advanced Software Engineering,qualification goals,(MKO3)
+39,CS 500,Advanced Software Engineering,Media,"Printed Lecture Notes, Presentations, Tool Demonstrations"
+40,CS 500,Advanced Software Engineering,Media,"• C. Atkinson et. al., Component-Based Product Line"
+41,CS 500,Advanced Software Engineering,Media,"Engineering with the UML, Addison-Wesley, 2001."
+42,CS 500,Advanced Software Engineering,Literature,
+43,CS 500,Advanced Software Engineering,Literature,"• Paul Ammann & Jeff Offutt., “Introduction to Software"
+44,CS 500,Advanced Software Engineering,Literature,"Testing”, Cambridge University Press, January 2008."
+45,CS 500,Advanced Software Engineering,Methods,"Lectures, tutorials, independent study"
+46,CS 500,Advanced Software Engineering,Form of assessment,Written examination
+47,CS 500,Advanced Software Engineering,Admission requirements,
+48,CS 500,Advanced Software Engineering,Admission requirements,-
+49,CS 500,Advanced Software Engineering,for assessment,
+50,CS 500,Advanced Software Engineering,Duration of assessment,90 minutes
+51,CS 500,Advanced Software Engineering,Language,English
+52,CS 500,Advanced Software Engineering,Offering,Fall semester
+53,CS 500,Advanced Software Engineering,Lecturer,Prof. Dr. Colin Atkinson
+54,CS 500,Advanced Software Engineering,Person in charge,Prof. Dr. Colin Atkinson
+55,CS 500,Advanced Software Engineering,Duration of module,1 Semester
+56,CS 500,Advanced Software Engineering,Further modules,-
+57,CS 500,Advanced Software Engineering,Further modules,"M.Sc. Wirtschaftsinformatik, M.Sc. Wirtschaftspädagogik,"
+58,CS 500,Advanced Software Engineering,Range of application,
+59,CS 500,Advanced Software Engineering,Range of application,Lehramt Informatik
+60,CS 500,Advanced Software Engineering,Semester,1./ 2. semester
+0,CS 530,Database Systems II (DBSII),Form of module,Lecture & exercises
+1,CS 530,Database Systems II (DBSII),Type of module,Computer Science Fundamental
+2,CS 530,Database Systems II (DBSII),Level,Master
+3,CS 530,Database Systems II (DBSII),ECTS,6
+4,CS 530,Database Systems II (DBSII),ECTS,Hours per semester present: 2 + 2 per week
+5,CS 530,Database Systems II (DBSII),Workload,
+6,CS 530,Database Systems II (DBSII),Workload,Self-study: 4 per week
+7,CS 530,Database Systems II (DBSII),Workload,"DBS I, Computer Architecture, Algorithm & Datastructures,"
+8,CS 530,Database Systems II (DBSII),Prerequisites,
+9,CS 530,Database Systems II (DBSII),Prerequisites,C++
+10,CS 530,Database Systems II (DBSII),Prerequisites,"Adanced database topics, e.g., distributed databases, main"
+11,CS 530,Database Systems II (DBSII),Aim of module,
+12,CS 530,Database Systems II (DBSII),Aim of module,"memory databases, data warehouses"
+13,CS 530,Database Systems II (DBSII),Aim of module,Expertise: know about advanced database topics
+14,CS 530,Database Systems II (DBSII),Learning outcomes and,
+15,CS 530,Database Systems II (DBSII),Learning outcomes and,Methodological competence: learn how to program efficiently
+16,CS 530,Database Systems II (DBSII),qualification goals,
+17,CS 530,Database Systems II (DBSII),qualification goals,Personal competence: learn how to listen carefully
+18,CS 530,Database Systems II (DBSII),Media,Beamer + Blackboard
+19,CS 530,Database Systems II (DBSII),Literature,"Kemper, Eickler: Datenbanksysteme"
+20,CS 530,Database Systems II (DBSII),Literature,The course consists of a lecture accompanied by weekly
+21,CS 530,Database Systems II (DBSII),Methods,homeworks. In the lecture the students will learn concepts
+22,CS 530,Database Systems II (DBSII),Methods,which are then applied in the homework.
+23,CS 530,Database Systems II (DBSII),Form of assessment,Written exam
+24,CS 530,Database Systems II (DBSII),Admission requirements,
+25,CS 530,Database Systems II (DBSII),Admission requirements,-
+26,CS 530,Database Systems II (DBSII),for assessment,
+27,CS 530,Database Systems II (DBSII),Duration of assessment,90 min
+28,CS 530,Database Systems II (DBSII),Language,English
+29,CS 530,Database Systems II (DBSII),Offering,Spring semester
+30,CS 530,Database Systems II (DBSII),Lecturer,Guido Moerkotte
+31,CS 530,Database Systems II (DBSII),Person in charge,Guido Moerkotte
+32,CS 530,Database Systems II (DBSII),Duration of module,1 semester
+0,CS 550,Algorithmics,Form of module,Lecture with tutorials
+1,CS 550,Algorithmics,Type of module,Fundamental in Computer Science
+2,CS 550,Algorithmics,Level,Master
+3,CS 550,Algorithmics,ECTS,6
+4,CS 550,Algorithmics,ECTS,Attendance: 56 h per semester (4 h per week)
+5,CS 550,Algorithmics,ECTS,Self-study: 112 h per semester
+6,CS 550,Algorithmics,Workload,
+7,CS 550,Algorithmics,Workload,• 28 h per semester for preparation and reworking
+8,CS 550,Algorithmics,Workload,lectures/tutorials
+9,CS 550,Algorithmics,Workload,• 84 h per semester for the preparation of the exams
+10,CS 550,Algorithmics,Workload,"Practical Informatics I, Algorithms and Data Structures, Linear"
+11,CS 550,Algorithmics,Prerequisites,
+12,CS 550,Algorithmics,Prerequisites,"Algebra, Statistics"
+13,CS 550,Algorithmics,Prerequisites,The lecture deals with the design and the analysis
+14,CS 550,Algorithmics,Prerequisites,algorithms for various practically relevant computational
+15,CS 550,Algorithmics,Prerequisites,problems and with methods for analyzing the complexity of
+16,CS 550,Algorithmics,Prerequisites,"certain problems. In particular, we will learn methods"
+17,CS 550,Algorithmics,Prerequisites,formalizing discrete optimization problems and designing
+18,CS 550,Algorithmics,Prerequisites,algorithms for them on the basis of analyzing the structure of
+19,CS 550,Algorithmics,Prerequisites,these problems.
+20,CS 550,Algorithmics,Prerequisites,"Moreover, we will learn techniques for proving the"
+21,CS 550,Algorithmics,Prerequisites,correctness and estimating the running time of these
+22,CS 550,Algorithmics,Prerequisites,algorithms. In the second part of the lecture we will deal with
+23,CS 550,Algorithmics,Aim of module,the theory of NP-completeness with gives evidence that
+24,CS 550,Algorithmics,Aim of module,certain highly relevant problems do not have efficient
+25,CS 550,Algorithmics,Aim of module,algorithms. During the lecture we will derive algorithms and
+26,CS 550,Algorithmics,Aim of module,complexity-theoretic results for the following computational
+27,CS 550,Algorithmics,Aim of module,problems:
+28,CS 550,Algorithmics,Aim of module,• shortest path problems and shortest round tour problems
+29,CS 550,Algorithmics,Aim of module,• linear optimization problems
+30,CS 550,Algorithmics,Aim of module,• flow problem
+31,CS 550,Algorithmics,Aim of module,• matching problems
+32,CS 550,Algorithmics,Aim of module,• satisfiability problems
+33,CS 550,Algorithmics,Aim of module,• discret linear optimization problems
+34,CS 550,Algorithmics,Aim of module,Professional expertise:
+35,CS 550,Algorithmics,Aim of module,important complexity-theoretic
+36,CS 550,Algorithmics,Aim of module,computational problems which are highly relevant in practice.
+37,CS 550,Algorithmics,Aim of module,
+38,CS 550,Algorithmics,Aim of module,Methodological competence: The students learn to formalize
+39,CS 550,Algorithmics,Aim of module,"informally specified computational problems, to analyse their"
+40,CS 550,Algorithmics,Aim of module,"structure with the goal to design efficient algorithms, to prove"
+41,CS 550,Algorithmics,Aim of module,the correctness and
+42,CS 550,Algorithmics,Aim of module,"algorithms. Moreover,"
+43,CS 550,Algorithmics,Learning outcomes and,
+44,CS 550,Algorithmics,Learning outcomes and,completeness of certain problems.
+45,CS 550,Algorithmics,qualification goals,
+46,CS 550,Algorithmics,qualification goals,
+47,CS 550,Algorithmics,qualification goals,Personal competence:
+48,CS 550,Algorithmics,qualification goals,precise thinking. Further development of abstraction abilities
+49,CS 550,Algorithmics,qualification goals,and the ability to transfer theoretical knowledge for solving
+50,CS 550,Algorithmics,qualification goals,"practical problems, especially"
+51,CS 550,Algorithmics,qualification goals,research. Increasing the sensitivity for the complexity and the
+52,CS 550,Algorithmics,qualification goals,efficient solvability of
+53,CS 550,Algorithmics,qualification goals,through dealing with the theory of NP-completeness.
+54,CS 550,Algorithmics,qualification goals,
+55,CS 550,Algorithmics,qualification goals,"Writing with chalk at the blackboard, slides and"
+56,CS 550,Algorithmics,Media,
+57,CS 550,Algorithmics,Media,media
+58,CS 550,Algorithmics,Media,"• Cormen, Leiserson,"
+59,CS 550,Algorithmics,Media,"Algorithms, 3rd edition"
+60,CS 550,Algorithmics,Media,• Shimon Even: Graph Algorithms
+61,CS 550,Algorithmics,Media,"• Lovasz, Plummer: Matching Theory"
+62,CS 550,Algorithmics,Literature,• Handbooks on Operations
+63,CS 550,Algorithmics,Literature,Science Volume
+64,CS 550,Algorithmics,Literature,Nemhauser)
+65,CS 550,Algorithmics,Literature,"• J. Toran: Das Erfüllbarkeitsproblem SAT, Lehmann Media,"
+66,CS 550,Algorithmics,Literature,2012
+67,CS 550,Algorithmics,Literature,Reworking of lectures
+68,CS 550,Algorithmics,Methods,"literature, solving exercises at home and in cooperation with"
+69,CS 550,Algorithmics,Methods,other students at the tutorials
+70,CS 550,Algorithmics,Form of assessment,Written examination
+71,CS 550,Algorithmics,Admission requirements,
+72,CS 550,Algorithmics,Admission requirements,-
+73,CS 550,Algorithmics,for assessment,
+74,CS 550,Algorithmics,Duration of assessment,90 Minutes
+75,CS 550,Algorithmics,Language,English
+76,CS 550,Algorithmics,Lecturer,Prof. Dr. Matthias Krause
+77,CS 550,Algorithmics,Person in charge,Prof. Dr. Matthias Krause
+78,CS 550,Algorithmics,Duration of module,1 semester
+79,CS 550,Algorithmics,Further modules,CS 651 – Cryptography II
+80,CS 550,Algorithmics,Range of application,"M.Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in DataScience,M.Sc.Wirtschaftsmathematik,M.Sc.Wirtschaftspädagogik, Lehramt Informatik, M.Sc. Mathematik"
+81,CS 550,Algorithmics,Semester,1./ 2. semester
+0,CS 560,Large-Scale Data Management,Form of module,Lecture with exercises
+1,CS 560,Large-Scale Data Management,Type of module,Computer Science Fundamental
+2,CS 560,Large-Scale Data Management,Level,Master
+3,CS 560,Large-Scale Data Management,ECTS,6
+4,CS 560,Large-Scale Data Management,ECTS,Hours per semester: 56 h (4 SWS)
+5,CS 560,Large-Scale Data Management,Workload,Self-study per semester: 98 h
+6,CS 560,Large-Scale Data Management,Workload,• 70 h: pre and post lecture studying and revision
+7,CS 560,Large-Scale Data Management,Workload,• 28 h: examination preparation
+8,CS 560,Large-Scale Data Management,Workload,"Very good knowledge of database systems, good knowledge"
+9,CS 560,Large-Scale Data Management,Prerequisites,
+10,CS 560,Large-Scale Data Management,Prerequisites,of algorithms and data structures as well as Java programming
+11,CS 560,Large-Scale Data Management,Prerequisites,This course introduces the fundamental concepts and
+12,CS 560,Large-Scale Data Management,Prerequisites,computational paradigms of large-scale data management
+13,CS 560,Large-Scale Data Management,Prerequisites,"and Big Data. This includes methods for storing, updating,"
+14,CS 560,Large-Scale Data Management,Prerequisites,"querying, and analyzing large dataset as well as for data-"
+15,CS 560,Large-Scale Data Management,Prerequisites,"intensive computing. The course covers concept, algorithms,"
+16,CS 560,Large-Scale Data Management,Aim of module,
+17,CS 560,Large-Scale Data Management,Aim of module,and system issues; accompanying exercises provide hands-on
+18,CS 560,Large-Scale Data Management,Aim of module,experience. Topics include:
+19,CS 560,Large-Scale Data Management,Aim of module,• Parallel and distributed databases
+20,CS 560,Large-Scale Data Management,Aim of module,• Big data platforms
+21,CS 560,Large-Scale Data Management,Aim of module,"• NoSQL, NewSQL and polystore systems"
+22,CS 560,Large-Scale Data Management,Aim of module,Expertise:
+23,CS 560,Large-Scale Data Management,Aim of module,Students will acquire knowledge about methods and systems
+24,CS 560,Large-Scale Data Management,Aim of module,for managing large datasets and data-intensive computing.
+25,CS 560,Large-Scale Data Management,Aim of module,"(MK1, MK2)"
+26,CS 560,Large-Scale Data Management,Aim of module,Methodological competence:
+27,CS 560,Large-Scale Data Management,Aim of module,"• Be able to judge, select, and use traditional or non-"
+28,CS 560,Large-Scale Data Management,Learning outcomes and,traditional data management systems for a given data
+29,CS 560,Large-Scale Data Management,qualification goals,management task
+30,CS 560,Large-Scale Data Management,qualification goals,• Be able to solve computational problems involving large
+31,CS 560,Large-Scale Data Management,qualification goals,datasets
+32,CS 560,Large-Scale Data Management,qualification goals,(MF1)
+33,CS 560,Large-Scale Data Management,qualification goals,Personal competence:
+34,CS 560,Large-Scale Data Management,qualification goals,• Study independently
+35,CS 560,Large-Scale Data Management,qualification goals,• Presentation and writing skills
+36,CS 560,Large-Scale Data Management,qualification goals,(MKO3)
+37,CS 560,Large-Scale Data Management,Literature,"•T. Öszu, P. ValduriezPrinciples of Distributed Database SystemsSpringer, 4th ed., 2020•H. Garcia-Molina, J. D. Ullman, J. WidomDatabase Systems: The Complete BookPrentice Hall, 2nd ed., 2008•L. WieseAdvanced Data Management: For SQL, NOSQL, Cloud andDistributed DatabasesDe Gruyter, 2015•T. WhiteHadoop – The Definitive GuideO’Reilly, 4th ed., 2015•More in lecture notes"
+38,CS 560,Large-Scale Data Management,Methods,"Lecture,weeklyexercise,experimentationwithdifferentsystems"
+39,CS 560,Large-Scale Data Management,Form of assessment,Written examination
+40,CS 560,Large-Scale Data Management,Duration of assessment,90 minutes
+41,CS 560,Large-Scale Data Management,Language,English
+42,CS 560,Large-Scale Data Management,Offering,Fall semester
+43,CS 560,Large-Scale Data Management,Lecturer,Prof. Dr. Rainer Gemulla
+44,CS 560,Large-Scale Data Management,Person in charge,Prof. Dr. Rainer Gemulla
+45,CS 560,Large-Scale Data Management,Duration of module,1 semester
+46,CS 560,Large-Scale Data Management,Further modules,-
+47,CS 560,Large-Scale Data Management,Range of application,"M.Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in DataScience, Lehramt Informatik"
+48,CS 560,Large-Scale Data Management,Semester,1st / 2nd semester
+0,IE 500,Data Mining I,E 500,Data Mining I
+1,IE 500,Data Mining I,Form of module,Lecture with exercises and project
+2,IE 500,Data Mining I,Type of module,Business Informatics Fundamental
+3,IE 500,Data Mining I,Level,Master
+4,IE 500,Data Mining I,ECTS,6
+5,IE 500,Data Mining I,Workload,Hours per semester: 56 h (4 SWS)
+6,IE 500,Data Mining I,Workload,Self-study per semester: 98 h•70 h: pre and post lecture studying and revision•28 h: examination preparation
+7,IE 500,Data Mining I,Prerequisites,"Foundations of Statistics, Practical Informatics I"
+8,IE 500,Data Mining I,Aim of module,"The course provides an introduction to advanced data analysistechniques as a basis for analyzing business data and providinginput for decision support systems. The course will cover thefollowing topics:•Goals and Principles of Data Mining•Data Representation and Preprocessing•Clustering•Classification•Regression•Association Analysis•Text Mining•SystemsandApplications(e.g.Retail,Finance,WebAnalysis)"
+9,IE 500,Data Mining I,Learning outcomes andqualification goals,"Expertise:Studentswillacquirebasicknowledgeofthetechniques,opportunities and applications of data mining.(MK1, MF1)"
+10,IE 500,Data Mining I,"Methodological competence:•Successfulparticipantswillbeabletoidentifyopportunities for applying data mining in an enterpriseenvironment,selectandapplyappropriatetechniques,and interpret the results.•project organisation skills(MK2, MF3, MF4, MKO1)",
+11,IE 500,Data Mining I,Personal competence:,
+12,IE 500,Data Mining I,Personal competence:,• presentation skills
+13,IE 500,Data Mining I,Personal competence:,
+14,IE 500,Data Mining I,Media,"slide set, exercise sheets, data sets for the exercises"
+15,IE 500,Data Mining I,Media,"• Pang-Ning Tan,"
+16,IE 500,Data Mining I,Media,"Introduction to Data Mining, Pearson."
+17,IE 500,Data Mining I,Literature,"• Vijay Kotu, Bala Deshpande: Predictive Analytics and Data"
+18,IE 500,Data Mining I,Literature,Mining: Concepts and Practice with RapidMiner. Morgan
+19,IE 500,Data Mining I,Literature,Kaufmann
+20,IE 500,Data Mining I,Literature,The course consists of a lecture together with accompanying
+21,IE 500,Data Mining I,Literature,practical exercises as well as student team projects. In the
+22,IE 500,Data Mining I,Literature,exercises the participants
+23,IE 500,Data Mining I,Literature,applying state of the art data mining tools on realistic data
+24,IE 500,Data Mining I,Methods,sets. The team projects take place in the last third of the term.
+25,IE 500,Data Mining I,Methods,"Within the projects, students realize more sophisticated data"
+26,IE 500,Data Mining I,Methods,mining projects of personal
+27,IE 500,Data Mining I,Methods,results of their projects in the form of a written report as well
+28,IE 500,Data Mining I,Methods,as an oral presentation.
+29,IE 500,Data Mining I,Methods,"Written examination (75%), project report (20%), oral project"
+30,IE 500,Data Mining I,Form of assessment,
+31,IE 500,Data Mining I,Form of assessment,presentation (5%)
+32,IE 500,Data Mining I,Admission requirements,
+33,IE 500,Data Mining I,Admission requirements,-
+34,IE 500,Data Mining I,for assessment,
+35,IE 500,Data Mining I,Duration of assessment,60 minutes (written examination)
+36,IE 500,Data Mining I,Language,English
+37,IE 500,Data Mining I,Offering,Fall semester / Spring semester
+38,IE 500,Data Mining I,Lecturer,Prof. Dr. Heiko Paulheim; Prof. Dr. Christian Bizer
+39,IE 500,Data Mining I,Person in charge,Prof. Dr. Heiko Paulheim; Prof. Dr. Christian Bizer
+40,IE 500,Data Mining I,Duration of module,1 Semester
+41,IE 500,Data Mining I,Duration of module,"IE 672 – Data Mining II, IE 671 – Web Mining,"
+42,IE 500,Data Mining I,Further modules,
+43,IE 500,Data Mining I,Further modules,"IE 661 – Text Analytics, IE 675b – Machine Learning"
+44,IE 500,Data Mining I,Further modules,"M.Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data"
+45,IE 500,Data Mining I,Range of application,
+46,IE 500,Data Mining I,Range of application,"Science, Lehramt Informatik"
+47,IE 500,Data Mining I,Semester,1st/2nd semester
+0,IE 560,Decision Support,E 560,Decision Support
+1,IE 560,Decision Support,Form of module,Inverted classroom
+2,IE 560,Decision Support,Type of module,Business Informatics Fundamental
+3,IE 560,Decision Support,Level,Master
+4,IE 560,Decision Support,ECTS,6
+5,IE 560,Decision Support,Workload,Hours per semester: 28 h (2 SWS)
+6,IE 560,Decision Support,Workload,Self-study per semester: 152 h•96 h: pre- and post lecture studying and revision•56 h: exam preparation
+7,IE 560,Decision Support,Prerequisites,"Basic Probability Theory, Basic Knowledge of Propositionaland First-Order Logic"
+8,IE 560,Decision Support,Aim of module,Thecourseprovidesanintroductiontodecisionsupporttechniquesasabasisforthedesignofdecisionsupportsystems. The course will cover the following topics:•Decision Theory•Decision- and Business Rules•Probabilistic Graphical Models•Game Theory and Mechanism Design
+9,IE 560,Decision Support,Learning outcomes andqualification goals,"Expertise:Studentswillacquirebasicknowledgeofthetechniques,opportunities and applications of decision theory.(MK1, MF1)"
+10,IE 560,Decision Support,Learning outcomes andqualification goals,"Methodological competence:Successful participants will be able to identify opportunitiesfor decision support in an enterprise environment, select andapply appropriate techniques, and interpret the results.(MK2, MF3, MF4, MKO1)"
+11,IE 560,Decision Support,Learning outcomes andqualification goals,Personal competence: -
+12,IE 560,Decision Support,Media,"Lecture videos, slide set, exercise sheets, software tools"
+13,IE 560,Decision Support,Literature,"•S. Russel and P. Norvig: AI a modern Approach (3rd Edition),2010 (selected sections)"
+14,IE 560,Decision Support,Methods,"The course consists of a lecture accompanied by practicalhomework and case studies. In the lecture, the students basicconcepts and methods of decision theory will be explainedboth in theory and using concrete examples. The students will"
+15,IE 560,Decision Support,Form of assessment,Written exam
+16,IE 560,Decision Support,Admission requirementsfor assessment,-
+17,IE 560,Decision Support,Duration of assessment,Written examina: 45+45 minutes
+18,IE 560,Decision Support,Language,English
+19,IE 560,Decision Support,Offering,Fall semester
+20,IE 560,Decision Support,Lecturer,Prof. Dr. Heiner Stuckenschmidt
+21,IE 560,Decision Support,Person in charge,Prof. Dr. Heiner Stuckenschmidt
+22,IE 560,Decision Support,Duration of module,1 Semester
+23,IE 560,Decision Support,Further modules,-
+24,IE 560,Decision Support,Range of application,"M.Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in DataScience,"
+25,IE 560,Decision Support,Semester,1st/2nd semester
+0,CS 600,Model Driven Development,Form of module,Lectures with accompanying tutorials
+1,CS 600,Model Driven Development,Type of module,Specialization course
+2,CS 600,Model Driven Development,Level,Master
+3,CS 600,Model Driven Development,ECTS,6
+4,CS 600,Model Driven Development,ECTS,Hours per semester present at university: 56 h (4 SWS)
+5,CS 600,Model Driven Development,ECTS,Self-study: 112 h semester
+6,CS 600,Model Driven Development,Workload,• 28 h: pre and post lecture studying and revision
+7,CS 600,Model Driven Development,Workload,• 56 h: tutorial exercises
+8,CS 600,Model Driven Development,Workload,"• 28 h: directed independent study (reading papers, books"
+9,CS 600,Model Driven Development,Workload,etc.)
+10,CS 600,Model Driven Development,Prerequisites,Advanced Software Engineering
+11,CS 600,Model Driven Development,Prerequisites,"The course focuses on the principles, practices and tools"
+12,CS 600,Model Driven Development,Prerequisites,involved in advanced model-driven development. This
+13,CS 600,Model Driven Development,Prerequisites,"includes established modelling standard languages (e. g. UML,"
+14,CS 600,Model Driven Development,Prerequisites,"ATL, OCL) and modelling infrastructures (e. g. MOF, EMF, etc.)"
+15,CS 600,Model Driven Development,Prerequisites,"as well as leading edge, state-of-the-art modelling"
+16,CS 600,Model Driven Development,Prerequisites,"technologies (e. g. LML, PLM . . .). Key topics addressed"
+17,CS 600,Model Driven Development,Prerequisites,include:
+18,CS 600,Model Driven Development,Aim of module,• Multi-level modeling
+19,CS 600,Model Driven Development,Aim of module,• Meta-modeling
+20,CS 600,Model Driven Development,Aim of module,• Ontology engineering versus model engineering
+21,CS 600,Model Driven Development,Aim of module,• Model transformations
+22,CS 600,Model Driven Development,Aim of module,• Domain specific language definition and use
+23,CS 600,Model Driven Development,Aim of module,• Model creation and evolution best practices
+24,CS 600,Model Driven Development,Aim of module,• Model-driven software development
+25,CS 600,Model Driven Development,Aim of module,• Model checking and ontology validation
+26,CS 600,Model Driven Development,Aim of module,Expertise:
+27,CS 600,Model Driven Development,Aim of module,Students will be familiar with the accepted best practices and
+28,CS 600,Model Driven Development,Learning outcomes and,
+29,CS 600,Model Driven Development,Learning outcomes and,technologies used in mainstream model-driven development
+30,CS 600,Model Driven Development,qualification goals,
+31,CS 600,Model Driven Development,qualification goals,as well as state-of-the-art modeling technologies emerging
+32,CS 600,Model Driven Development,qualification goals,from research institutions.
+33,CS 600,Model Driven Development,qualification goals,Methodological competence:
+34,CS 600,Model Driven Development,qualification goals,Students will know how to apply modeling technologies in
+35,CS 600,Model Driven Development,qualification goals,real-world projects.
+36,CS 600,Model Driven Development,qualification goals,
+37,CS 600,Model Driven Development,qualification goals,Personal competence:
+38,CS 600,Model Driven Development,qualification goals,"Students will have the capability to analyse, understand and"
+39,CS 600,Model Driven Development,qualification goals,model complex systems.
+40,CS 600,Model Driven Development,qualification goals,
+41,CS 600,Model Driven Development,qualification goals,
+42,CS 600,Model Driven Development,Media,"Printed Lecture Notes, Presentations, Tool Demonstrations"
+43,CS 600,Model Driven Development,Media,"Jos B. Warmer and Anneke G. Kleppe, The Object Constraint"
+44,CS 600,Model Driven Development,Literature,Language: Getting Your Models
+45,CS 600,Model Driven Development,Literature,"Wesley Object Technology Series, 2003"
+46,CS 600,Model Driven Development,Methods,"Lectures, tutorials, independent study"
+47,CS 600,Model Driven Development,Form of assessment,Written examination
+48,CS 600,Model Driven Development,Admission requirements,
+49,CS 600,Model Driven Development,Admission requirements,-
+50,CS 600,Model Driven Development,for assessment,
+51,CS 600,Model Driven Development,Duration of assessment,90 minutes
+52,CS 600,Model Driven Development,Language,English
+53,CS 600,Model Driven Development,Offering,Fall semester
+54,CS 600,Model Driven Development,Lecturer,Prof. Dr. Colin Atkinson
+55,CS 600,Model Driven Development,Person in charge,Prof. Dr. Colin Atkinson
+56,CS 600,Model Driven Development,Duration of module,1 semester
+57,CS 600,Model Driven Development,Further modules,-
+58,CS 600,Model Driven Development,Further modules,"M.Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data"
+59,CS 600,Model Driven Development,Range of application,
+60,CS 600,Model Driven Development,Range of application,"Science, Lehramt Informatik"
+61,CS 600,Model Driven Development,Semester,1st/2nd/3rd semester
+0,CS 652,Data Security and Privacy,Form of module,Inverted classroom with exercises
+1,CS 652,Data Security and Privacy,Type of module,Specialization course
+2,CS 652,Data Security and Privacy,Level,Master
+3,CS 652,Data Security and Privacy,ECTS,6
+4,CS 652,Data Security and Privacy,ECTS,Hours per semester present: 56h (4 SWS)
+5,CS 652,Data Security and Privacy,Workload,
+6,CS 652,Data Security and Privacy,Workload,Self-study: 112h
+7,CS 652,Data Security and Privacy,Workload,There are no formal prerequisites but knowledge in
+8,CS 652,Data Security and Privacy,Workload,"cryptography or IT-security is recommended, e.g., by"
+9,CS 652,Data Security and Privacy,Prerequisites,
+10,CS 652,Data Security and Privacy,Prerequisites,attending the lectures “Kryptographie I” or “Selected Topics
+11,CS 652,Data Security and Privacy,Prerequisites,in IT-Security”
+12,CS 652,Data Security and Privacy,Prerequisites,"Nowadays, users are more and more revealing data to the"
+13,CS 652,Data Security and Privacy,Prerequisites,outside – either willingly as in the context of data mining or
+14,CS 652,Data Security and Privacy,Prerequisites,possibly unconsciously as in the case of the Internet of Things.
+15,CS 652,Data Security and Privacy,Prerequisites,"The aim of the module is to raise awareness, in particular with"
+16,CS 652,Data Security and Privacy,Prerequisites,respect to privacy violations. This is done by showing various
+17,CS 652,Data Security and Privacy,Aim of module,"security threats, e.g., traces left in the Internet such as the use"
+18,CS 652,Data Security and Privacy,Aim of module,"of cookies or browser fingerprinting. In particular, the topic of"
+19,CS 652,Data Security and Privacy,Aim of module,privacy preservation will be covered. This includes discussing
+20,CS 652,Data Security and Privacy,Aim of module,different approaches for defining the meaning of privacy but
+21,CS 652,Data Security and Privacy,Aim of module,also possible countermeasures such as anonymization of data
+22,CS 652,Data Security and Privacy,Aim of module,or the use of dedicated encryption schemes.
+23,CS 652,Data Security and Privacy,Aim of module,Expertise:
+24,CS 652,Data Security and Privacy,Aim of module,Students will acquire the knowledge to identify security and
+25,CS 652,Data Security and Privacy,Aim of module,privacy threats and to select and use appropriate
+26,CS 652,Data Security and Privacy,Aim of module,countermeasures.
+27,CS 652,Data Security and Privacy,Aim of module,(MK2)
+28,CS 652,Data Security and Privacy,Aim of module,Methodological competence:
+29,CS 652,Data Security and Privacy,Learning outcomes,
+30,CS 652,Data Security and Privacy,Learning outcomes,"Successful participants will be able to understand, to select,"
+31,CS 652,Data Security and Privacy,qualification goals,
+32,CS 652,Data Security and Privacy,qualification goals,apply and evaluate the most appropriate techniques for a
+33,CS 652,Data Security and Privacy,qualification goals,variety of different privacy-sensitive scenarios. In particular
+34,CS 652,Data Security and Privacy,qualification goals,they are able to realize possible risks in new scenarios and to
+35,CS 652,Data Security and Privacy,qualification goals,transfer given solutions to these.
+36,CS 652,Data Security and Privacy,qualification goals,(MK1)
+37,CS 652,Data Security and Privacy,qualification goals,Personal competence:
+38,CS 652,Data Security and Privacy,qualification goals,students is trained.
+39,CS 652,Data Security and Privacy,qualification goals,"applications, e.g. in"
+40,CS 652,Data Security and Privacy,qualification goals,abstraction capacity is further developed and the transfer of
+41,CS 652,Data Security and Privacy,qualification goals,the learned material to related questions is trained.
+42,CS 652,Data Security and Privacy,qualification goals,"(MF1, MK03)"
+43,CS 652,Data Security and Privacy,Media,"Video recordings, annotated lecture slides"
+44,CS 652,Data Security and Privacy,Literature,Will be announced in the lecture
+45,CS 652,Data Security and Privacy,Literature,Reworking the lecture and studying the relevant literature in
+46,CS 652,Data Security and Privacy,Literature,self-study. During the lecture: discussing questions and ideas
+47,CS 652,Data Security and Privacy,Methods,and working together on concrete examples. Solving exercises
+48,CS 652,Data Security and Privacy,Methods,in self-study and in
+49,CS 652,Data Security and Privacy,Methods,students.
+50,CS 652,Data Security and Privacy,Form of assessment,Written exam
+51,CS 652,Data Security and Privacy,Admission requirements,
+52,CS 652,Data Security and Privacy,Admission requirements,-
+53,CS 652,Data Security and Privacy,for assessment,
+54,CS 652,Data Security and Privacy,Duration of assessment,90 minutes
+55,CS 652,Data Security and Privacy,Language,English
+56,CS 652,Data Security and Privacy,Offering,FSS
+57,CS 652,Data Security and Privacy,Lecturer,Prof. Dr. Frederik Armknecht
+58,CS 652,Data Security and Privacy,Person in charge,Prof. Dr. Frederik Armknecht
+59,CS 652,Data Security and Privacy,Duration of module,1 semester
+60,CS 652,Data Security and Privacy,Further modules,-
+61,CS 652,Data Security and Privacy,Further modules,"M.Sc. Mannheim Master in Data Science,"
+62,CS 652,Data Security and Privacy,Range of application,"M.Sc. Wirtschaftsinformatik, Lehramt Informatik,"
+63,CS 652,Data Security and Privacy,Range of application,M.Sc. Mathematik
+64,CS 652,Data Security and Privacy,Semester,1st/2nd/3rd semester
+0,CS 662,Types and Programming Languages,Form of module,Lecture with Exercise
+1,CS 662,Types and Programming Languages,Type of module,Specialization Course
+2,CS 662,Types and Programming Languages,Level,Master
+3,CS 662,Types and Programming Languages,ECTS,6
+4,CS 662,Types and Programming Languages,ECTS,Hours per semester present: 56h (4 SWS)
+5,CS 662,Types and Programming Languages,Workload,
+6,CS 662,Types and Programming Languages,Workload,Self-study: 112h
+7,CS 662,Types and Programming Languages,Prerequisites,-
+8,CS 662,Types and Programming Languages,Prerequisites,A type system is a syntactic method for enforcing levels of
+9,CS 662,Types and Programming Languages,Prerequisites,abstraction in programs. The study of type systems—and of
+10,CS 662,Types and Programming Languages,Prerequisites,programming languages from a type-theoretic perspective—
+11,CS 662,Types and Programming Languages,Prerequisites,"has important applications in software engineering, language"
+12,CS 662,Types and Programming Languages,Prerequisites,"design, high-performance compilers, and security. In this"
+13,CS 662,Types and Programming Languages,Prerequisites,"lecture, we will discuss the following topics:"
+14,CS 662,Types and Programming Languages,Prerequisites,• Lambda calculus
+15,CS 662,Types and Programming Languages,Aim of module,
+16,CS 662,Types and Programming Languages,Aim of module,• Static and dynamic semantics of programming
+17,CS 662,Types and Programming Languages,Aim of module,languages
+18,CS 662,Types and Programming Languages,Aim of module,• Functional programming
+19,CS 662,Types and Programming Languages,Aim of module,• Curry-Howard correspondence
+20,CS 662,Types and Programming Languages,Aim of module,• Computational logic
+21,CS 662,Types and Programming Languages,Aim of module,• Proof assistants
+22,CS 662,Types and Programming Languages,Aim of module,• Typed intermediate languages
+23,CS 662,Types and Programming Languages,Aim of module,Expertise:
+24,CS 662,Types and Programming Languages,Aim of module,• Get acquainted with the aims of the module
+25,CS 662,Types and Programming Languages,Aim of module,"(MK1, MK2, MF1, MF3)"
+26,CS 662,Types and Programming Languages,Aim of module,Methodological competence:
+27,CS 662,Types and Programming Languages,Aim of module,• Students will get familiar with the jargon used in
+28,CS 662,Types and Programming Languages,Learning outcomes and,scientific publications about programming languages
+29,CS 662,Types and Programming Languages,qualification goals,"(MF1, MF2, MF3)"
+30,CS 662,Types and Programming Languages,qualification goals,Personal competence:
+31,CS 662,Types and Programming Languages,qualification goals,• Learn how to read scientific publications about
+32,CS 662,Types and Programming Languages,qualification goals,programming languages
+33,CS 662,Types and Programming Languages,qualification goals,• Teamwork skills
+34,CS 662,Types and Programming Languages,qualification goals,"(MK01, MK02)"
+35,CS 662,Types and Programming Languages,Media,
+36,CS 662,Types and Programming Languages,Media,"software, software documentation"
+37,CS 662,Types and Programming Languages,Media,Types and Programming Languages. February 2002.
+38,CS 662,Types and Programming Languages,Literature,
+39,CS 662,Types and Programming Languages,Literature,Benjamin C. Pierce. The MIT Press. ISBN: 978-0-262-16209-8
+40,CS 662,Types and Programming Languages,Literature,• Lecture
+41,CS 662,Types and Programming Languages,Methods,
+42,CS 662,Types and Programming Languages,Methods,• Weekly Exercises/programming projects
+43,CS 662,Types and Programming Languages,Form of assessment,Written examination (90 minutes)
+44,CS 662,Types and Programming Languages,Form of assessment,≥ 50% points in homework assignments in groups of 2-3
+45,CS 662,Types and Programming Languages,Admission requirements,
+46,CS 662,Types and Programming Languages,Admission requirements,students
+47,CS 662,Types and Programming Languages,for assessment,
+48,CS 662,Types and Programming Languages,for assessment,
+49,CS 662,Types and Programming Languages,Duration of assessment,90 minutes written exam
+50,CS 662,Types and Programming Languages,Language,English
+51,CS 662,Types and Programming Languages,Offering,HWS 22
+52,CS 662,Types and Programming Languages,Lecturer,Junior Professor Dr. Roland Leißa
+53,CS 662,Types and Programming Languages,Person in charge,Junior Professor Dr. Roland Leißa
+54,CS 662,Types and Programming Languages,Duration of module,1 semester
+55,CS 662,Types and Programming Languages,Further modules,-
+56,CS 662,Types and Programming Languages,Further modules,"M. Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in"
+57,CS 662,Types and Programming Languages,Range of application,
+58,CS 662,Types and Programming Languages,Range of application,"Data Science, Lehramt Informatik"
+59,CS 662,Types and Programming Languages,Semester,1st/2nd/3rd semester
+0,IE 630,Query Optimization,Form of module,Lecture
+1,IE 630,Query Optimization,Type of module,Specialization Course
+2,IE 630,Query Optimization,Level,Master
+3,IE 630,Query Optimization,ECTS,6
+4,IE 630,Query Optimization,ECTS,Hours per semester present: 2h per week
+5,IE 630,Query Optimization,Workload,
+6,IE 630,Query Optimization,Workload,Self-study: 4h per week
+7,IE 630,Query Optimization,Prerequisites,"DBSI, Algorithms & Datastructures, C++"
+8,IE 630,Query Optimization,Prerequisites,The lecture introduces basic concepts needed to implement a
+9,IE 630,Query Optimization,Aim of module,
+10,IE 630,Query Optimization,Aim of module,plan generator.
+11,IE 630,Query Optimization,Aim of module,Expertise: know basic plan generation concepts
+12,IE 630,Query Optimization,Learning outcomes and,Methodological competence: learn how to program plan
+13,IE 630,Query Optimization,qualification goals,generators efficiently
+14,IE 630,Query Optimization,qualification goals,Personal competence: learn how to listen carefully
+15,IE 630,Query Optimization,Media,Beamer & blackboard
+16,IE 630,Query Optimization,Literature,tba
+17,IE 630,Query Optimization,Literature,The course will introduce concepts which the student can then
+18,IE 630,Query Optimization,Methods,
+19,IE 630,Query Optimization,Methods,implement.
+20,IE 630,Query Optimization,Form of assessment,Oral exam
+21,IE 630,Query Optimization,Admission requirements,
+22,IE 630,Query Optimization,Admission requirements,-
+23,IE 630,Query Optimization,for assessment,
+24,IE 630,Query Optimization,Duration of assessment,30 minutes
+25,IE 630,Query Optimization,Language,English
+26,IE 630,Query Optimization,Offering,Spring semester
+27,IE 630,Query Optimization,Lecturer,Guido Moerkotte
+28,IE 630,Query Optimization,Person in charge,Guido Moerkotte
+29,IE 630,Query Optimization,Further modules,-
+30,IE 630,Query Optimization,Range of application,"M.Sc. Wirtschaftsinformatik, MMDS"
+31,IE 630,Query Optimization,Semester,1st / 2nd / 3rd semester
+0,IE 650,Knowledge Graphs,Form of module,Lecture
+1,IE 650,Knowledge Graphs,Type of module,Specialization course
+2,IE 650,Knowledge Graphs,Level,Master
+3,IE 650,Knowledge Graphs,ECTS,6
+4,IE 650,Knowledge Graphs,ECTS,Hours per semester present at university: 56 h (4 SWS)
+5,IE 650,Knowledge Graphs,Workload,Self-study: 124 h per semester
+6,IE 650,Knowledge Graphs,Workload,• 82 h: pre and post lecture studying and revision
+7,IE 650,Knowledge Graphs,Workload,• 42 h: examination preparation
+8,IE 650,Knowledge Graphs,Prerequisites,Java or Python programming skills
+9,IE 650,Knowledge Graphs,Prerequisites,• The Role of knowledge graphs in the AI landscape
+10,IE 650,Knowledge Graphs,Prerequisites,• Semantic Web and its representation languages
+11,IE 650,Knowledge Graphs,Prerequisites,• Labeled property graphs
+12,IE 650,Knowledge Graphs,Prerequisites,• Query languages for knowledge graphs
+13,IE 650,Knowledge Graphs,Aim of module,
+14,IE 650,Knowledge Graphs,Aim of module,• Knowledge modeling and ontologies
+15,IE 650,Knowledge Graphs,Aim of module,• Logical reasoning with knowledge graphs
+16,IE 650,Knowledge Graphs,Aim of module,• Machine learning with knowledge graphs and knowledge
+17,IE 650,Knowledge Graphs,Aim of module,graph embeddings
+18,IE 650,Knowledge Graphs,Aim of module,Expertise:
+19,IE 650,Knowledge Graphs,Aim of module,The participants of this course learn about principles and
+20,IE 650,Knowledge Graphs,Aim of module,applications of knowledge graphs. They become familiar with
+21,IE 650,Knowledge Graphs,Aim of module,their technical foundations such as representation and query
+22,IE 650,Knowledge Graphs,Aim of module,"languages, or logical inference. After taking this course, the"
+23,IE 650,Knowledge Graphs,Aim of module,students will be aware of the problems and benefits of
+24,IE 650,Knowledge Graphs,Aim of module,knowledge graph technologies in the context of tasks such as
+25,IE 650,Knowledge Graphs,Aim of module,"knowledge management, information search and data"
+26,IE 650,Knowledge Graphs,Learning outcomes and,
+27,IE 650,Knowledge Graphs,Learning outcomes and,"integration, and they will be capable of judging the"
+28,IE 650,Knowledge Graphs,qualification goals,
+29,IE 650,Knowledge Graphs,qualification goals,applicability of these technologies for addressing practical
+30,IE 650,Knowledge Graphs,qualification goals,challenges.
+31,IE 650,Knowledge Graphs,qualification goals,"(MK1, MK2)"
+32,IE 650,Knowledge Graphs,qualification goals,Methodological competence:
+33,IE 650,Knowledge Graphs,qualification goals,The participants learn how to design and implement AI
+34,IE 650,Knowledge Graphs,qualification goals,systems based on knowledge graphs. They are able to use
+35,IE 650,Knowledge Graphs,qualification goals,standardized modeling languages for building knowledge
+36,IE 650,Knowledge Graphs,qualification goals,languages such as SPARQL.
+37,IE 650,Knowledge Graphs,qualification goals,
+38,IE 650,Knowledge Graphs,qualification goals,Personal competence:
+39,IE 650,Knowledge Graphs,qualification goals,"By jointly building a knowledge graph based application, the"
+40,IE 650,Knowledge Graphs,qualification goals,students learn how to effectively work in teams. They improve
+41,IE 650,Knowledge Graphs,qualification goals,upon their presentation skills by showing the outcomes of
+42,IE 650,Knowledge Graphs,qualification goals,their projects to the other participants of the course.
+43,IE 650,Knowledge Graphs,qualification goals,
+44,IE 650,Knowledge Graphs,Media,Lecture slides and excercise sheets will be available online
+45,IE 650,Knowledge Graphs,Media,"• Pascal Hitzler, Markus Krötzsch and Sebastian Rudolph,"
+46,IE 650,Knowledge Graphs,Media,"Foundations of Semantic Web Technologies, Chapman &"
+47,IE 650,Knowledge Graphs,Media,"Hall/CRC, 2009"
+48,IE 650,Knowledge Graphs,Media,• Allemang and Hendler
+49,IE 650,Knowledge Graphs,Media,Working Ontologist. Verlag Morgan Kaufmann.
+50,IE 650,Knowledge Graphs,Literature,• Antoniou and van
+51,IE 650,Knowledge Graphs,Literature,Primer. MIT Press.
+52,IE 650,Knowledge Graphs,Literature,• Fensel et al. (2020):
+53,IE 650,Knowledge Graphs,Literature,Tools and Selected Use Cases. Springer.
+54,IE 650,Knowledge Graphs,Literature,"• Kerjwal et al. (2021): Knowledge Graphs: Fundamentals,"
+55,IE 650,Knowledge Graphs,Literature,"Techniques, and Applications. MIT Press."
+56,IE 650,Knowledge Graphs,Literature,The course participants
+57,IE 650,Knowledge Graphs,Literature,"practical exercises, the solutions of which are discussed in the"
+58,IE 650,Knowledge Graphs,Literature,"tutorials. At the end of the course, they get the opportunity to"
+59,IE 650,Knowledge Graphs,Literature,apply their knowledge in a team project. Each student team
+60,IE 650,Knowledge Graphs,Literature,"will design and implement a semantic web application, and"
+61,IE 650,Knowledge Graphs,Methods,subsequently present
+62,IE 650,Knowledge Graphs,Methods,"Besides the excercises,"
+63,IE 650,Knowledge Graphs,Methods,references to relevant course materials and recommended
+64,IE 650,Knowledge Graphs,Methods,readings will be given by the lecturer. The lecturer as well as
+65,IE 650,Knowledge Graphs,Methods,the tutors offer individual
+66,IE 650,Knowledge Graphs,Methods,participants of the course.
+67,IE 650,Knowledge Graphs,Form of assessment,Written examination
+68,IE 650,Knowledge Graphs,Admission requirements,
+69,IE 650,Knowledge Graphs,Admission requirements,Project report and oral presentation
+70,IE 650,Knowledge Graphs,for assessment,
+71,IE 650,Knowledge Graphs,Duration of assessment,60 minutes
+72,IE 650,Knowledge Graphs,Offering,Fall semester
+73,IE 650,Knowledge Graphs,Lecturer,Prof. Dr. Heiko Paulheim
+74,IE 650,Knowledge Graphs,Person in charge,Prof. Dr. Heiko Paulheim
+75,IE 650,Knowledge Graphs,Duration of module,1 semester
+76,IE 650,Knowledge Graphs,Further modules,-
+77,IE 650,Knowledge Graphs,Further modules,"M.Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data"
+78,IE 650,Knowledge Graphs,Range of application,
+79,IE 650,Knowledge Graphs,Range of application,"Science, Lehramt Informatik"
+80,IE 650,Knowledge Graphs,Semester,1st/2nd/3rd semester
+0,IE 661,Text Analytics,Form of module,Lecture with exercises
+1,IE 661,Text Analytics,Type of module,Specialization course
+2,IE 661,Text Analytics,Level,Master
+3,IE 661,Text Analytics,ECTS,6
+4,IE 661,Text Analytics,ECTS,Hours per semester: 56 h (4 SWS)
+5,IE 661,Text Analytics,Workload,Self-study: 112 h per semester
+6,IE 661,Text Analytics,Workload,• 84 h: pre and post lecture studying and revision
+7,IE 661,Text Analytics,Workload,• 28 h: examination preparation
+8,IE 661,Text Analytics,Prerequisites,Fundamental notions of linear algebra and probability theory.
+9,IE 661,Text Analytics,Prerequisites,"In the digital age, techniques to automatically process textual"
+10,IE 661,Text Analytics,Prerequisites,content have become ubiquitous. Given the breakneck speed
+11,IE 661,Text Analytics,Prerequisites,at which people produce and consume textual content online
+12,IE 661,Text Analytics,Prerequisites,"– e.g., on micro-blogging and other collaborative Web"
+13,IE 661,Text Analytics,Prerequisites,"platforms like wikis, forums, etc. – there is an ever-increasing"
+14,IE 661,Text Analytics,Prerequisites,need for systems that automatically understand human
+15,IE 661,Text Analytics,Prerequisites,"language, answer natural language questions, translate text,"
+16,IE 661,Text Analytics,Prerequisites,and so on. This class will provide a complete introduction to
+17,IE 661,Text Analytics,Aim of module,
+18,IE 661,Text Analytics,Aim of module,state-of-the-art principles and methods of Natural Language
+19,IE 661,Text Analytics,Aim of module,Processing (NLP). The main focus will be on statistical
+20,IE 661,Text Analytics,Aim of module,"techniques, and their application to a wide variety of"
+21,IE 661,Text Analytics,Aim of module,problems. This is because statistics and NLP are nowadays
+22,IE 661,Text Analytics,Aim of module,"highly intertwined, since many NLP problems can be"
+23,IE 661,Text Analytics,Aim of module,"formulated as problems of statistical inference, and statistical"
+24,IE 661,Text Analytics,Aim of module,"methods, in turn, represent de-facto the standard way to solve"
+25,IE 661,Text Analytics,Aim of module,"many, if not the majority, of NLP problems."
+26,IE 661,Text Analytics,Aim of module,Expertise:
+27,IE 661,Text Analytics,Aim of module,Students will acquire knowledge of state-of-the-art principles
+28,IE 661,Text Analytics,Aim of module,"and methods of Natural Language Processing, with a specific"
+29,IE 661,Text Analytics,Aim of module,focus on the application of statistical methods to human
+30,IE 661,Text Analytics,Learning outcomes and,language technologies.
+31,IE 661,Text Analytics,qualification goals,"(MK1, MK2, MF3)"
+32,IE 661,Text Analytics,qualification goals,Methodological competence:
+33,IE 661,Text Analytics,qualification goals,Successful participants will be able to understand state-of-the-
+34,IE 661,Text Analytics,qualification goals,"art methods for Natural Language Processing, as well as being"
+35,IE 661,Text Analytics,qualification goals,"able to select, apply and evaluate the most appropriate"
+36,IE 661,Text Analytics,qualification goals,"Personal competence:•presentation skills•team work skills(MKO1, MKO3)"
+37,IE 661,Text Analytics,Media,"Lecture and tutorial slides, exercise sheets"
+38,IE 661,Text Analytics,Literature,"•ChrisManningandHinrichSchütze,FoundationsofStatistical Natural Language Processing, MIT Press 1999;•Dan Jurafsky and James H. Martin, Speech and LanguageProcessing:AnIntroductiontoNaturalLanguageProcessing,ComputationalLinguistics,andSpeechRecognition, Prentice Hall 2009 (2nd edition)."
+39,IE 661,Text Analytics,Methods,"Lectures, tutorials"
+40,IE 661,Text Analytics,Form of assessment,Written examination
+41,IE 661,Text Analytics,Admission requirementsfor assessment,-
+42,IE 661,Text Analytics,Duration of assessment,90 minutes
+43,IE 661,Text Analytics,Language,English
+44,IE 661,Text Analytics,Offering,Fall semester
+45,IE 661,Text Analytics,Lecturer,Prof. Dr. Markus Strohmaier
+46,IE 661,Text Analytics,Person in charge,Prof. Dr. Markus Strohmaier
+47,IE 661,Text Analytics,Duration of module,1 semester
+48,IE 661,Text Analytics,Further modules,-
+49,IE 661,Text Analytics,Range of application,"M.Sc. Wirtschaftsinformatik, MSc. Mannheim Master in DataScience, Lehramt Informatik, M. Sc. Medien- undKommunikationswissenschaft, PhD Volkswirtschaftslehre"
+50,IE 661,Text Analytics,Semester,1st/2nd/3rd semester
+0,IE 663,Information Retrieval and Web Search,E 663,Information Retrieval and Web Search
+1,IE 663,Information Retrieval and Web Search,Form of module,Lecture
+2,IE 663,Information Retrieval and Web Search,Type of module,Specialization course
+3,IE 663,Information Retrieval and Web Search,Level,Master
+4,IE 663,Information Retrieval and Web Search,ECTS,3
+5,IE 663,Information Retrieval and Web Search,Workload,Hours per semester present: 28h (2SWS)
+6,IE 663,Information Retrieval and Web Search,Workload,Self-study: 60h per semester•Pre- and post- lecture studying and preparation (30h)•Examination preparation (30h)
+7,IE 663,Information Retrieval and Web Search,Prerequisites,"Fundamental notions of linear algebra, probability theory, aswell as algorithms and data structures"
+8,IE 663,Information Retrieval and Web Search,Aim of module,"Given the vastness and richness of the Web, users need high-performing,scalableandefficientmethodstoaccessitswealth of information and satisfy their information needs. Assuch, being able to search and effectively retrieve relevantpieces of information from large text collections is a crucialtask for the majority (if practically not all) of Web applications.In this course, we will explore a variety of basic and advancedtechniquesfortext-basedinformationretrievalandWebsearch. Covered topics will include:•Efficient text indexing;•Boolean and vector space retrieval models;•Probabilistic and semantic ad-hoc retrieval;•Evaluation of retrieval systems;•Text classification and clustering;•Web search, crawling and link-based algorithms.Thiscourseprovidestheoreticalinformationretrievalfoundations. As such is highly to be attended together with thecourse Information Retrieval Project (IE 691)."
+9,IE 663,Information Retrieval and Web Search,Learning outcomes andqualification goals,"Expertise:Students will acquire knowledge of fundamental techniques ofInformationRetrievalandWebSearch,includingstandardretrieval models, evaluation of information retrieval systems,text classification and clustering, as well as web search topicssuch as crawling and link-based algorithms.(MK1, MK2, MF1)"
+10,IE 663,Information Retrieval and Web Search,"Methodological competence:Successful participants will be able to understand state-of-the-art methods for Information Retrieval and Web search, as wellasbeingabletoselect,applyandevaluatethemost",
+11,IE 663,Information Retrieval and Web Search,"Methodological competence:Successful participants will be able to understand state-of-the-art methods for Information Retrieval and Web search, as wellasbeingabletoselect,applyandevaluatethemost",scenarios.
+12,IE 663,Information Retrieval and Web Search,"Methodological competence:Successful participants will be able to understand state-of-the-art methods for Information Retrieval and Web search, as wellasbeingabletoselect,applyandevaluatethemost",Personal competence: -
+13,IE 663,Information Retrieval and Web Search,Media,"Lecture slides, exercise sheets"
+14,IE 663,Information Retrieval and Web Search,Media,"• Christopher D. Manning, Prabhakar Raghavan and Hinrich"
+15,IE 663,Information Retrieval and Web Search,Media,"Schütze, Introduction to Information Retrieval,"
+16,IE 663,Information Retrieval and Web Search,Media,Cambridge University Press. 2008.
+17,IE 663,Information Retrieval and Web Search,Literature,"• B. Croft, D. Metzler, T. Strohman, Search Engines:"
+18,IE 663,Information Retrieval and Web Search,Literature,"Information Retrieval in Practice, Addison-Wesley, 2009"
+19,IE 663,Information Retrieval and Web Search,Literature,"• R. Baeza-Yates, B. Ribeiro-Neto, Modern Information"
+20,IE 663,Information Retrieval and Web Search,Literature,"Retrieval, Addison-Wesley, 2011 (2nd Edition)."
+21,IE 663,Information Retrieval and Web Search,Literature,The course consists of (1) lectures that introduce the students
+22,IE 663,Information Retrieval and Web Search,Literature,to traditional and contemporary
+23,IE 663,Information Retrieval and Web Search,Methods,"techniques and models,"
+24,IE 663,Information Retrieval and Web Search,Methods,students are demonstrated
+25,IE 663,Information Retrieval and Web Search,Methods,examples how theoretically introduced models work.
+26,IE 663,Information Retrieval and Web Search,Form of assessment,Written examination
+27,IE 663,Information Retrieval and Web Search,Admission requirements,
+28,IE 663,Information Retrieval and Web Search,Admission requirements,-
+29,IE 663,Information Retrieval and Web Search,for assessment,
+30,IE 663,Information Retrieval and Web Search,Duration of assessment,90 minutes
+31,IE 663,Information Retrieval and Web Search,Language,English
+32,IE 663,Information Retrieval and Web Search,Offering,HWS
+33,IE 663,Information Retrieval and Web Search,Lecturer,Prof. Dr. Simone Ponzetto
+34,IE 663,Information Retrieval and Web Search,Person in charge,Prof. Dr. Simone Ponzetto
+35,IE 663,Information Retrieval and Web Search,Duration of module,1 semester
+36,IE 663,Information Retrieval and Web Search,Further modules,-
+37,IE 663,Information Retrieval and Web Search,Further modules,"M.Sc. Wirtschaftsinformatik, MSc. Mannheim Master in Data"
+38,IE 663,Information Retrieval and Web Search,Range of application,
+39,IE 663,Information Retrieval and Web Search,Range of application,"Science, Lehramt Informatik"
+40,IE 663,Information Retrieval and Web Search,Semester,1st/2nd/3rd semester
+0,IE 670,Web Data Integration,E 670,Web Data Integration
+1,IE 670,Web Data Integration,Form of module,Lecture
+2,IE 670,Web Data Integration,Type of module,Specialization course
+3,IE 670,Web Data Integration,Level,Master
+4,IE 670,Web Data Integration,ECTS,3
+5,IE 670,Web Data Integration,Workloadk,Hours per semester: 28 h (2 SWS)
+6,IE 670,Web Data Integration,Workloadk,Self-study: 56 h per semester•31 h: pre and post lecture studying and revision•25 h: examination preparation
+7,IE 670,Web Data Integration,Prerequisites,-
+8,IE 670,Web Data Integration,Aim of module,"DataintegrationisoneofthekeychallengesinmostITprojects and it is estimated that data scientists spend about80% of their time on data integration. Within the enterprisecontext, data integration problems arise whenever data fromseparate sources needs to be combined as the basis for newapplications or data analysis projects. Within the context ofthe Web, data integration techniques form the foundation fortaking advantage of the ever growing number of publicly-accessible data sources. The course will cover the followingtopics:1.    Heterogeneity and Distributedness2.    The Data Integration Process3.    Structured Data on the Web4.    Data Exchange Formats5.    Schema Mapping and Data Translation6.    Identity Resolution7.    Data Quality Assessment8.    Data FusionItishighlyrecommendedtoattendthecoursewebdataintegration project in the same semester as this course as theschedules of both courses are aligned to each other."
+9,IE 670,Web Data Integration,Learning outcomes andqualification goals,"Expertise:Students will be able to identify opportunities for employingWeb data in business applications and will learn to select andapply appropriate techniques for integrating and cleansingWeb data.(MK1, MF1)"
+10,IE 670,Web Data Integration,Learning outcomes andqualification goals,Personal competence: -
+11,IE 670,Web Data Integration,Media,slide set
+12,IE 670,Web Data Integration,Literature,"•AnHai Doan, Alon Halevy, Zachary Ives: Principles of DataIntegration. Morgan Kaufmann, 2012.•LunaDong,DiveshSrivastava:BigDataIntegration.Morgan & Claypool, 2015.•Ulf Leser, Felix Naumann: Informationsintegration. DpunktVerlag, 2007."
+13,IE 670,Web Data Integration,Methods,The course consists of a lecture that introduces students tostate of the art data integration techniques.
+14,IE 670,Web Data Integration,Form of assessment,Written examination
+15,IE 670,Web Data Integration,Admission requirementsfor assessment,-
+16,IE 670,Web Data Integration,Duration of assessment,60 minutes
+17,IE 670,Web Data Integration,Language,English
+18,IE 670,Web Data Integration,Offering,Fall semester
+19,IE 670,Web Data Integration,Lecturer,Prof. Dr. Christian Bizer
+20,IE 670,Web Data Integration,Person in charge,Prof. Dr. Christian Bizer
+21,IE 670,Web Data Integration,Duration of module,1 semester
+22,IE 670,Web Data Integration,Further modules,-
+23,IE 670,Web Data Integration,Range of application,"M.Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in DataScience, Lehramt Informatik"
+24,IE 670,Web Data Integration,Semester,1st/2nd/3rd semester
+0,IE 671,Web Mining,E 671,Web Mining
+1,IE 671,Web Mining,Form of module,Lecture and Exercise
+2,IE 671,Web Mining,Type of module,Specialization course
+3,IE 671,Web Mining,Level,Master
+4,IE 671,Web Mining,ECTS,3
+5,IE 671,Web Mining,Workload,Hours per semester: 28 h (2 SWS)
+6,IE 671,Web Mining,Workload,Self-study: 56 h per semester•31 h: pre and post lecture studying and revision•25 h: examination and presentation preparation
+7,IE 671,Web Mining,Prerequisites,IE 500 Data Mining I (recommended). Fundamental notions oflinear algebra and probability theory.
+8,IE 671,Web Mining,Aim of module,"StructuredandunstructureddataavailableontheWebprovideuswithagoldmineofinformationthathasthepotential to enable cutting-edge intelligent applications.  Thisclass covers a variety of topics focused on mining techniquesforWebdata,includingextractingknowledgefromWebcontent (Web Content Mining), the link structure of the Web(Web Structure Mining), as well as mining usage data gatheredby Web applications (Web Usage Mining).NOTE: It is highly recommended to attend the module “WebMining Project” in the same semester since the schedule andtopics of both modules are aligned."
+9,IE 671,Web Mining,Learning outcomes andqualification goals,"Expertise:Studentswillacquireknowledgeofthetechniques,opportunities and applications of Web mining.(MK1, MF1)"
+10,IE 671,Web Mining,Learning outcomes andqualification goals,"Methodological competence:Successful participants will be able to identify opportunitiesfor mining knowledge from Web content, select and applyappropriate techniques and interpret the results.(MK2, MF3, MF4)"
+11,IE 671,Web Mining,Learning outcomes andqualification goals,Personal competence: -
+12,IE 671,Web Mining,Media,"slide set, exercise sheets, data sets for the exercises"
+13,IE 671,Web Mining,Literature,"•Bing Liu: Web Data Mining. 2nd Edition, Springer, 2011.•WouterdeNooy,etal.:ExploratorySocialNetworkAnalysiswithPajek.2ndEdition,CambridgeUniversityPress, 2011."
+14,IE 671,Web Mining,Methods,The course consists of a lecture together with accompanyingpractical exercises as well as student team projects. In theexercisestheparticipantswillgatherinitialexpertiseinapplying state of the art web mining tools.
+15,IE 671,Web Mining,Form of assessment,Written examination
+16,IE 671,Web Mining,Admission requirementsfor assessment,-
+17,IE 671,Web Mining,Duration of assessment,60 minutes
+18,IE 671,Web Mining,Language,English
+19,IE 671,Web Mining,Offering,Spring semester
+20,IE 671,Web Mining,Lecturer,Prof. Dr. Christian Bizer
+21,IE 671,Web Mining,Person in charge,Prof. Dr. Christian Bizer
+22,IE 671,Web Mining,Duration of module,1 semester
+23,IE 671,Web Mining,Further modules,-
+24,IE 671,Web Mining,Range of application,"M.Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in DataScience, Lehramt Informatik"
+25,IE 671,Web Mining,Semester,1st/2nd/3rd semester
+0,IE 672,Data Mining II,Form of module,Lecture with exercises and project
+1,IE 672,Data Mining II,Type of module,Specialization course
+2,IE 672,Data Mining II,Level,Master
+3,IE 672,Data Mining II,ECTS,6
+4,IE 672,Data Mining II,ECTS,Hours per semester: 56 h (4 SWS)
+5,IE 672,Data Mining II,Workload,Self-study: 112 h per semester
+6,IE 672,Data Mining II,Workload,• 56 h: pre and post lecture studying and revision
+7,IE 672,Data Mining II,Workload,• 56 h: examination and presentation preparation
+8,IE 672,Data Mining II,Prerequisites,"Knowledge in Data Mining, programming skills in Java"
+9,IE 672,Data Mining II,Prerequisites,"Data mining deals with the discovery of patterns in data, and"
+10,IE 672,Data Mining II,Prerequisites,"with making predictions for the future, based on observations"
+11,IE 672,Data Mining II,Prerequisites,of the past. This course covers advanced issues in data mining
+12,IE 672,Data Mining II,Prerequisites,which need to be addressed when applying data mining
+13,IE 672,Data Mining II,Prerequisites,"methods in real world projects, including:"
+14,IE 672,Data Mining II,Aim of module,• Data Preprocessing
+15,IE 672,Data Mining II,Aim of module,• Dimensionality Reduction
+16,IE 672,Data Mining II,Aim of module,• Anomaly Detection
+17,IE 672,Data Mining II,Aim of module,• Time Series Analysis
+18,IE 672,Data Mining II,Aim of module,• Parameter Tuning
+19,IE 672,Data Mining II,Aim of module,• Ensemble Learning
+20,IE 672,Data Mining II,Aim of module,Expertise:
+21,IE 672,Data Mining II,Aim of module,Students will acquire knowledge of advanced techniques and
+22,IE 672,Data Mining II,Aim of module,applications of data mining.
+23,IE 672,Data Mining II,Aim of module,"(MK2, MF1,MF3)"
+24,IE 672,Data Mining II,Aim of module,Methodological competence:
+25,IE 672,Data Mining II,Aim of module,• Successful participants will be able to address advanced
+26,IE 672,Data Mining II,Learning outcomes and,"issues in data mining projects, conduct complex projects"
+27,IE 672,Data Mining II,qualification goals,and develop applications in the data mining field.
+28,IE 672,Data Mining II,qualification goals,• project organization skills
+29,IE 672,Data Mining II,qualification goals,"(MK2, MF3, MF4, MF5, MKO1, MKO3)"
+30,IE 672,Data Mining II,qualification goals,Personal competence:
+31,IE 672,Data Mining II,qualification goals,• presentation skills
+32,IE 672,Data Mining II,qualification goals,• team work skills
+33,IE 672,Data Mining II,qualification goals,"(MKO2, MF2)"
+34,IE 672,Data Mining II,qualification goals,"• Pang-Ning Tan, Michael Steinbach, Vipin Kumar:"
+35,IE 672,Data Mining II,qualification goals,"Introduction to Data Mining, Pearson."
+36,IE 672,Data Mining II,qualification goals,"• Ian H. Witten, Eibe Frank, Mark A. Hall: Data Mining:"
+37,IE 672,Data Mining II,qualification goals,"Practical Machine Learning Tools and Techniques, 3rd"
+38,IE 672,Data Mining II,Literature,"Edition, Morgan Kaufmann."
+39,IE 672,Data Mining II,Literature,• Jiawei Han and Micheline Kamber: Data Mining – Concepts
+40,IE 672,Data Mining II,Literature,and Techniques
+41,IE 672,Data Mining II,Literature,• Albert Bifet: Adaptive Stream Mining
+42,IE 672,Data Mining II,Literature,• Joao Gama: Knowledge Discovery from Data Streams
+43,IE 672,Data Mining II,Literature,The course consists of a lecture together with accompanying
+44,IE 672,Data Mining II,Literature,practical exercises as well as student team projects. In the
+45,IE 672,Data Mining II,Literature,exercises the participants will gather initial expertise in
+46,IE 672,Data Mining II,Literature,applying state of the art web mining tools. In the team
+47,IE 672,Data Mining II,Methods,
+48,IE 672,Data Mining II,Methods,"projects, which take place in the last third of the term, the"
+49,IE 672,Data Mining II,Methods,"students work on an advanced data mining task, which is"
+50,IE 672,Data Mining II,Methods,provided by the annual Data Mining Cup and/or the course
+51,IE 672,Data Mining II,Methods,organizers.
+52,IE 672,Data Mining II,Form of assessment,Written examination
+53,IE 672,Data Mining II,Admission requirements,
+54,IE 672,Data Mining II,Admission requirements,Project report and oral presentation
+55,IE 672,Data Mining II,for assessment,
+56,IE 672,Data Mining II,Duration of assessment,60 minutes
+57,IE 672,Data Mining II,Language,English
+58,IE 672,Data Mining II,Offering,Spring semester
+59,IE 672,Data Mining II,Lecturer,Prof. Dr. Heiko Paulheim
+60,IE 672,Data Mining II,Person in charge,Prof. Dr. Heiko Paulheim
+61,IE 672,Data Mining II,Duration of module,1 semester
+62,IE 672,Data Mining II,Further modules,-
+63,IE 672,Data Mining II,Further modules,"M.Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data"
+64,IE 672,Data Mining II,Range of application,
+65,IE 672,Data Mining II,Range of application,"Science, Lehramt Informatik"
+66,IE 672,Data Mining II,Semester,1st/2nd/3rd semester
+0,IE 675b,Machine Learning,E 675b,Machine Learning
+1,IE 675b,Machine Learning,Form of module,Lecture with exercises
+2,IE 675b,Machine Learning,Type of module,Specialization Course
+3,IE 675b,Machine Learning,Level,Master
+4,IE 675b,Machine Learning,ECTS,9
+5,IE 675b,Machine Learning,Workload,Hours per semester: 70h (5 SWS)
+6,IE 675b,Machine Learning,Workload,Assignments: 60h
+7,IE 675b,Machine Learning,Workload,Self-study per semester: 100 h•70 h: pre- and post-lecture studying and revision•30 h: exam preparation
+8,IE 675b,Machine Learning,Prerequisites,"IE 500 Data Mining I (recommended), knowledge ofprobability and statistics; No attempted or completed examin IE 675"
+9,IE 675b,Machine Learning,Aim of module,"Machine learning is concerned with building computersystems that improve with experience as well as the study oflearning processes, including the design of algorithms thatare able to make predictions or extract knowledge from data.The aim of this module is to provide an introduction into thefield of machine learning, and study algorithms, underlyingconcepts, and theoretical principles.•Basics of machine learning and probability theory•Inference and prediction•Selected classification and regression models•Latent linear models•Mixture models and EM•Kernel methods"
+10,IE 675b,Machine Learning,Learning outcomes andqualification goals,"Expertise:Deep understanding of algorithms and underlying conceptsof machine learning(MK1, MF1)"
+11,IE 675b,Machine Learning,Learning outcomes andqualification goals,"Methodological competence:•Beingabletoapplymachinelearningtechniquesandsystems for a given problem•Being able to model and implement new machine learningtechniques(MK2, MF3, MF4)"
+12,IE 675b,Machine Learning,Learning outcomes andqualification goals,Personal competence:•writing skills•presentation skills
+13,IE 675b,Machine Learning,Learning outcomes andqualification goals,"(MKO3, MF2)"
+14,IE 675b,Machine Learning,Media,"Slide set, exercise sheets, software, datasets"
+15,IE 675b,Machine Learning,Media,• K.P. Murphy. Probabilistic Machine Learning: An
+16,IE 675b,Machine Learning,Media,"Introduction. The MIT Press, 2022"
+17,IE 675b,Machine Learning,Media,"• D. Koller, N. Friedman. Probabilistic graphical models. The"
+18,IE 675b,Machine Learning,Literature,"MIT Press, 2009"
+19,IE 675b,Machine Learning,Literature,"• I. Goodfellow, Y.  Bengio, A. Courville. Deep Learning, The"
+20,IE 675b,Machine Learning,Literature,"MIT Press, 2017"
+21,IE 675b,Machine Learning,Literature,• Additional material and articles provided in lecture notes
+22,IE 675b,Machine Learning,Literature,The course consists of a lecture accompanied by theoretical
+23,IE 675b,Machine Learning,Literature,and practical exercises as well as case studies with real data.
+24,IE 675b,Machine Learning,Methods,"In the exercises, students will deepen the material discussed"
+25,IE 675b,Machine Learning,Methods,"in the lecture, apply the methods in practice, and present the"
+26,IE 675b,Machine Learning,Methods,result.
+27,IE 675b,Machine Learning,Form of assessment,Written examination
+28,IE 675b,Machine Learning,Admission requirements,
+29,IE 675b,Machine Learning,Admission requirements,Homework assignments (pass at least 3 assignments)
+30,IE 675b,Machine Learning,for assessment,
+31,IE 675b,Machine Learning,Duration of assessment,90 minutes
+32,IE 675b,Machine Learning,Language,English
+33,IE 675b,Machine Learning,Offering,Fall semester
+34,IE 675b,Machine Learning,Lecturer,Prof. Dr. Rainer Gemulla
+35,IE 675b,Machine Learning,Person in charge,Prof. Dr. Rainer Gemulla
+36,IE 675b,Machine Learning,Duration of module,1 Semester
+37,IE 675b,Machine Learning,Further modules,-
+38,IE 675b,Machine Learning,Further modules,"M.Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data"
+39,IE 675b,Machine Learning,Range of application,
+40,IE 675b,Machine Learning,Range of application,Science (Examination Regulation from 10.12.2019)
+41,IE 675b,Machine Learning,Semester,1st/2nd/3rd semester
+0,IE 676,Network Analysis replaced by IS 622 (FSS),E 676,Network Analysis replaced by IS 622 (FSS)
+1,IE 676,Network Analysis replaced by IS 622 (FSS),Form of module,Lectures and Accompanying tutorials
+2,IE 676,Network Analysis replaced by IS 622 (FSS),Type of module,Elective
+3,IE 676,Network Analysis replaced by IS 622 (FSS),Level,Master
+4,IE 676,Network Analysis replaced by IS 622 (FSS),ECTS,6
+5,IE 676,Network Analysis replaced by IS 622 (FSS),Workload,Hours per semester present: 28h + 46 h (2 + 2 SWS)
+6,IE 676,Network Analysis replaced by IS 622 (FSS),Workload,Self-study: 112 h per semester
+7,IE 676,Network Analysis replaced by IS 622 (FSS),Prerequisites,Recommended Knowledge:•Basic Linear Algebra•Basic Computer Programming•Basic Probabilities
+8,IE 676,Network Analysis replaced by IS 622 (FSS),Aim of module,"Participantswilllearnaboutthestructure,formationandprocessesthattakeplaceovernetworkssuchassocialnetworks, the Web, financial networks, etc. They will learnbasic concepts, measures and algorithms for analyzing suchstructures with a particular focus on the interpretation of theresults and their implication in real-life situations."
+9,IE 676,Network Analysis replaced by IS 622 (FSS),Learningoutcomesandqualification goals,Expertise:Students will acquire knowledge in a broad range of methodsfor analyzing networked data and their results’ interpretation.
+10,IE 676,Network Analysis replaced by IS 622 (FSS),Learningoutcomesandqualification goals,"Methodological competence:Successful participants will be able to:•Recognize the existence of networked structure in data;•Selectandapplyappropriatetechniquestoexploreanetworked structure and to analyze network effects like:identify key players, find communities, analyze processessuch as diffusion of information, network formation andgrowth, epidemics, etc.•Interpret the results both theoretically and practically onreal-life networks.(MK2, MF3, MF4, MKO1)"
+11,IE 676,Network Analysis replaced by IS 622 (FSS),Learningoutcomesandqualification goals,Personal competence: -
+12,IE 676,Network Analysis replaced by IS 622 (FSS),Media,"Lecture Slides, Exercise Sheets, Blackboard, Books, SoftwareTools"
+13,IE 676,Network Analysis replaced by IS 622 (FSS),Media,"University Press, 2010"
+14,IE 676,Network Analysis replaced by IS 622 (FSS),Media,"• Networks, crowds and markets. Reasoning about a Highly"
+15,IE 676,Network Analysis replaced by IS 622 (FSS),Literature,"Connected World – David Easley & Jon Kleinberg,"
+16,IE 676,Network Analysis replaced by IS 622 (FSS),Literature,Cambridge University Press 2010
+17,IE 676,Network Analysis replaced by IS 622 (FSS),Literature,"• Social and Economic Networks: M.O. Jackson, Princeton"
+18,IE 676,Network Analysis replaced by IS 622 (FSS),Literature,University Press 2008
+19,IE 676,Network Analysis replaced by IS 622 (FSS),Literature,"Lectures, exercises (pen on paper and programming),"
+20,IE 676,Network Analysis replaced by IS 622 (FSS),Methods,
+21,IE 676,Network Analysis replaced by IS 622 (FSS),Methods,independent study
+22,IE 676,Network Analysis replaced by IS 622 (FSS),Form of assessment,Written examination
+23,IE 676,Network Analysis replaced by IS 622 (FSS),Admission requirements,
+24,IE 676,Network Analysis replaced by IS 622 (FSS),Admission requirements,Successful completion of the programming exercises;
+25,IE 676,Network Analysis replaced by IS 622 (FSS),for assessment,
+26,IE 676,Network Analysis replaced by IS 622 (FSS),Duration of assessment,90 minutes
+27,IE 676,Network Analysis replaced by IS 622 (FSS),Language,English
+28,IE 676,Network Analysis replaced by IS 622 (FSS),Offering,Fall semester
+29,IE 676,Network Analysis replaced by IS 622 (FSS),Lecturer,Prof. Dr. Heiner Stuckenschmidt
+30,IE 676,Network Analysis replaced by IS 622 (FSS),Person in charge,Prof. Dr. Heiner Stuckenschmidt
+31,IE 676,Network Analysis replaced by IS 622 (FSS),Duration of module,1 Semester
+32,IE 676,Network Analysis replaced by IS 622 (FSS),Further modules,-
+33,IE 676,Network Analysis replaced by IS 622 (FSS),Further modules,"M.Sc. Wirtschaftsinformatik, Mannheim Master in Data"
+34,IE 676,Network Analysis replaced by IS 622 (FSS),Range of application,
+35,IE 676,Network Analysis replaced by IS 622 (FSS),Range of application,Science
+36,IE 676,Network Analysis replaced by IS 622 (FSS),Semester,2.-4.
+0,IE 678,Deep Learning,Form of module,Lecture with exercises
+1,IE 678,Deep Learning,Type of module,Specialization Course
+2,IE 678,Deep Learning,Level,Master
+3,IE 678,Deep Learning,ECTS,6
+4,IE 678,Deep Learning,ECTS,Hours per semester: 56h (4 SWS)
+5,IE 678,Deep Learning,Workload,Self-study per semester: 98 h
+6,IE 678,Deep Learning,Workload,• 70 h: pre- and post-lecture studying and revision
+7,IE 678,Deep Learning,Workload,• 28 h: exam preparation
+8,IE 678,Deep Learning,Workload,"IE 675b Machine Learning or equivalent, no exam procedure"
+9,IE 678,Deep Learning,Prerequisites,
+10,IE 678,Deep Learning,Prerequisites,must have been started in IE 674
+11,IE 678,Deep Learning,Prerequisites,Machine learning is concerned with building computer
+12,IE 678,Deep Learning,Prerequisites,systems that improve with experience as well as the study of
+13,IE 678,Deep Learning,Prerequisites,"learning processes, including the design of algorithms that"
+14,IE 678,Deep Learning,Prerequisites,are able to make predictions or extract knowledge from data.
+15,IE 678,Deep Learning,Prerequisites,"Building upon IE 675b Machine Learning, this course focuses"
+16,IE 678,Deep Learning,Prerequisites,on deep learning and introduces basic and advanced deep
+17,IE 678,Deep Learning,Prerequisites,"learning architectures and techniques, training methods and"
+18,IE 678,Deep Learning,Prerequisites,"hyperparameter optimization, as well as selected"
+19,IE 678,Deep Learning,Aim of module,applications. Tentative topics include:
+20,IE 678,Deep Learning,Aim of module,• Feedforward neural networks
+21,IE 678,Deep Learning,Aim of module,• Training deep learning models
+22,IE 678,Deep Learning,Aim of module,• Recurrent neural networks
+23,IE 678,Deep Learning,Aim of module,• Convolutional neural networks
+24,IE 678,Deep Learning,Aim of module,• Attention and self-attention
+25,IE 678,Deep Learning,Aim of module,• Deep learning for graphs
+26,IE 678,Deep Learning,Aim of module,• Deep generative modelling
+27,IE 678,Deep Learning,Aim of module,• Hyperparameter optimization
+28,IE 678,Deep Learning,Aim of module,Expertise:
+29,IE 678,Deep Learning,Aim of module,"Deep understanding of fundamental concepts, models, and"
+30,IE 678,Deep Learning,Aim of module,algorithms of deep learning
+31,IE 678,Deep Learning,Aim of module,"(MK1, MF1)"
+32,IE 678,Deep Learning,Aim of module,Methodological competence:
+33,IE 678,Deep Learning,Learning outcomes and,• Being able to build and train deep learning models
+34,IE 678,Deep Learning,qualification goals,• Being able to select suitable deep learning techniques for
+35,IE 678,Deep Learning,qualification goals,a given learning problem
+36,IE 678,Deep Learning,qualification goals,"(MK2, MF3, MF4)"
+37,IE 678,Deep Learning,qualification goals,Personal competence:
+38,IE 678,Deep Learning,qualification goals,• writing skills
+39,IE 678,Deep Learning,qualification goals,• presentation skills
+40,IE 678,Deep Learning,qualification goals,
+41,IE 678,Deep Learning,Media,"Slide set, exercise sheets, software, datasets"
+42,IE 678,Deep Learning,Media,"• I. Goodfellow, Y.  Bengio, A. Courville. Deep Learning, The"
+43,IE 678,Deep Learning,Media,"MIT Press, 2017"
+44,IE 678,Deep Learning,Media,• K.P. Murphy. Probabilistic Machine Learning: An
+45,IE 678,Deep Learning,Literature,"Introduction. The MIT Press, 2022"
+46,IE 678,Deep Learning,Literature,"• D. Koller, N. Friedman. Probabilistic graphical models. The"
+47,IE 678,Deep Learning,Literature,"MIT Press, 2009"
+48,IE 678,Deep Learning,Literature,• Additional material and articles provided in lecture notes
+49,IE 678,Deep Learning,Literature,The course consists of a lecture accompanied by theoretical
+50,IE 678,Deep Learning,Literature,and practical exercises as well as case studies with real data.
+51,IE 678,Deep Learning,Methods,"In the exercises, students will deepen the material discussed"
+52,IE 678,Deep Learning,Methods,"in the lecture, apply the methods in practice, and present the"
+53,IE 678,Deep Learning,Methods,result.
+54,IE 678,Deep Learning,Form of assessment,Oral examination
+55,IE 678,Deep Learning,Admission requirements,
+56,IE 678,Deep Learning,Admission requirements,Homework assignments (pass at least 2 assignments)
+57,IE 678,Deep Learning,for assessment,
+58,IE 678,Deep Learning,Duration of assessment,25 minutes
+59,IE 678,Deep Learning,Language,English
+60,IE 678,Deep Learning,Offering,Spring semester
+61,IE 678,Deep Learning,Lecturer,Prof. Dr. Rainer Gemulla
+62,IE 678,Deep Learning,Person in charge,Prof. Dr. Rainer Gemulla
+63,IE 678,Deep Learning,Duration of module,1 Semester
+64,IE 678,Deep Learning,Further modules,-
+65,IE 678,Deep Learning,Further modules,"M.Sc. Wirtschaftsinformatik, M.Sc. Mannheim Master in Data"
+66,IE 678,Deep Learning,Range of application,
+67,IE 678,Deep Learning,Range of application,Science
+68,IE 678,Deep Learning,Semester,2nd/3rd semester
+0,IE 692,Advanced Process Mining,Form of Module,Lecture
+1,IE 692,Advanced Process Mining,Type of Module,Specialization course
+2,IE 692,Advanced Process Mining,Level,Master
+3,IE 692,Advanced Process Mining,ECTS,6
+4,IE 692,Advanced Process Mining,ECTS,150 h per semester
+5,IE 692,Advanced Process Mining,Workload,You are expected to be familiar with the use of Petri nets and
+6,IE 692,Advanced Process Mining,Prerequisites,"BPMN for process modeling, and being able to do basic"
+7,IE 692,Advanced Process Mining,Prerequisites,programming in Python. IS 515 or having experience with
+8,IE 692,Advanced Process Mining,Prerequisites,process mining are NOT prerequisites.
+9,IE 692,Advanced Process Mining,Prerequisites,Process mining is an emerging branch of data science that
+10,IE 692,Advanced Process Mining,Prerequisites,aims at deriving qualitative and quantitative insights on the
+11,IE 692,Advanced Process Mining,Prerequisites,"execution of organizational processes, based on the analysis"
+12,IE 692,Advanced Process Mining,Prerequisites,of recorded event sequences.
+13,IE 692,Advanced Process Mining,Prerequisites,The course features lectures and exercises that focus on the
+14,IE 692,Advanced Process Mining,Prerequisites,"formal foundations, algorithms, and techniques of process"
+15,IE 692,Advanced Process Mining,Prerequisites,"mining. Specifically, this course covers aspects such as:"
+16,IE 692,Advanced Process Mining,Prerequisites,"• Process discovery, which aims to derive a process model"
+17,IE 692,Advanced Process Mining,Prerequisites,from recorded events
+18,IE 692,Advanced Process Mining,Prerequisites,"• Conformance checking, which aims to identify deviations"
+19,IE 692,Advanced Process Mining,Prerequisites,between event data and process models
+20,IE 692,Advanced Process Mining,Prerequisites,"• Process enhancement, which aims to augment process"
+21,IE 692,Advanced Process Mining,Prerequisites,"models with information on the temporal, organizational,"
+22,IE 692,Advanced Process Mining,Aim of module,
+23,IE 692,Advanced Process Mining,Aim of module,and data perspectives of a process
+24,IE 692,Advanced Process Mining,Aim of module,"• Predictive monitoring, which aims to make predictions"
+25,IE 692,Advanced Process Mining,Aim of module,about ongoing process instances
+26,IE 692,Advanced Process Mining,Aim of module,"• Techniques to preprocess, abstract, cluster event data for"
+27,IE 692,Advanced Process Mining,Aim of module,improved analyses
+28,IE 692,Advanced Process Mining,Aim of module,"For the above subjects, the course will cover fundamental"
+29,IE 692,Advanced Process Mining,Aim of module,"algorithms as well as advanced, state-of-the-art techniques."
+30,IE 692,Advanced Process Mining,Aim of module,"During the exercises that follow each lecture, you will"
+31,IE 692,Advanced Process Mining,Aim of module,"practice through pen-and-paper exercises, as well as"
+32,IE 692,Advanced Process Mining,Aim of module,implementation and evaluation using open source process
+33,IE 692,Advanced Process Mining,Aim of module,mining tools and libraries.
+34,IE 692,Advanced Process Mining,Aim of module,• The lectures and exercises are complemented by a
+35,IE 692,Advanced Process Mining,Aim of module,practical assignment in which students will work in
+36,IE 692,Advanced Process Mining,Learning Outcomes andQualification Goals,"After completing this course, you will be able to:•Understand the importance and potential of processmining•Know and apply both fundamental and advancedtechniques for core process mining tasks•Be able to analyze real-world data using open-sourceprocess mining tools"
+37,IE 692,Advanced Process Mining,MediaLiteratureTeaching and LearningMethods,"•Pen-and-paper plus programming exercises (mainlyPython).•Project involving open-source process mining tools andlibraries, possibly with implementation (in Python or Java)•Pen-and-paper exam"
+38,IE 692,Advanced Process Mining,MediaLiteratureTeaching and LearningMethods,"•Wil van der Aalst: Process Mining: Data Science in Action,2nd edition (Recommended)•Josep Carmona et al. Conformance checking, 1st edition(Recommended)•Additional academic papers suggested per lecture"
+39,IE 692,Advanced Process Mining,MediaLiteratureTeaching and LearningMethods,•Lectures•Homework exercises to practice with joint discussion inexercise sessions
+40,IE 692,Advanced Process Mining,Form of assessment,80% written exam20% group assignment
+41,IE 692,Advanced Process Mining,Admission requirementsfor assessment,-
+42,IE 692,Advanced Process Mining,Duration of assessment,"The exam will take 60 minutes, the assignment will be spreadover various weeks with a single deadline towards the end ofthe semester."
+43,IE 692,Advanced Process Mining,Language,English
+44,IE 692,Advanced Process Mining,Offering,Spring semester
+45,IE 692,Advanced Process Mining,Lecturers,Prof. Dr. Han van der Aa
+46,IE 692,Advanced Process Mining,Person in charge,Prof. Dr. Han van der Aa
+47,IE 692,Advanced Process Mining,Duration of module,1 semester
+48,IE 692,Advanced Process Mining,Further modules,-
+49,IE 692,Advanced Process Mining,Range of Application,
+50,IE 692,Advanced Process Mining,Range of Application,Data Science
+51,IE 692,Advanced Process Mining,Semester,2nd semester
+0,IE 683,Web Data Integration Project,Form of module,Project
+1,IE 683,Web Data Integration Project,Type of module,Specialization course
+2,IE 683,Web Data Integration Project,Level,Master
+3,IE 683,Web Data Integration Project,ECTS,3
+4,IE 683,Web Data Integration Project,ECTS,Hours per semester: 28 h (2 SWS)
+5,IE 683,Web Data Integration Project,Workload,Self-study: 56 h per semester
+6,IE 683,Web Data Integration Project,Workload,• 36 h: project work
+7,IE 683,Web Data Integration Project,Workload,• 20 h: report writing and presentation preparation
+8,IE 683,Web Data Integration Project,Prerequisites,Programming skills in Java
+9,IE 683,Web Data Integration Project,Prerequisites,The web data integration project allows students to apply the
+10,IE 683,Web Data Integration Project,Prerequisites,methods and techniques that they have learned in the lecture
+11,IE 683,Web Data Integration Project,Prerequisites,Web Data Integration in the context of a practical integration
+12,IE 683,Web Data Integration Project,Prerequisites,project. The projects cover all steps of the data integration
+13,IE 683,Web Data Integration Project,Prerequisites,"process including data gathering, schema mapping, data"
+14,IE 683,Web Data Integration Project,Prerequisites,"translation, identity resolution, data quality assessment, and"
+15,IE 683,Web Data Integration Project,Aim of module,
+16,IE 683,Web Data Integration Project,Aim of module,data fusion.
+17,IE 683,Web Data Integration Project,Aim of module,
+18,IE 683,Web Data Integration Project,Aim of module,It is highly recommended to attend the web data integration
+19,IE 683,Web Data Integration Project,Aim of module,lecture in the same semester as the web data integration
+20,IE 683,Web Data Integration Project,Aim of module,project as the schedules of both courses are aligned to each
+21,IE 683,Web Data Integration Project,Aim of module,other.
+22,IE 683,Web Data Integration Project,Aim of module,Expertise:
+23,IE 683,Web Data Integration Project,Aim of module,Students will be able to identify opportunities for employing
+24,IE 683,Web Data Integration Project,Aim of module,Web data in business applications and will learn to apply
+25,IE 683,Web Data Integration Project,Aim of module,appropriate techniques for integrating and cleansing Web
+26,IE 683,Web Data Integration Project,Aim of module,data.
+27,IE 683,Web Data Integration Project,Aim of module,"(MK1, MF1)"
+28,IE 683,Web Data Integration Project,Aim of module,Methodological competence:
+29,IE 683,Web Data Integration Project,Learning outcomes and,
+30,IE 683,Web Data Integration Project,Learning outcomes and,• Participants will acquire knowledge of the data integration
+31,IE 683,Web Data Integration Project,qualification goals,process as well as the techniques that are used in each
+32,IE 683,Web Data Integration Project,qualification goals,phase of the process.
+33,IE 683,Web Data Integration Project,qualification goals,• project organization skills
+34,IE 683,Web Data Integration Project,qualification goals,"(MK2, MF3, MF4, MKO3)"
+35,IE 683,Web Data Integration Project,qualification goals,Personal competence:
+36,IE 683,Web Data Integration Project,qualification goals,• presentation skills
+37,IE 683,Web Data Integration Project,qualification goals,• team work skills
+38,IE 683,Web Data Integration Project,qualification goals,"(MKO2, MF2)"
+39,IE 683,Web Data Integration Project,Literature,"•AnHai Doan, Alon Halevy, Zachary Ives: Principles of DataIntegration. Morgan Kaufmann, 2012.•LunaDong,DiveshSrivastava:BigDataIntegration.Morgan & Claypool, 2015.•Ulf Leser, Felix Naumann: Informationsintegration. DpunktVerlag, 2007."
+40,IE 683,Web Data Integration Project,Methods,Students work on their integration projects in teams and willreport about the results of their projects in the form of awritten report as well as an oral presentation.
+41,IE 683,Web Data Integration Project,Form of assessment,"Project report (70%), oral project presentation (30%)"
+42,IE 683,Web Data Integration Project,Admission requirementsfor assessment,-
+43,IE 683,Web Data Integration Project,Duration of assessment,-
+44,IE 683,Web Data Integration Project,Language,English
+45,IE 683,Web Data Integration Project,Offering,Fall semester
+46,IE 683,Web Data Integration Project,Lecturer,Prof. Dr. Christian Bizer
+47,IE 683,Web Data Integration Project,Person in charge,Prof. Dr. Christian Bizer
+48,IE 683,Web Data Integration Project,Duration of module,1 semester
+49,IE 683,Web Data Integration Project,Further modules,-
+50,IE 683,Web Data Integration Project,Range of application,"M.Sc. Wirtschaftsinformatik, Mannheim Master in DataScienceLehramt Informatik"
+51,IE 683,Web Data Integration Project,Semester,1. /2. /3. Semester
+0,IE 684,Web Mining Project,Form of module,Project
+1,IE 684,Web Mining Project,Type of module,Specialization course
+2,IE 684,Web Mining Project,Level,Master
+3,IE 684,Web Mining Project,ECTS,3
+4,IE 684,Web Mining Project,ECTS,Hours per semester: 28 h (2 SWS)
+5,IE 684,Web Mining Project,Workload,Self-study: 56 h per semester
+6,IE 684,Web Mining Project,Workload,• 36 h: project work
+7,IE 684,Web Mining Project,Workload,• 20 h: report writing and presentation preparation
+8,IE 684,Web Mining Project,Workload,Programming skills in Java or Python. IE 671 Web Mining
+9,IE 684,Web Mining Project,Prerequisites,
+10,IE 684,Web Mining Project,Prerequisites,(recommended).
+11,IE 684,Web Mining Project,Prerequisites,The Web Mining project allows students to apply the methods
+12,IE 684,Web Mining Project,Prerequisites,and techniques that they have learned in the lecture Web
+13,IE 684,Web Mining Project,Prerequisites,Mining in the context of a practical integration project. The
+14,IE 684,Web Mining Project,Prerequisites,"projects can cover any of the topic of Web usage, content or"
+15,IE 684,Web Mining Project,Aim of module,structure mining.
+16,IE 684,Web Mining Project,Aim of module,
+17,IE 684,Web Mining Project,Aim of module,NOTE: It is highly recommended to attend the module IE 671
+18,IE 684,Web Mining Project,Aim of module,“Web Mining” in the same semester since the schedule and
+19,IE 684,Web Mining Project,Aim of module,topics of both modules are aligned.
+20,IE 684,Web Mining Project,Aim of module,Expertise: Students will be able to identify opportunities for
+21,IE 684,Web Mining Project,Aim of module,employing Web Mining techniques in business applications
+22,IE 684,Web Mining Project,Aim of module,and will learn to apply appropriate techniques for mining Web
+23,IE 684,Web Mining Project,Aim of module,data.
+24,IE 684,Web Mining Project,Aim of module,"(MK1, MF1)"
+25,IE 684,Web Mining Project,Aim of module,Methodological competence:
+26,IE 684,Web Mining Project,Learning outcomes and,• Participants will acquire practical knowledge of techniques
+27,IE 684,Web Mining Project,qualification goals,for mining Web data.
+28,IE 684,Web Mining Project,qualification goals,• Project organization skills
+29,IE 684,Web Mining Project,qualification goals,"(MK2, MF3, MF4, MKO3)"
+30,IE 684,Web Mining Project,qualification goals,Personal competence:
+31,IE 684,Web Mining Project,qualification goals,• Presentation skills
+32,IE 684,Web Mining Project,qualification goals,• Team work skills
+33,IE 684,Web Mining Project,qualification goals,"(MKO2, MF2)"
+34,IE 684,Web Mining Project,Media,"Slide set with references to potential topics, datasets, etc."
+35,IE 684,Web Mining Project,Media,"• Bing Liu: Web Data Mining. 2nd Edition, Springer, 2011."
+36,IE 684,Web Mining Project,Media,"• Wouter de Nooy, et al.: Exploratory Social Network"
+37,IE 684,Web Mining Project,Literature,
+38,IE 684,Web Mining Project,Literature,"Analysis with Pajek. 2nd Edition, Cambridge University"
+39,IE 684,Web Mining Project,Literature,"Press, 2011."
+40,IE 684,Web Mining Project,Literature,"& Claypool Publishers, 2012."
+41,IE 684,Web Mining Project,Literature,Students work on their projects in teams and report about
+42,IE 684,Web Mining Project,Methods,the results of their projects in the form of a written report as
+43,IE 684,Web Mining Project,Methods,well as an oral presentation.
+44,IE 684,Web Mining Project,Form of assessment,"Project report (70%), oral project presentation (30%)"
+45,IE 684,Web Mining Project,Admission requirements,
+46,IE 684,Web Mining Project,Admission requirements,-
+47,IE 684,Web Mining Project,for assessment,
+48,IE 684,Web Mining Project,Duration of assessment,-
+49,IE 684,Web Mining Project,Language,English
+50,IE 684,Web Mining Project,Offering,Spring semester
+51,IE 684,Web Mining Project,Lecturer,Prof. Dr. Christian Bizer
+52,IE 684,Web Mining Project,Person in charge,Prof. Dr. Christian Bizer
+53,IE 684,Web Mining Project,Duration of module,1 semester
+54,IE 684,Web Mining Project,Further modules,-
+55,IE 684,Web Mining Project,Further modules,"M.Sc. Wirtschaftsinformatik, Mannheim Master in Data"
+56,IE 684,Web Mining Project,Range of application,Science
+57,IE 684,Web Mining Project,Range of application,Lehramt Informatik
+58,IE 684,Web Mining Project,Semester,1. /2. /3. Semester
+0,IE 691,Information Retrieval Project,E 691,Information Retrieval Project
+1,IE 691,Information Retrieval Project,Form of module,Lecture
+2,IE 691,Information Retrieval Project,Type of module,Specialization course
+3,IE 691,Information Retrieval Project,Level,Master
+4,IE 691,Information Retrieval Project,ECTS,3
+5,IE 691,Information Retrieval Project,Workload,Hours per semester present: 28h (2SWS)
+6,IE 691,Information Retrieval Project,Workload,Self-study: 60h per semester•Project work (45h)•Report and presentation preparation (15h)
+7,IE 691,Information Retrieval Project,Prerequisites,Programming skills (preferably in one of the higher-levelprogramming languages: Java/Python/C#/C++).
+8,IE 691,Information Retrieval Project,Aim of module,"Students are expected to successfully complete a team projectin teams of 2-4 members. The projects will focus on a varietyof IR problems and implementation of IR models theoreticallycovered in the course Information Retrieval and Web Search(IE 663). It is thus highly recommended to attend this coursetogether with the course IE 663. Project deliverables includeboth software (i.e., code and documentation) and a shortreport explaining the work performed and its evaluation. Thestudents are expected to clearly and coherently present theproject results."
+9,IE 691,Information Retrieval Project,Learning outcomes andqualification goals,"Expertise:Students will be able to solve real-world retrieval and searchproblems:theywillbeabletoanalyzedifferentpotentialsolutions to a given problem, identify their advantages andshortcomings, and decide for the best solution.(MK1, MF1)"
+10,IE 691,Information Retrieval Project,"Methodological competence:Students will obtain skills needed to implement one or moreinformation retrieval models and test their usefulness on real-world problems. Successful participants will be able to fullyunderstand state-of-the-art methods for Information RetrievalandWebsearch,throughhands-onexperienceofimplementing those models. Students will also develop and/orimprovetheirprojectorganizationskills(activityplanning,work breakdown, time planning, etc.)",
+11,IE 691,Information Retrieval Project,"Methodological competence:Students will obtain skills needed to implement one or moreinformation retrieval models and test their usefulness on real-world problems. Successful participants will be able to fullyunderstand state-of-the-art methods for Information RetrievalandWebsearch,throughhands-onexperienceofimplementing those models. Students will also develop and/orimprovetheirprojectorganizationskills(activityplanning,work breakdown, time planning, etc.)",Personal competence:
+12,IE 691,Information Retrieval Project,"Methodological competence:Students will obtain skills needed to implement one or moreinformation retrieval models and test their usefulness on real-world problems. Successful participants will be able to fullyunderstand state-of-the-art methods for Information RetrievalandWebsearch,throughhands-onexperienceofimplementing those models. Students will also develop and/orimprovetheirprojectorganizationskills(activityplanning,work breakdown, time planning, etc.)",• Presentation skills
+13,IE 691,Information Retrieval Project,"Methodological competence:Students will obtain skills needed to implement one or moreinformation retrieval models and test their usefulness on real-world problems. Successful participants will be able to fullyunderstand state-of-the-art methods for Information RetrievalandWebsearch,throughhands-onexperienceofimplementing those models. Students will also develop and/orimprovetheirprojectorganizationskills(activityplanning,work breakdown, time planning, etc.)",• Team work skills
+14,IE 691,Information Retrieval Project,"Methodological competence:Students will obtain skills needed to implement one or moreinformation retrieval models and test their usefulness on real-world problems. Successful participants will be able to fullyunderstand state-of-the-art methods for Information RetrievalandWebsearch,throughhands-onexperienceofimplementing those models. Students will also develop and/orimprovetheirprojectorganizationskills(activityplanning,work breakdown, time planning, etc.)",
+15,IE 691,Information Retrieval Project,Media,Project task specifications
+16,IE 691,Information Retrieval Project,Media,"• Christopher D. Manning, Prabhakar Raghavan and Hinrich"
+17,IE 691,Information Retrieval Project,Media,"Schütze, Introduction to Information Retrieval,"
+18,IE 691,Information Retrieval Project,Media,Cambridge University Press. 2008.
+19,IE 691,Information Retrieval Project,Literature,"• B. Croft, D. Metzler, T. Strohman, Search Engines:"
+20,IE 691,Information Retrieval Project,Literature,"Information Retrieval in Practice, Addison-Wesley, 2009"
+21,IE 691,Information Retrieval Project,Literature,"• R. Baeza-Yates, B. Ribeiro-Neto, Modern Information"
+22,IE 691,Information Retrieval Project,Literature,"Retrieval, Addison-Wesley, 2011 (2nd Edition)."
+23,IE 691,Information Retrieval Project,Literature,Students work on implementing
+24,IE 691,Information Retrieval Project,Literature,system in order to solve a real-worls search problem. Students
+25,IE 691,Information Retrieval Project,Methods,"work in teams, implement the programmatic solutions to the"
+26,IE 691,Information Retrieval Project,Methods,"tasks, organize their knowledge"
+27,IE 691,Information Retrieval Project,Methods,"report, and present the obtained results."
+28,IE 691,Information Retrieval Project,Methods,"• Software, code and documentation (60%)"
+29,IE 691,Information Retrieval Project,Form of assessment,• Written project report (30%)
+30,IE 691,Information Retrieval Project,Form of assessment,• Oral project presentation (10%)
+31,IE 691,Information Retrieval Project,Admission requirements,
+32,IE 691,Information Retrieval Project,Admission requirements,-
+33,IE 691,Information Retrieval Project,for assessment,
+34,IE 691,Information Retrieval Project,Duration of assessment,-
+35,IE 691,Information Retrieval Project,Language,English
+36,IE 691,Information Retrieval Project,Offering,HWS
+37,IE 691,Information Retrieval Project,Lecturer,Prof. Dr. Simone Ponzetto
+38,IE 691,Information Retrieval Project,Person in charge,Prof. Dr. Simone Ponzetto
+39,IE 691,Information Retrieval Project,Duration of module,1 semester
+40,IE 691,Information Retrieval Project,Further modules,-
+41,IE 691,Information Retrieval Project,Further modules,"M.Sc. Wirtschaftsinformatik,"
+42,IE 691,Information Retrieval Project,Range of application,
+43,IE 691,Information Retrieval Project,Range of application,"Science, Lehramt Informatik"
+44,IE 691,Information Retrieval Project,Semester,1st/2nd/3rd semester
+0,IE 694,Artificial Intelligence Applications in Industry,E 694,Artificial Intelligence Applications in Industry
+1,IE 694,Artificial Intelligence Applications in Industry,Form of module,Lectures and Accompanying Tutorials
+2,IE 694,Artificial Intelligence Applications in Industry,Type of module,Specialization Course
+3,IE 694,Artificial Intelligence Applications in Industry,Level,Master
+4,IE 694,Artificial Intelligence Applications in Industry,ECTS,6
+5,IE 694,Artificial Intelligence Applications in Industry,Workload,Hours per semester present: 56 h (2 + 2  SWS)
+6,IE 694,Artificial Intelligence Applications in Industry,Workload,Self-study: 124 h per semesterIncluding the creation of a learning portfolio
+7,IE 694,Artificial Intelligence Applications in Industry,Prerequisites,Recommended Knowledge:•Machine Learning Concepts and Techniques•Programming in Python
+8,IE 694,Artificial Intelligence Applications in Industry,Aim of module,"Participants will learn about the use of Artificial Intelligencemethods,mostlyfromthefieldofmachinelearningindifferentsectorsandindustries.Theywilllearnaboutapplicationareasintheprimary,secondaryandtertiarysector, get an introduction to examples of such applicationsthat have been published on a scientific level and gather someexperience in working with data from the respective fieldsusing publically available datasets."
+9,IE 694,Artificial Intelligence Applications in Industry,Learningoutcomesandqualification goals,Expertise:Students will acquire knowledge about possible applicationsof machine learning in different branches of industry as wellas the dominant methods used in these areas.
+10,IE 694,Artificial Intelligence Applications in Industry,Learningoutcomesandqualification goals,Methodological competence:Successful participants will be able to:•IdentifypotentialforapplyingAImethodsindifferentareas of industry;•Decideonasuitablemethodforaddressingtypicalproblems in these industries
+11,IE 694,Artificial Intelligence Applications in Industry,Learningoutcomesandqualification goals,Personal competence:•Participants will learn to reflect and document their ownlearning process
+12,IE 694,Artificial Intelligence Applications in Industry,Media,"Slides, Book, Software Tools."
+13,IE 694,Artificial Intelligence Applications in Industry,Literature,Various Scientific Publications – details in the lecture slides
+14,IE 694,Artificial Intelligence Applications in Industry,Form of assessment,Learning Portfolio
+15,IE 694,Artificial Intelligence Applications in Industry,Admission requirements,
+16,IE 694,Artificial Intelligence Applications in Industry,Admission requirements,n/a
+17,IE 694,Artificial Intelligence Applications in Industry,for assessment,
+18,IE 694,Artificial Intelligence Applications in Industry,Duration of assessment,-
+19,IE 694,Artificial Intelligence Applications in Industry,Language,English
+20,IE 694,Artificial Intelligence Applications in Industry,Offering,FSS
+21,IE 694,Artificial Intelligence Applications in Industry,Lecturer,Prof. Dr. Heiner Stuckenschmidt
+22,IE 694,Artificial Intelligence Applications in Industry,Person in charge,Prof. Dr. Heiner Stuckenschmidt
+23,IE 694,Artificial Intelligence Applications in Industry,Duration of module,1 Semester
+24,IE 694,Artificial Intelligence Applications in Industry,Further modules,-
+25,IE 694,Artificial Intelligence Applications in Industry,Further modules,"M.Sc. Wirtschaftsinformatik, Mannheim"
+26,IE 694,Artificial Intelligence Applications in Industry,Range of application,
+27,IE 694,Artificial Intelligence Applications in Industry,Range of application,Science
+28,IE 694,Artificial Intelligence Applications in Industry,Semester,2.-4.
+0,IE 696,Advanced Methods in Text Analytics,Form of module,Lecture with exercises
+1,IE 696,Advanced Methods in Text Analytics,Type of module,Specialization course
+2,IE 696,Advanced Methods in Text Analytics,Level,Master
+3,IE 696,Advanced Methods in Text Analytics,ECTS,6
+4,IE 696,Advanced Methods in Text Analytics,ECTS,Hours per semester: 56 h (4 SWS)
+5,IE 696,Advanced Methods in Text Analytics,Workload,Self-study: 112 h per semester
+6,IE 696,Advanced Methods in Text Analytics,Workload,• 84 h: pre and post lecture studying and revision
+7,IE 696,Advanced Methods in Text Analytics,Workload,• 28 h: examination preparation
+8,IE 696,Advanced Methods in Text Analytics,Workload,Fundamental notions of linear algebra and probability theory.
+9,IE 696,Advanced Methods in Text Analytics,Prerequisites,
+10,IE 696,Advanced Methods in Text Analytics,Prerequisites,Successful completion of “Text Analytics” (IE661)
+11,IE 696,Advanced Methods in Text Analytics,Prerequisites,This module builds upon the introduction to methods and
+12,IE 696,Advanced Methods in Text Analytics,Prerequisites,applications of Natural Language Processing (NLP) from “Text
+13,IE 696,Advanced Methods in Text Analytics,Prerequisites,Analytics” (IE661) in order to introduce students to cutting-
+14,IE 696,Advanced Methods in Text Analytics,Prerequisites,"edge problems, techniques and state-of-the-art methods in"
+15,IE 696,Advanced Methods in Text Analytics,Prerequisites,NLP. The course will focus on neural models of meaning in
+16,IE 696,Advanced Methods in Text Analytics,Prerequisites,"context (e.g., neural language models and topic models) and"
+17,IE 696,Advanced Methods in Text Analytics,Aim of module,
+18,IE 696,Advanced Methods in Text Analytics,Aim of module,present a variety of “Deep Learning” architectures for
+19,IE 696,Advanced Methods in Text Analytics,Aim of module,"different applications in human language technology (e.g.,"
+20,IE 696,Advanced Methods in Text Analytics,Aim of module,"summarization, dialogue systems and machine translation)."
+21,IE 696,Advanced Methods in Text Analytics,Aim of module,"Moreover, we will cover open areas of research such as the"
+22,IE 696,Advanced Methods in Text Analytics,Aim of module,explainability and interpretability of NLP models and methods
+23,IE 696,Advanced Methods in Text Analytics,Aim of module,to quantify the degree of bias that they exhibit.
+24,IE 696,Advanced Methods in Text Analytics,Aim of module,Expertise:
+25,IE 696,Advanced Methods in Text Analytics,Aim of module,Students will acquire knowledge of state-of-the-art principles
+26,IE 696,Advanced Methods in Text Analytics,Aim of module,"and methods of Natural Language Processing, with a specific"
+27,IE 696,Advanced Methods in Text Analytics,Aim of module,focus on the application of statistical methods to human
+28,IE 696,Advanced Methods in Text Analytics,Aim of module,language technologies.
+29,IE 696,Advanced Methods in Text Analytics,Aim of module,"(MK1, MK2, MF3)"
+30,IE 696,Advanced Methods in Text Analytics,Learning outcomes and,
+31,IE 696,Advanced Methods in Text Analytics,Learning outcomes and,Methodological competence:
+32,IE 696,Advanced Methods in Text Analytics,qualification goals,
+33,IE 696,Advanced Methods in Text Analytics,qualification goals,Successful participants will be able to understand state-of-the-
+34,IE 696,Advanced Methods in Text Analytics,qualification goals,"art methods for Natural Language Processing, as well as being"
+35,IE 696,Advanced Methods in Text Analytics,qualification goals,"able to select, apply and evaluate the most appropriate"
+36,IE 696,Advanced Methods in Text Analytics,qualification goals,techniques for a variety of different practical and application-
+37,IE 696,Advanced Methods in Text Analytics,qualification goals,oriented scenarios.
+38,IE 696,Advanced Methods in Text Analytics,qualification goals,(MF3)
+39,IE 696,Advanced Methods in Text Analytics,Media,"Lecture and tutorial slides, exercise sheets"
+40,IE 696,Advanced Methods in Text Analytics,Literature,"•ChrisManningandHinrichSchütze,FoundationsofStatistical Natural Language Processing, MIT Press 1999;•Dan Jurafsky and James H. Martin, Speech and LanguageProcessing:AnIntroductiontoNaturalLanguageProcessing,ComputationalLinguistics,andSpeechRecognition (3rdedition,onlineavailableathttps://web.stanford.edu/~jurafsky/slp3/)."
+41,IE 696,Advanced Methods in Text Analytics,Methods,"Lectures, tutorials"
+42,IE 696,Advanced Methods in Text Analytics,Form of assessment,Written examination
+43,IE 696,Advanced Methods in Text Analytics,Admissionrequirementsfor assessment,-
+44,IE 696,Advanced Methods in Text Analytics,Duration of assessment,90 minutes
+45,IE 696,Advanced Methods in Text Analytics,Language,English
+46,IE 696,Advanced Methods in Text Analytics,Offering,Spring semester
+47,IE 696,Advanced Methods in Text Analytics,Lecturer,Prof. Dr. Simone Paolo Ponzetto
+48,IE 696,Advanced Methods in Text Analytics,Person in charge,Prof. Dr. Simone Paolo Ponzetto
+49,IE 696,Advanced Methods in Text Analytics,Duration of module,1 semester
+50,IE 696,Advanced Methods in Text Analytics,Further modules,-
+51,IE 696,Advanced Methods in Text Analytics,Range of application,"M.Sc. Wirtschaftsinformatik, MSc. Mannheim Master in DataScience, Lehramt Informatik, M. Sc. Medien- undKommunikationswissenschaft, PhD Volkswirtschaftslehre"
+52,IE 696,Advanced Methods in Text Analytics,Semester,1st/2nd/3rd semester
