@@ -1,0 +1,49 @@
+code,Name of Module,Offered,Language,ECTS,moduleCategory
+CS 450,Programming Course,HWS,E,6,Fundamentals
+CS 460,Database Technology,FSS,E,6,Fundamentals
+CS 470,Python for Data Scientists,FSS,E,6,Fundamentals
+,Multivariate Analyses,HWS,E,6,Fundamentals
+,Tutorial Multivariate Analyses,HWS,E,2,Fundamentals
+,Empirische Methoden der Politik- wissenschaft,HWS,G/E,6,Fundamentals
+AC 651,Additional Course – Data Manage- ment,HWS/FSS,E,AC 651*,Data Management
+CS 500,Advanced Software Engineering,HWS,E,6,Data Management
+CS 530,Database Systems II,FSS,E,6,Data Management
+CS 550,Algorithmics,FSS/HWS,E,6,Data Management
+CS 560,Large Scale Data Management,HWS,E,6,Data Management
+CS 600,Model-driven Development,HWS,E,6,Data Management
+CS 662,Types and Programming Languages,HWS,E,6,Data Management
+IS 540,Management of Enterprise Systems,HWS,E,6,Data Management
+IS 556,Public Blockchains,FSS,E,3,Data Management
+IE 630,Query Optimization,FSS,E,6,Data Management
+IE 650,Knowledge Graphs,HWS,E,6,Data Management
+IE 663,Information Retrieval and Web Search,HWS,E,3,Data Management
+IE 670,Web Data Integration,HWS,E,3,Data Management
+IE 691,Information Retrieval Project,HWS,E,3,Data Management
+IE 683,Web Data Integration Project,HWS,E,3,Data Management
+AC 652,Additional Course – Data Analytics Methods,HWS/FSS,E,AC 652*,Data Analytics
+DA 110,Computational Analysis of Communication,HWS,E,6,Data Analytics
+IE 500,Data Mining I,HWS/FSS,E,6,Data Analytics
+IE 560,Decision Support,HWS,E,6,Data Analytics
+IE 661,Text Analytics,HWS,E,6,Data Analytics
+IE 671,Web Mining,FSS,E,3,Data Analytics
+IE 672,Data Mining II,FSS,E,6,Data Analytics
+IE 675b,Machine Learning,HWS,E,9,Data Analytics
+IE 676,Network Analysis replaced by IS 622 (FSS),HWS,E,6,Data Analytics
+IE 678,Deep Learning,FSS,E,6,Data Analytics
+IE 684,Web Mining Project,FSS,E,3,Data Analytics
+IE 692,Advanced Process Mining,FSS,E,6,Data Analytics
+IE 694,Artificial Intelligence Applications in Industry,FSS,E,6,Data Analytics
+IE 696,Advanced Methods in Text Analytics,FSS,E,6,Data Analytics
+IS 622,Network Science**,FSS,E,6,Data Analytics
+MAA 519,Stochastic Calculus,HWS,E,5,Data Analytics
+MAB 504,Mathematics and Information,irregular,G,8,Data Analytics
+MAB 508,Algebraische Statistik,irregular,G/E,8,Data Analytics
+MAC 404,Optimierung,HWS,G,8,Data Analytics
+MAC 502,Computational Finance,FSS,G/E,6,Data Analytics
+MAC 507,Nichtlineare Optimierung,FSS,G/E,6,Data Analytics
+MAC 527,Markov Processes,FSS,E,4,Data Analytics
+MKT 511,Marketing Analytics,FSS,E,6,Data Analytics
+MKT 545,"Customers, Markets and Firm Strategy",FSS,E,6,Data Analytics
+CS 652,Data Security and Privacy,FSS,E,6,Responsible Data Science
+,Legal and Ethical Aspects of Privacy,HWS,E,3,Responsible Data Science
+CS 718,AI and Data Science in Fiction and Society,HWS,E,4,Responsible Data Science
