@@ -58,19 +58,6 @@ unima:scientist a rdfs:Class ;
 
 unima:code a rdfs:Literal .
 
-<https://www.uni-mannheim.de/dws/people/professors/prof-dr-christian-bizer/> a unima:professor ;
-    ns1:sameAs <http://www.wikidata.org/entity/Q17744291>,
-        <https://dblp.org/pid/b/ChristianBizer> ;
-    foaf:mbox "chris@informatik.uni-mannheim.de" ;
-    foaf:name "Prof. Dr. Christian Bizer" ;
-    foaf:phone "+49 621 181–2677" ;
-    foaf:thumbnail "https://www.uni-mannheim.de/media/_processed_/2/6/csm_Christian_Bizer_3__adfd8f9316.jpg" ;
-    unima:address "University of Mannheim; School of Business Informatics and Mathematics; B 6, 26 – Room B 1.15; 68159 Mannheim" ;
-    unima:chair "Chair for Information Systems V: Web-based Systems" ;
-    unima:lectures <https://www.uni-mannheim.de/dws/teaching/course-details/courses-for-master-candidates/cs-715-large-scale-data-integration-seminar/>,
-        <https://www.uni-mannheim.de/dws/teaching/course-details/courses-for-master-candidates/ie-670-web-data-integration/>,
-        <https://www.uni-mannheim.de/dws/teaching/course-details/courses-for-master-candidates/team-projects/> .
-
 <https://www.uni-mannheim.de/dws/people/professors/prof-dr-goran-glavas/> a unima:professor ;
     ns1:sameAs <https://dblp.org/pid/50/11059> ;
     foaf:mbox "goran@informatik.uni-mannheim.de" ;
@@ -93,61 +80,6 @@ unima:code a rdfs:Literal .
     unima:chair "Juniorprofessor for Artificial Intelligence Methods" ;
     unima:lectures <https://www.uni-mannheim.de/dws/teaching/course-details/courses-for-master-candidates/cs-719-process-analysis-seminar-fss-2021/>,
         <https://www.uni-mannheim.de/dws/teaching/course-details/courses-for-master-candidates/ie-677-advanced-process-mining/> .
-
-<https://www.uni-mannheim.de/dws/people/professors/prof-dr-heiko-paulheim/> a unima:professor ;
-    ns1:sameAs <http://www.wikidata.org/entity/Q23709849>,
-        <https://dblp.org/pid/39/4064> ;
-    foaf:mbox "heiko@informatik.uni-mannheim.de" ;
-    foaf:name "Prof. Dr. Heiko Paulheim" ;
-    foaf:phone "+49 621 181–2652" ;
-    foaf:thumbnail "https://www.uni-mannheim.de/media/_processed_/9/0/csm_Paulheim3_99c7965941.png" ;
-    unima:address "University of Mannheim; Fakultät für Wirtschafts­informatik und Wirtschafts­mathematik; B 6, 26 – Room B 0.22; 68159 Mannheim" ;
-    unima:chair "Chair for Data Science" ;
-    unima:lectures <https://www.uni-mannheim.de/dws/teaching/course-details/courses-for-master-candidates/cs-460-database-technology/>,
-        <https://www.uni-mannheim.de/dws/teaching/course-details/courses-for-master-candidates/ie-650-semantic-web-technologies/>,
-        <https://www.uni-mannheim.de/dws/teaching/course-details/courses-for-master-candidates/ie-672-data-mining-2/>,
-        <https://www.uni-mannheim.de/dws/teaching/course-details/courses-for-master-candidates/team-projects/> .
-
-<https://www.uni-mannheim.de/dws/people/professors/prof-dr-heiner-stuckenschmidt/> a unima:professor ;
-    ns1:sameAs <http://www.wikidata.org/entity/Q38721681>,
-        <https://dblp.org/pid/50/5895> ;
-    foaf:mbox "heiner@informatik.uni-mannheim.de" ;
-    foaf:name "Prof. Dr. Heiner Stuckenschmidt" ;
-    foaf:phone "+49 621 181–2530" ;
-    foaf:thumbnail "https://www.uni-mannheim.de/media/_processed_/2/a/csm_Heiner_Stuckenschmidt__3__4751ea46af.jpg" ;
-    unima:address "University of Mannheim; School of Business Informatics and Mathematics; B 6, 26 – Room B 1.20; 68159 Mannheim" ;
-    unima:chair "Chair of Artificial Intelligence" ;
-    unima:lectures <https://www.uni-mannheim.de/dws/teaching/course-details/courses-for-master-candidates/ie-676-network-analysis/>,
-        <https://www.uni-mannheim.de/dws/teaching/course-details/courses-for-master-candidates/team-projects/> .
-
-<https://www.uni-mannheim.de/dws/people/professors/prof-dr-rainer-gemulla/> a unima:professor ;
-    ns1:sameAs <http://www.wikidata.org/entity/Q39160786>,
-        <https://dblp.org/pid/32/5357> ;
-    foaf:mbox "rgemulla@uni-mannheim.de" ;
-    foaf:name "Prof. Dr. Rainer Gemulla" ;
-    foaf:phone "+49 621 181–2480" ;
-    foaf:thumbnail "https://www.uni-mannheim.de/media/_processed_/6/5/csm_201810_Gemulla-1_63454a9d8c.jpeg" ;
-    unima:address "University of Mannheim; School of Business Informatics and Mathematics; B 6, 26 – Room B 0.16; 68159 Mannheim" ;
-    unima:chair "Chair of Practical Computer Science I: Data Analytics" ;
-    unima:lectures <https://www.uni-mannheim.de/dws/teaching/course-details/courses-for-master-candidates/course-archive/fss-2019/ie-673-data-mining-and-matrices/>,
-        <https://www.uni-mannheim.de/dws/teaching/course-details/courses-for-master-candidates/cs-560-large-scale-data-management/>,
-        <https://www.uni-mannheim.de/dws/teaching/course-details/courses-for-master-candidates/ie-674-hot-topics-in-machine-learning/>,
-        <https://www.uni-mannheim.de/dws/teaching/course-details/courses-for-master-candidates/ie-675b-machine-learning/>,
-        <https://www.uni-mannheim.de/dws/teaching/course-details/courses-for-master-candidates/sm-445-cs-707-data-and-web-science-seminar/> .
-
-<https://www.uni-mannheim.de/dws/people/professors/prof-dr-simone-paolo-ponzetto/> a unima:professor ;
-    ns1:sameAs <http://www.wikidata.org/entity/Q28578432>,
-        <https://dblp.org/pid/04/2532> ;
-    foaf:mbox "simone@informatik.uni-mannheim.de" ;
-    foaf:name "Prof. Dr. Simone Paolo Ponzetto" ;
-    foaf:phone "+49 621 181–2647" ;
-    foaf:thumbnail "https://www.uni-mannheim.de/media/_processed_/2/6/csm_Simone_efe465b801.jpg" ;
-    unima:address "University of Mannheim; School of Business Informatics and Mathematics; B 6, 26 – Room B 1.14; 68159 Mannheim" ;
-    unima:chair "Chair of Information Systems III: Enterprise Data Analysis" ;
-    unima:lectures <https://www.uni-mannheim.de/dws/teaching/course-details/courses-for-master-candidates/cs-709-text-analytics-seminar/>,
-        <https://www.uni-mannheim.de/dws/teaching/course-details/courses-for-master-candidates/ie-661-text-analytics/>,
-        <https://www.uni-mannheim.de/dws/teaching/course-details/courses-for-master-candidates/ie-671-web-mining/>,
-        <https://www.uni-mannheim.de/dws/teaching/course-details/courses-for-master-candidates/team-projects/> .
 
 <https://www.uni-mannheim.de/dws/people/researchers/phd-students/adrian-kochsiek/> a unima:phd-student ;
     foaf:mbox "adrian@informatik.uni-mannheim.de" ;
@@ -1198,6 +1130,74 @@ unima:title a rdfs:Literal .
 
 unima:typeL a rdfs:Literal .
 
+<https://www.uni-mannheim.de/dws/people/professors/prof-dr-christian-bizer/> a unima:professor ;
+    ns1:sameAs <http://www.wikidata.org/entity/Q17744291>,
+        <https://dblp.org/pid/b/ChristianBizer> ;
+    foaf:mbox "chris@informatik.uni-mannheim.de" ;
+    foaf:name "Prof. Dr. Christian Bizer" ;
+    foaf:phone "+49 621 181–2677" ;
+    foaf:thumbnail "https://www.uni-mannheim.de/media/_processed_/2/6/csm_Christian_Bizer_3__adfd8f9316.jpg" ;
+    unima:address "University of Mannheim; School of Business Informatics and Mathematics; B 6, 26 – Room B 1.15; 68159 Mannheim" ;
+    unima:chair "Chair for Information Systems V: Web-based Systems" ;
+    unima:lectures <https://www.uni-mannheim.de/dws/teaching/course-details/courses-for-master-candidates/cs-715-large-scale-data-integration-seminar/>,
+        <https://www.uni-mannheim.de/dws/teaching/course-details/courses-for-master-candidates/ie-670-web-data-integration/>,
+        <https://www.uni-mannheim.de/dws/teaching/course-details/courses-for-master-candidates/team-projects/> .
+
+<https://www.uni-mannheim.de/dws/people/professors/prof-dr-heiko-paulheim/> a unima:professor ;
+    ns1:sameAs <http://www.wikidata.org/entity/Q23709849>,
+        <https://dblp.org/pid/39/4064> ;
+    foaf:mbox "heiko@informatik.uni-mannheim.de" ;
+    foaf:name "Prof. Dr. Heiko Paulheim" ;
+    foaf:phone "+49 621 181–2652" ;
+    foaf:thumbnail "https://www.uni-mannheim.de/media/_processed_/9/0/csm_Paulheim3_99c7965941.png" ;
+    unima:address "University of Mannheim; Fakultät für Wirtschafts­informatik und Wirtschafts­mathematik; B 6, 26 – Room B 0.22; 68159 Mannheim" ;
+    unima:chair "Chair for Data Science" ;
+    unima:lectures <https://www.uni-mannheim.de/dws/teaching/course-details/courses-for-master-candidates/cs-460-database-technology/>,
+        <https://www.uni-mannheim.de/dws/teaching/course-details/courses-for-master-candidates/ie-650-semantic-web-technologies/>,
+        <https://www.uni-mannheim.de/dws/teaching/course-details/courses-for-master-candidates/ie-672-data-mining-2/>,
+        <https://www.uni-mannheim.de/dws/teaching/course-details/courses-for-master-candidates/team-projects/> .
+
+<https://www.uni-mannheim.de/dws/people/professors/prof-dr-heiner-stuckenschmidt/> a unima:professor ;
+    ns1:sameAs <http://www.wikidata.org/entity/Q38721681>,
+        <https://dblp.org/pid/50/5895> ;
+    foaf:mbox "heiner@informatik.uni-mannheim.de" ;
+    foaf:name "Prof. Dr. Heiner Stuckenschmidt" ;
+    foaf:phone "+49 621 181–2530" ;
+    foaf:thumbnail "https://www.uni-mannheim.de/media/_processed_/2/a/csm_Heiner_Stuckenschmidt__3__4751ea46af.jpg" ;
+    unima:address "University of Mannheim; School of Business Informatics and Mathematics; B 6, 26 – Room B 1.20; 68159 Mannheim" ;
+    unima:chair "Chair of Artificial Intelligence" ;
+    unima:lectures <https://www.uni-mannheim.de/dws/teaching/course-details/courses-for-master-candidates/ie-676-network-analysis/>,
+        <https://www.uni-mannheim.de/dws/teaching/course-details/courses-for-master-candidates/team-projects/> .
+
+<https://www.uni-mannheim.de/dws/people/professors/prof-dr-rainer-gemulla/> a unima:professor ;
+    ns1:sameAs <http://www.wikidata.org/entity/Q39160786>,
+        <https://dblp.org/pid/32/5357> ;
+    foaf:mbox "rgemulla@uni-mannheim.de" ;
+    foaf:name "Prof. Dr. Rainer Gemulla" ;
+    foaf:phone "+49 621 181–2480" ;
+    foaf:thumbnail "https://www.uni-mannheim.de/media/_processed_/6/5/csm_201810_Gemulla-1_63454a9d8c.jpeg" ;
+    unima:address "University of Mannheim; School of Business Informatics and Mathematics; B 6, 26 – Room B 0.16; 68159 Mannheim" ;
+    unima:chair "Chair of Practical Computer Science I: Data Analytics" ;
+    unima:lectures <https://www.uni-mannheim.de/dws/teaching/course-details/courses-for-master-candidates/course-archive/fss-2019/ie-673-data-mining-and-matrices/>,
+        <https://www.uni-mannheim.de/dws/teaching/course-details/courses-for-master-candidates/cs-560-large-scale-data-management/>,
+        <https://www.uni-mannheim.de/dws/teaching/course-details/courses-for-master-candidates/ie-674-hot-topics-in-machine-learning/>,
+        <https://www.uni-mannheim.de/dws/teaching/course-details/courses-for-master-candidates/ie-675b-machine-learning/>,
+        <https://www.uni-mannheim.de/dws/teaching/course-details/courses-for-master-candidates/sm-445-cs-707-data-and-web-science-seminar/> .
+
+<https://www.uni-mannheim.de/dws/people/professors/prof-dr-simone-paolo-ponzetto/> a unima:professor ;
+    ns1:sameAs <http://www.wikidata.org/entity/Q28578432>,
+        <https://dblp.org/pid/04/2532> ;
+    foaf:mbox "simone@informatik.uni-mannheim.de" ;
+    foaf:name "Prof. Dr. Simone Paolo Ponzetto" ;
+    foaf:phone "+49 621 181–2647" ;
+    foaf:thumbnail "https://www.uni-mannheim.de/media/_processed_/2/6/csm_Simone_efe465b801.jpg" ;
+    unima:address "University of Mannheim; School of Business Informatics and Mathematics; B 6, 26 – Room B 1.14; 68159 Mannheim" ;
+    unima:chair "Chair of Information Systems III: Enterprise Data Analysis" ;
+    unima:lectures <https://www.uni-mannheim.de/dws/teaching/course-details/courses-for-master-candidates/cs-709-text-analytics-seminar/>,
+        <https://www.uni-mannheim.de/dws/teaching/course-details/courses-for-master-candidates/ie-661-text-analytics/>,
+        <https://www.uni-mannheim.de/dws/teaching/course-details/courses-for-master-candidates/ie-671-web-mining/>,
+        <https://www.uni-mannheim.de/dws/teaching/course-details/courses-for-master-candidates/team-projects/> .
+
 <https://www.uni-mannheim.de/en/academics/professor/Frederik_Armknecht> a courseKG:professor ;
     ns1:sameAs <https://dblp.org/pid/65/6856>,
         <https://www.wikidata.org/entity/Q102110273> ;
@@ -1383,21 +1383,21 @@ unima:typeL a rdfs:Literal .
     unima:typeL "Lecture / Practical exercises" .
 
 <https://www.uni-mannheim.de/en/academics/professor/Heiner_Stuckenschmidt> a courseKG:professor ;
-    ns1:sameAs <['https://www.uni-mannheim.de/dws/people/professors/prof-dr-heiner-stuckenschmidt/']>,
-        <http://www.wikidata.org/entity/Q38721681>,
-        <https://dblp.org/pid/50/5895> ;
+    ns1:sameAs <http://www.wikidata.org/entity/Q38721681>,
+        <https://dblp.org/pid/50/5895>,
+        <https://www.uni-mannheim.de/dws/people/professors/prof-dr-heiner-stuckenschmidt/> ;
     prop:professorName "Heiner_Stuckenschmidt" .
 
 <https://www.uni-mannheim.de/en/academics/professor/Rainer_Gemulla> a courseKG:professor ;
-    ns1:sameAs <['https://www.uni-mannheim.de/dws/people/professors/prof-dr-rainer-gemulla/']>,
-        <http://www.wikidata.org/entity/Q39160786>,
-        <https://dblp.org/pid/32/5357> ;
+    ns1:sameAs <http://www.wikidata.org/entity/Q39160786>,
+        <https://dblp.org/pid/32/5357>,
+        <https://www.uni-mannheim.de/dws/people/professors/prof-dr-rainer-gemulla/> ;
     prop:professorName "Rainer_Gemulla" .
 
 <https://www.uni-mannheim.de/en/academics/professor/Simone_Ponzetto> a courseKG:professor ;
-    ns1:sameAs <['https://www.uni-mannheim.de/dws/people/professors/prof-dr-simone-paolo-ponzetto/']>,
-        <http://www.wikidata.org/entity/Q28578432>,
-        <https://dblp.org/pid/04/2532> ;
+    ns1:sameAs <http://www.wikidata.org/entity/Q28578432>,
+        <https://dblp.org/pid/04/2532>,
+        <https://www.uni-mannheim.de/dws/people/professors/prof-dr-simone-paolo-ponzetto/> ;
     prop:professorName "Simone_Ponzetto" .
 
 <https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/modules/Fundamentals> a courseKG:module ;
@@ -1413,18 +1413,18 @@ unima:typeL a rdfs:Literal .
     unima:typeL "Lecture / Practical exercises / Student project" .
 
 <https://www.uni-mannheim.de/en/academics/professor/Heiko_Paulheim> a courseKG:professor ;
-    ns1:sameAs <['https://www.uni-mannheim.de/dws/people/professors/prof-dr-heiko-paulheim/']>,
-        <http://www.wikidata.org/entity/Q23709849>,
-        <https://dblp.org/pid/39/4064> ;
+    ns1:sameAs <http://www.wikidata.org/entity/Q23709849>,
+        <https://dblp.org/pid/39/4064>,
+        <https://www.uni-mannheim.de/dws/people/professors/prof-dr-heiko-paulheim/> ;
     prop:professorName "Heiko_Paulheim" .
 
 <https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/> a courseKG:programs ;
     prop:programName "mannheim-master-in-data-science" .
 
 <https://www.uni-mannheim.de/en/academics/professor/Christian_Bizer> a courseKG:professor ;
-    ns1:sameAs <['https://www.uni-mannheim.de/dws/people/professors/prof-dr-christian-bizer/']>,
-        <http://www.wikidata.org/entity/Q17744291>,
-        <https://dblp.org/pid/b/ChristianBizer> ;
+    ns1:sameAs <http://www.wikidata.org/entity/Q17744291>,
+        <https://dblp.org/pid/b/ChristianBizer>,
+        <https://www.uni-mannheim.de/dws/people/professors/prof-dr-christian-bizer/> ;
     prop:professorName "Christian_Bizer" .
 
 <https://www.uni-mannheim.de/dws/teaching/course-details/courses-for-master-candidates/team-projects/> a unima:course ;
