@@ -1,11 +1,11 @@
-code,Name of Module,Offered,Language,ECTS,moduleCategory
+module_code,Name of Module,Offered,Language,ECTS,moduleCategory
 CS 450,Programming Course,HWS,E,6,Fundamentals
 CS 460,Database Technology,FSS,E,6,Fundamentals
 CS 470,Python for Data Scientists,FSS,E,6,Fundamentals
 ,Multivariate Analyses,HWS,E,6,Fundamentals
 ,Tutorial Multivariate Analyses,HWS,E,2,Fundamentals
-,Empirische Methoden der Politik- wissenschaft,HWS,G/E,6,Fundamentals
-AC 651,Additional Course – Data Manage- ment,HWS/FSS,E,AC 651*,Data Management
+,Empirische Methoden der Politikwissenschaft,HWS,G/E,6,Fundamentals
+AC 651,Additional Course – Data Management,HWS/FSS,E,AC 651*,Data Management
 CS 500,Advanced Software Engineering,HWS,E,6,Data Management
 CS 530,Database Systems II,FSS,E,6,Data Management
 CS 550,Algorithmics,FSS/HWS,E,6,Data Management

@@ -1,4 +1,108 @@
 module_code,module_name,property,property_value
+AC 651,Additional Course – Data Management,Aim of module,"The course falls into the data management area of the MMDS and covers topics related to data management, but is not di- rectly equivalent to any course in the MMDS module cata- logue. The course level equals a regular course in MMDS study program. The module can be taken either at the University of Mannheim or at any other university in Germany or abroad."
+AC 651,Additional Course – Data Management,C 651,Additional Course – Data Management
+AC 651,Additional Course – Data Management,Duration of module,1 Semester
+AC 651,Additional Course – Data Management,ECTS,Max. 18
+AC 651,Additional Course – Data Management,Form of module,Depends on course
+AC 651,Additional Course – Data Management,Further modules,-
+AC 651,Additional Course – Data Management,Language,"English preferred, but any other language possible if Mann- heim faculty member is able to identify content and level"
+AC 651,Additional Course – Data Management,Learning outcomes and qualification goals,Depends on course
+AC 651,Additional Course – Data Management,Lecturer,Lecturer at the host university
+AC 651,Additional Course – Data Management,Level,Master
+AC 651,Additional Course – Data Management,Media / Literature / Meth- ods / Form and duration of assessment,Depends on course
+AC 651,Additional Course – Data Management,Offering,Spring semester / Fall semester
+AC 651,Additional Course – Data Management,Person in charge,Lecturer at the host university
+AC 651,Additional Course – Data Management,Prerequisites,Depends on course
+AC 651,Additional Course – Data Management,Range of application,MMDS
+AC 651,Additional Course – Data Management,Semester,"2nd/3rd/4th semester,Tutorial Cross Sectional Data Analy- sis,Lecture Advanced Quantitative Methods,Tutorial Advanced Quantitative Methods,Lecture Longitudinal Data Analysis,Tutorial Longitudinal Data Analysis,Lecture Research Design,Tutorial Research Design"
+AC 651,Additional Course – Data Management,Workload,Depends on course
+AC 652,Additional Course – Data Analytics Methods,Aim of module,"The course falls into the data analytics methods area of the MMDS and covers topics related to data analytics methods, but is not directly equivalent to any course in the MMDS mod- ulecatalogue.Thecourselevelequalsaregularcoursein MMDS study program. The module can be taken either at the University of Mannheim or at any other university in Germany or abroad."
+AC 652,Additional Course – Data Analytics Methods,C 652,Additional Course – Data Analytics Methods
+AC 652,Additional Course – Data Analytics Methods,Duration of module,1 Semester
+AC 652,Additional Course – Data Analytics Methods,ECTS,Max. 18
+AC 652,Additional Course – Data Analytics Methods,Form of module,Depends on course
+AC 652,Additional Course – Data Analytics Methods,Further modules,-
+AC 652,Additional Course – Data Analytics Methods,Language,"English preferred, but any other language possible if Mann- heim faculty member is able to identify content and level"
+AC 652,Additional Course – Data Analytics Methods,Learningoutcomesand qualification goals,Depends on course
+AC 652,Additional Course – Data Analytics Methods,Lecturer,Lecturer at the host university
+AC 652,Additional Course – Data Analytics Methods,Level,Master
+AC 652,Additional Course – Data Analytics Methods,Media / Literature / Meth- ods / Form and duration of assessment,Depends on course
+AC 652,Additional Course – Data Analytics Methods,Offering,Spring semester / Fall semester
+AC 652,Additional Course – Data Analytics Methods,Person in charge,Lecturer at the host university
+AC 652,Additional Course – Data Analytics Methods,Prerequisites,Depends on course
+AC 652,Additional Course – Data Analytics Methods,Range of application,MMDS
+AC 652,Additional Course – Data Analytics Methods,Semester,2nd/3rd/4th semester
+AC 652,Additional Course – Data Analytics Methods,Workload,Depends on course
+CS 450,Programming Course,Admission requirements,successful completion and presentation of at least 75% of the
+CS 450,Programming Course,Aim of module,"• OO concepts (information hiding, inheritance, polymor-,phism, abstract classes, interfaces),• Java API,• Exceptions,• IO using streams,• Java Collections,• GUI programming,• processing of XML documents,• database access (SQL, JDOM),Expertise:"
+CS 450,Programming Course,Duration of assessment,180 minutes
+CS 450,Programming Course,Duration of module,1 semester
+CS 450,Programming Course,ECTS,"6,Hours per semester present: 84h (6 SWS),Self-study: 84h per semester"
+CS 450,Programming Course,Form of assessment,written examination (Programmiertestat)
+CS 450,Programming Course,Form of module,Lecture and accompanying practical sessions
+CS 450,Programming Course,Further modules,-
+CS 450,Programming Course,Language,English
+CS 450,Programming Course,Learning outcomes,"After taking the course, students will be familiar with the basic"
+CS 450,Programming Course,Lecturer,Dr. Ursula Rost
+CS 450,Programming Course,Level,Master
+CS 450,Programming Course,Literature,"• Core Java Volume I—Fundamentals (C.S. Horstmann),,Prentice Hall"
+CS 450,Programming Course,Media,"Beamer, PC (Linux), printed lecture slides,• Learning Java (P. Niemeyer, P.Leuck), O'Reilly UK Ltd."
+CS 450,Programming Course,Methods,"lectures, tutorials, independent study"
+CS 450,Programming Course,Offering,Fall semester
+CS 450,Programming Course,Person in charge,Dr. Ursula Rost
+CS 450,Programming Course,Prerequisites,"-,The course deals with the basic concepts of (object-oriented),programming using Java. In addition, some advanced topics,are covered such as writing GUI applications and dealing with,external data (XML, databases):,• primitive data types, variables, operators, expressions,• control flow statements,• complex data types (arrays), references,• classes"
+CS 450,Programming Course,Range of application,MMDS
+CS 450,Programming Course,Semester,1st/2nd semester
+CS 450,Programming Course,Type of module,Computer Science Fundamental
+CS 450,Programming Course,Workload,"nan,• 28h: pre and post lecture studying and revision,• 56h: preparation and presentation of small software pro-,jects"
+CS 450,Programming Course,for assessment,weekly assessments
+CS 450,Programming Course,qualification goals,"concepts of (object-oriented) programming in Java.,Methodological competence:,and GUI Java applications of moderate size.,Personal competence:,• ability to work independently,• ability to work in a team"
+CS 460,Database Technology,Admission requirements for assessment,-
+CS 460,Database Technology,Aim of module,"nan,• Relational modeling,• Keys and normal forms,• Hash and index structures,• Transactions and concurrency,Expertise:,Basic understanding of relational data modeling and database,design, as well as the functionality of relational database man-,agement systems, query handling, and transaction manage-,ment."
+CS 460,Database Technology,Duration of assessment,90 minutes (written exam)/30 minutes (oral exam)
+CS 460,Database Technology,Duration of module,1 semester
+CS 460,Database Technology,ECTS,"6,Hours per semester present: 56 h (4 SWS)"
+CS 460,Database Technology,Form of assessment,Written or oral examination
+CS 460,Database Technology,Form of module,Lecture with Exercise
+CS 460,Database Technology,Further modules,"Database Systems II, Transaktionssysteme, Anfrageoptimie- rung, Large Scale Data Management"
+CS 460,Database Technology,Language,English
+CS 460,Database Technology,Learning outcomes,"(BK4, BK5, BK6, BK7)"
+CS 460,Database Technology,Lecturer,Prof. Dr. Heiko Paulheim
+CS 460,Database Technology,Level,Master
+CS 460,Database Technology,Literature,"nan,tem Concepts"
+CS 460,Database Technology,Media,"Electronic slides and exercise sheets,Avi Silberschatz, Henry F. Korth, S. Sudarshan: Database Sys-"
+CS 460,Database Technology,Offering,Spring semester
+CS 460,Database Technology,Person in charge,Prof. Dr. Heiko Paulheim
+CS 460,Database Technology,Prerequisites,"-,The course provides an introduction to relational database,systems. The course will cover the following topics:,• Principles of data storage,• Database query languages (SQL)"
+CS 460,Database Technology,Range of application,MMDS
+CS 460,Database Technology,Semester,1st/2nd semester
+CS 460,Database Technology,Type of module,MMDS Fundamental
+CS 460,Database Technology,Workload,"Self-study per semester: 98 h,• 70 h: pre and post lecture studying and revision,• 28 h: examination preparation"
+CS 460,Database Technology,qualification goals,"Methodological competence:,Abstraction, modeling, complexity consideration.,(BF1, BF2),Personal competence:,Understanding the role of data management in enterprises.,(BK01, BK02)"
+CS 470,Python for Data Scientists,Admission requirements for assessment,none
+CS 470,Python for Data Scientists,Aim of module,"The course will provide data scientists with the knowledge they need to be able to apply Python3 in data science projects. It assumes that students are familiar with another object-pro- gramming language such as Java, C# or C++, but does not as- sume any prior Python knowledge. Topics covered include – •The Python interpreter & programming paradigms •Basic expressions & control flow statements •Functions & scoping •Data structures •Modules •Classes & object-oriented concepts •Errors and exceptions •Testing and debugging •Exploring & visualizing data with Python •Machine learning applied - clustering and classification •Project management & (third-party) software repositories"
+CS 470,Python for Data Scientists,Duration of assessment,120 minutes
+CS 470,Python for Data Scientists,Duration of module,1 semester
+CS 470,Python for Data Scientists,ECTS,6
+CS 470,Python for Data Scientists,Form of assessment,written examination (possibly including a programming test)
+CS 470,Python for Data Scientists,Form of module,Lecture and accompanying tutorial/practical sessions
+CS 470,Python for Data Scientists,Further modules,-
+CS 470,Python for Data Scientists,Language,English
+CS 470,Python for Data Scientists,Learning outcomes and qualification goals,"Expertise: After taking the course, students will be familiar with Python3 and will be able to use it in data science projects"
+CS 470,Python for Data Scientists,Lecturer,Marcus Kessel
+CS 470,Python for Data Scientists,Level,Master
+CS 470,Python for Data Scientists,Literature,"•Introduction to Computation and Programming Using Py- thon, Third Edition (John. V. Guttag), MIT Press •Think Python: How to Think Like a Computer Scientist, 2nd Edition, Allen B. Downey, O`Reilly •The (Official) Python Tutorial"
+CS 470,Python for Data Scientists,Methodological competence: Students will acquire the skills to develop high-quality Python software for data science and other applications,nan
+CS 470,Python for Data Scientists,Methods,"lectures, tutorials/practical sessions, independent study"
+CS 470,Python for Data Scientists,Offering,Spring Semester
+CS 470,Python for Data Scientists,Person in charge,Marcus Kessel
+CS 470,Python for Data Scientists,Personal competence: •ability to work independently •ability to work in a team,nan
+CS 470,Python for Data Scientists,Prerequisites,None
+CS 470,Python for Data Scientists,Range of application,MMDS
+CS 470,Python for Data Scientists,S 470,Python for Data Scientists
+CS 470,Python for Data Scientists,Semester,1st/2nd semester
+CS 470,Python for Data Scientists,Type of module,MMDS Fundamental
+CS 470,Python for Data Scientists,Workload,"Hours per semester present: 56h (4 SWS),Self-study: 84h per semester •28h: pre and post lecture studying and revision •56h: preparation and presentation of tutorial exercises"
 CS 500,Advanced Software Engineering,Admission requirements,"nan,-"
 CS 500,Advanced Software Engineering,Aim of module,"aspects of software systems/components. Key examples,include structural views represented using class diagrams,,operational views expressed using constraint languages and,behavioral views expressed using state diagrams. An,important focus of the course is the use of these views to,define tests and extra-functional properties.,Expertise:,After taking the course, students will be familiar with the latest,state-of-the-art techniques for specifying the externally visible,properties of a software system/component – that is, for"
 CS 500,Advanced Software Engineering,Duration of assessment,90 minutes
@@ -160,6 +264,57 @@ CS 662,Types and Programming Languages,Type of module,Specialization Course
 CS 662,Types and Programming Languages,Workload,"nan,Self-study: 112h"
 CS 662,Types and Programming Languages,for assessment,nan
 CS 662,Types and Programming Languages,qualification goals,"(MF1, MF2, MF3),Personal competence:,• Learn how to read scientific publications about,programming languages,• Teamwork skills,(MK01, MK02)"
+CS 718,AI and Data Science in Fiction and Society,Aim of module,"nan,cal and societal aspects. The present the results orally and in,a written report.,Expertise:,Students will learn about societal effects of AI and data sci-,ence and become aware of potential threats and dangers,,but also of chances of those new technologies.,Methodological competence:,Students will develop methods and skills to find relevant lit-,erature for his/her topic, and to write a well-structured scien-,tific paper and to present his/her results. He/she will be also"
+CS 718,AI and Data Science in Fiction and Society,Duration of Assessment,N/A
+CS 718,AI and Data Science in Fiction and Society,Duration of module,1 semester
+CS 718,AI and Data Science in Fiction and Society,ECTS,4
+CS 718,AI and Data Science in Fiction and Society,Form of Assessment,"Grading of the seminar paper, Peer Review, Presentation"
+CS 718,AI and Data Science in Fiction and Society,Form of Module,Seminar
+CS 718,AI and Data Science in Fiction and Society,Further modules,-
+CS 718,AI and Data Science in Fiction and Society,Language,English
+CS 718,AI and Data Science in Fiction and Society,Learning Outcomes and,"nan,aware of the need to avoid plagiarism.  The key qualification"
+CS 718,AI and Data Science in Fiction and Society,Lecturers,Prof. Dr. Heiko Paulheim and research staff members
+CS 718,AI and Data Science in Fiction and Society,Level,Master
+CS 718,AI and Data Science in Fiction and Society,Literature,A detailed literature list is compiled for each offering.
+CS 718,AI and Data Science in Fiction and Society,Media,Fictional and non-fictional texts
+CS 718,AI and Data Science in Fiction and Society,Methods,professor or a research staff member
+CS 718,AI and Data Science in Fiction and Society,Offering,Fall semester
+CS 718,AI and Data Science in Fiction and Society,Person in charge,Prof. Dr. Heiko Paulheim
+CS 718,AI and Data Science in Fiction and Society,Prerequisites,"Bachelor degree,In this seminar, students analyze and discuss fictional works,in the area of AI and data science with respect to technologi-"
+CS 718,AI and Data Science in Fiction and Society,Qualification Goals,"nan,Scientific Research is highly recommended as a prerequisite,for the seminar.,Personal qualification:,Students will acquire skills on how to find relevant literature,for a research topic, discuss a fictional work using secondary,literature as background material, write a well-structured,,concise paper about it and present the results of their work.,He/she is well prepared to write and present a Master’s The-,sis."
+CS 718,AI and Data Science in Fiction and Society,Range of Application,"MMDS, M. Sc. Wirtschaftsinformatik, Lehramt für Gymnasien"
+CS 718,AI and Data Science in Fiction and Society,Semester,3. Semester
+CS 718,AI and Data Science in Fiction and Society,Teaching and Learning,Do scientific work independently under the guidance of a
+CS 718,AI and Data Science in Fiction and Society,Type of Module,Seminar
+CS 718,AI and Data Science in Fiction and Society,Workload,120 h per semester
+DA 110,Computational Analysis of Communication,A 110,Computational Analysis of Communication
+DA 110,Computational Analysis of Communication,Admission requirements,"nan,Successful participation in 5 out of at least 7 online quizzes"
+DA 110,Computational Analysis of Communication,Admission requirements for assessment,-
+DA 110,Computational Analysis of Communication,Aim of module,"As “big data” and “algorithms” affect our daily communica- tion, new research questions arise at the intersection between societies and technologies. Many of these questions are of greatsocialrelevanceandarethereforeprominentlydis- cussed both by researchers and in the media. One outstand- ing, recent example from the field of media psychology is a ris- ing interest in the association of (social) media use and men- tal-health. Another example, from the realm of political com- munication, is the ongoing debate about the role of new com- munication technologies during political campaigns (e.g., to spread disinformation). Both questions revolve around the process of communication. Sound research in this area thus requires both a solid foundation from communication theory as well as expertise in handling new and “big” data. To close this gap, the growing discipline of Computational Communica- tion Science (CCS) takes on a combinatory perspective be- tween social and computer science. The present course will provide an overview about the current state of CCS and in- tends to motivate students to approach pressing social ques- tions from a different perspective.,nan"
+DA 110,Computational Analysis of Communication,Duration of assessment,"-,90 minutes"
+DA 110,Computational Analysis of Communication,Duration of module,1 semester
+DA 110,Computational Analysis of Communication,ECTS,"6,nan"
+DA 110,Computational Analysis of Communication,Form of assessment,"Written research report,written examination"
+DA 110,Computational Analysis of Communication,Form of module,"Exercise,nan"
+DA 110,Computational Analysis of Communication,Further modules,-
+DA 110,Computational Analysis of Communication,Language,English
+DA 110,Computational Analysis of Communication,Learning outcomes,and
+DA 110,Computational Analysis of Communication,Learning outcomes and qualification goals,"Expertise: After the course the students are aware of the typical research topics and questions in automated media content analyses andthedifferentmethodologicalapproachesfortackling them; they know the different methods’ potentials, limita- tions, and typical fields of application; they are able to develop their own specific research questions and can make an in- formed decision about which method to apply for answering it"
+DA 110,Computational Analysis of Communication,Lecturer,"MKW,nan"
+DA 110,Computational Analysis of Communication,Level,"Master,nan"
+DA 110,Computational Analysis of Communication,Literature,"van Atteveldt, W., Trilling, D., & Arcila, C. (2021). Computa- tional Analysis of Communication: A practical introduction to the analysis of texts, networks, and images with code exam- ples in Python and R. http://cssbook.net/,nan,gether with the syllabus at the beginning of the semester.,The class will generally be conducted as a lecture. However,,some of the sessions will be conducted on an inverted class-,room principle. Students will be able to access the video lec-"
+DA 110,Computational Analysis of Communication,Media,"Exercise sheets and lecture slides are available online,Video tutorials, lectures, online quizzes,Students will receive reading assignments for each unit to-"
+DA 110,Computational Analysis of Communication,Methodological competence: Students are able to independently develop a research ques- tionanddesignintheareaofautomatedmediacontent,"nan,Personal competence: Thecoursesupportsstudentstodevelopproblem-solving competences with regards to research-design oriented ques- tions. By solving exercises independently, the transfer of the learned material to related questions is promoted and self- confidence with regards to research-oriented tasks is gath- ered."
+DA 110,Computational Analysis of Communication,Methods,"Lecture elements, student presentations, weekly exercises, literature studies,nan,tures at the beginning of the semester. The content of these,videos will be discussed along with additional reading in the,individual class sessions."
+DA 110,Computational Analysis of Communication,Offering,"HWS,Prof. Dr. Thomas Fetzer"
+DA 110,Computational Analysis of Communication,Person in charge,"MKW,Prof. Dr. Thomas Fetzer"
+DA 110,Computational Analysis of Communication,Prerequisites,"Basic skills in descriptive and inferential statistics, basic knowledge of data structures and data wrangling procedures, machine learning, web-scraping/web-mining,nan"
+DA 110,Computational Analysis of Communication,Range of application,"M.Sc. Data Science,MMDS"
+DA 110,Computational Analysis of Communication,Semester,"1st/ 2nd/3rdsemester,1st/2nd/3rd semester"
+DA 110,Computational Analysis of Communication,Type of module,"Data Analytics Methods,nan"
+DA 110,Computational Analysis of Communication,Workload,"Hours per semester present: 28 (2 SWS),Self-study: 145h (70h lectures/exercises, 75h research report),nan"
+DA 110,Computational Analysis of Communication,for assessment,nan
+DA 110,Computational Analysis of Communication,qualification goals,"nan,•"
 IE 500,Data Mining I,Admission requirements,"nan,-"
 IE 500,Data Mining I,Aim of module,"The course provides an introduction to advanced data analysis techniques as a basis for analyzing business data and providing input for decision support systems. The course will cover the following topics: •Goals and Principles of Data Mining •Data Representation and Preprocessing •Clustering •Classification •Regression •Association Analysis •Text Mining •SystemsandApplications(e.g.Retail,Finance,Web Analysis)"
 IE 500,Data Mining I,Duration of assessment,60 minutes (written examination)

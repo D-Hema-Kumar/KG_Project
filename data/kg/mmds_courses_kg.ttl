@@ -1,0 +1,866 @@
+@prefix courseKG: <https://www.uni-mannheim.de/en/academics/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prop: <https://www.uni-mannheim.de/en/academics/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+courseKG:course a rdfs:Class .
+
+courseKG:module a rdfs:Class .
+
+courseKG:people a rdfs:Class ;
+    rdfs:subClassOf foaf:Person .
+
+courseKG:programs a rdfs:Class .
+
+<https://www.uni-mannheim.de/en/academics/courses/ac_651_additional_course_%E2%80%93_data_management> a courseKG:course ;
+    prop:aim_of_module "the course falls into the data management area of the mmds and covers topics related to data management, but is not di- rectly equivalent to any course in the mmds module cata- logue. the course level equals a regular course in mmds study program. the module can be taken either at the university of mannheim or at any other university in germany or abroad." ;
+    prop:courseCode "AC 651" ;
+    prop:courseName "Additional Course – Data Management" ;
+    prop:duration_of_module "1 semester" ;
+    prop:ects 18 ;
+    prop:isCourseOf <https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/modules/Data_Management> ;
+    prop:language "E" ;
+    prop:lecturer <https://www.uni-mannheim.de/en/academics/professor/LHU> ;
+    prop:offering "HWS/FSS" ;
+    prop:prerequisites "depends on course" ;
+    prop:range_of_application "mmds" ;
+    prop:semester "2nd/3rd/4th semester,tutorial cross sectional data analy- sis,lecture advanced quantitative methods,tutorial advanced quantitative methods,lecture longitudinal data analysis,tutorial longitudinal data analysis,lecture research design,tutorial research design" ;
+    prop:workload "depends on course" .
+
+<https://www.uni-mannheim.de/en/academics/courses/ac_652_additional_course_%E2%80%93_data_analytics_methods> a courseKG:course ;
+    prop:aim_of_module "the course falls into the data analytics methods area of the mmds and covers topics related to data analytics methods, but is not directly equivalent to any course in the mmds mod- ulecatalogue.thecourselevelequalsaregularcoursein mmds study program. the module can be taken either at the university of mannheim or at any other university in germany or abroad." ;
+    prop:courseCode "AC 652" ;
+    prop:courseName "Additional Course – Data Analytics Methods" ;
+    prop:duration_of_module "1 semester" ;
+    prop:ects 18 ;
+    prop:isCourseOf <https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/modules/Data_Analytics> ;
+    prop:language "E" ;
+    prop:lecturer <https://www.uni-mannheim.de/en/academics/professor/LHU> ;
+    prop:offering "HWS/FSS" ;
+    prop:prerequisites "depends on course" ;
+    prop:range_of_application "mmds" ;
+    prop:semester "2nd/3rd/4th semester" ;
+    prop:workload "depends on course" .
+
+<https://www.uni-mannheim.de/en/academics/courses/cs_450_programming_course> a courseKG:course ;
+    prop:admission_requirements "successful completion and presentation of at least 75% of the" ;
+    prop:aim_of_module "• oo concepts (information hiding, inheritance, polymor-,phism, abstract classes, interfaces),• java api,• exceptions,• io using streams,• java collections,• gui programming,• processing of xml documents,• database access (sql, jdom),expertise:" ;
+    prop:courseCode "CS 450" ;
+    prop:courseName "Programming Course" ;
+    prop:duration_of_assessment "180 minutes" ;
+    prop:duration_of_module "1 semester" ;
+    prop:ects 6 ;
+    prop:form_of_assessment "written examination (programmiertestat)" ;
+    prop:isCourseOf <https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/modules/Fundamentals> ;
+    prop:language "E" ;
+    prop:lecturer <https://www.uni-mannheim.de/en/academics/professor/Ursula_Rost> ;
+    prop:methods "lectures, tutorials, independent study" ;
+    prop:offering "HWS" ;
+    prop:prerequisites "-,the course deals with the basic concepts of (object-oriented),programming using java. in addition, some advanced topics,are covered such as writing gui applications and dealing with,external data (xml, databases):,• primitive data types, variables, operators, expressions,• control flow statements,• complex data types (arrays), references,• classes" ;
+    prop:range_of_application "mmds" ;
+    prop:semester "1st/2nd semester" ;
+    prop:workload "nan,• 28h: pre and post lecture studying and revision,• 56h: preparation and presentation of small software pro-,jects" .
+
+<https://www.uni-mannheim.de/en/academics/courses/cs_460_database_technology> a courseKG:course ;
+    prop:aim_of_module "nan,• relational modeling,• keys and normal forms,• hash and index structures,• transactions and concurrency,expertise:,basic understanding of relational data modeling and database,design, as well as the functionality of relational database man-,agement systems, query handling, and transaction manage-,ment." ;
+    prop:courseCode "CS 460" ;
+    prop:courseName "Database Technology" ;
+    prop:duration_of_assessment "90 minutes (written exam)/30 minutes (oral exam)" ;
+    prop:duration_of_module "1 semester" ;
+    prop:ects 6 ;
+    prop:form_of_assessment "written or oral examination" ;
+    prop:isCourseOf <https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/modules/Fundamentals> ;
+    prop:language "E" ;
+    prop:lecturer <https://www.uni-mannheim.de/en/academics/professor/Heiko_Paulheim> ;
+    prop:offering "FSS" ;
+    prop:prerequisites "-,the course provides an introduction to relational database,systems. the course will cover the following topics:,• principles of data storage,• database query languages (sql)" ;
+    prop:range_of_application "mmds" ;
+    prop:semester "1st/2nd semester" ;
+    prop:workload "self-study per semester: 98 h,• 70 h: pre and post lecture studying and revision,• 28 h: examination preparation" .
+
+<https://www.uni-mannheim.de/en/academics/courses/cs_470_python_for_data_scientists> a courseKG:course ;
+    prop:aim_of_module "the course will provide data scientists with the knowledge they need to be able to apply python3 in data science projects. it assumes that students are familiar with another object-pro- gramming language such as java, c# or c++, but does not as- sume any prior python knowledge. topics covered include – •the python interpreter & programming paradigms •basic expressions & control flow statements •functions & scoping •data structures •modules •classes & object-oriented concepts •errors and exceptions •testing and debugging •exploring & visualizing data with python •machine learning applied - clustering and classification •project management & (third-party) software repositories" ;
+    prop:courseCode "CS 470" ;
+    prop:courseName "Python for Data Scientists" ;
+    prop:duration_of_assessment "120 minutes" ;
+    prop:duration_of_module "1 semester" ;
+    prop:ects 6 ;
+    prop:form_of_assessment "written examination (possibly including a programming test)" ;
+    prop:isCourseOf <https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/modules/Fundamentals> ;
+    prop:language "E" ;
+    prop:lecturer <https://www.uni-mannheim.de/en/academics/professor/Marcus_Kessel> ;
+    prop:methods "lectures, tutorials/practical sessions, independent study" ;
+    prop:offering "FSS" ;
+    prop:prerequisites "none" ;
+    prop:range_of_application "mmds" ;
+    prop:semester "1st/2nd semester" ;
+    prop:workload "hours per semester present: 56h (4 sws),self-study: 84h per semester •28h: pre and post lecture studying and revision •56h: preparation and presentation of tutorial exercises" .
+
+<https://www.uni-mannheim.de/en/academics/courses/cs_500_advanced_software_engineering> a courseKG:course ;
+    prop:admission_requirements "nan,-" ;
+    prop:aim_of_module "aspects of software systems/components. key examples,include structural views represented using class diagrams,,operational views expressed using constraint languages and,behavioral views expressed using state diagrams. an,important focus of the course is the use of these views to,define tests and extra-functional properties.,expertise:,after taking the course, students will be familiar with the latest,state-of-the-art techniques for specifying the externally visible,properties of a software system/component – that is, for" ;
+    prop:courseCode "CS 500" ;
+    prop:courseName "Advanced Software Engineering" ;
+    prop:duration_of_assessment "90 minutes" ;
+    prop:duration_of_module "1 semester" ;
+    prop:ects 6 ;
+    prop:form_of_assessment "written examination" ;
+    prop:isCourseOf <https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/modules/Data_Management> ;
+    prop:language "E" ;
+    prop:lecturer <https://www.uni-mannheim.de/en/academics/professor/Colin_Atkinson> ;
+    prop:methods "lectures, tutorials, independent study" ;
+    prop:offering "HWS" ;
+    prop:prerequisites "-,the course deals with the model-based specification of,software systems and components as well as their verification,,validation and quality assurance. the emphasis is on view-,based specification methods that use multiple views,,expressed in multiple languages, to describe orthogonal" ;
+    prop:range_of_application "nan,lehramt informatik" ;
+    prop:semester "1./ 2. semester" ;
+    prop:workload "• 28h: pre and post lecture studying and revision,• 56h: tutorial exercises,• 28h: directed independent study (reading papers, books,etc.)" .
+
+<https://www.uni-mannheim.de/en/academics/courses/cs_530_database_systems_ii> a courseKG:course ;
+    prop:courseCode "CS 530" ;
+    prop:courseName "Database Systems II" ;
+    prop:ects 6 ;
+    prop:isCourseOf <https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/modules/Data_Management> ;
+    prop:language "E" ;
+    prop:offering "FSS" .
+
+<https://www.uni-mannheim.de/en/academics/courses/cs_530_database_systems_ii_%28dbsii%29> prop:admission_requirements "nan,-" ;
+    prop:aim_of_module "nan,memory databases, data warehouses,expertise: know about advanced database topics" ;
+    prop:duration_of_assessment "90 min" ;
+    prop:duration_of_module "1 semester" ;
+    prop:form_of_assessment "written exam" ;
+    prop:lecturer <https://www.uni-mannheim.de/en/academics/professor/Guido_Moerkotte> ;
+    prop:methods "homeworks. in the lecture the students will learn concepts,which are then applied in the homework." ;
+    prop:prerequisites "nan,c++,adanced database topics, e.g., distributed databases, main" ;
+    prop:workload "nan,self-study: 4 per week,dbs i, computer architecture, algorithm & datastructures," .
+
+<https://www.uni-mannheim.de/en/academics/courses/cs_550_algorithmics> a courseKG:course ;
+    prop:admission_requirements "nan,-" ;
+    prop:aim_of_module "the theory of np-completeness with gives evidence that,certain highly relevant problems do not have efficient,algorithms. during the lecture we will derive algorithms and,complexity-theoretic results for the following computational,problems:,• shortest path problems and shortest round tour problems,• linear optimization problems,• flow problem,• matching problems,• satisfiability problems,• discret linear optimization problems,professional expertise:,important complexity-theoretic,computational problems which are highly relevant in practice.,nan,methodological competence: the students learn to formalize,informally specified computational problems, to analyse their,structure with the goal to design efficient algorithms, to prove,the correctness and,algorithms. moreover," ;
+    prop:courseCode "CS 550" ;
+    prop:courseName "Algorithmics" ;
+    prop:duration_of_assessment "90 minutes" ;
+    prop:duration_of_module "1 semester" ;
+    prop:ects 6 ;
+    prop:form_of_assessment "written examination" ;
+    prop:isCourseOf <https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/modules/Data_Management> ;
+    prop:language "E" ;
+    prop:lecturer <https://www.uni-mannheim.de/en/academics/professor/Matthias_Krause> ;
+    prop:methods "literature, solving exercises at home and in cooperation with,other students at the tutorials" ;
+    prop:offering "FSS/HWS" ;
+    prop:prerequisites "nan,algebra, statistics,the lecture deals with the design and the analysis,algorithms for various practically relevant computational,problems and with methods for analyzing the complexity of,certain problems. in particular, we will learn methods,formalizing discrete optimization problems and designing,algorithms for them on the basis of analyzing the structure of,these problems.,moreover, we will learn techniques for proving the,correctness and estimating the running time of these,algorithms. in the second part of the lecture we will deal with" ;
+    prop:range_of_application "m.sc. wirtschaftsinformatik, m.sc. mannheim master in data science,m.sc.wirtschaftsmathematik,m.sc. wirtschaftspädagogik, lehramt informatik, m.sc. mathematik" ;
+    prop:semester "1./ 2. semester" ;
+    prop:workload "nan,• 28 h per semester for preparation and reworking,lectures/tutorials,• 84 h per semester for the preparation of the exams,practical informatics i, algorithms and data structures, linear" .
+
+<https://www.uni-mannheim.de/en/academics/courses/cs_560_large-scale_data_management> prop:aim_of_module "nan,and system issues; accompanying exercises provide hands-on,experience. topics include:,• parallel and distributed databases,• big data platforms,• nosql, newsql and polystore systems,expertise:,students will acquire knowledge about methods and systems,for managing large datasets and data-intensive computing.,(mk1, mk2),methodological competence:,• be able to judge, select, and use traditional or non-" ;
+    prop:duration_of_assessment "90 minutes" ;
+    prop:duration_of_module "1 semester" ;
+    prop:form_of_assessment "written examination" ;
+    prop:lecturer <https://www.uni-mannheim.de/en/academics/professor/Rainer_Gemulla> ;
+    prop:methods "lecture,weeklyexercise,experimentationwithdifferent systems" ;
+    prop:prerequisites "nan,of algorithms and data structures as well as java programming,this course introduces the fundamental concepts and,computational paradigms of large-scale data management,and big data. this includes methods for storing, updating,,querying, and analyzing large dataset as well as for data-,intensive computing. the course covers concept, algorithms," ;
+    prop:range_of_application "m.sc. wirtschaftsinformatik, m.sc. mannheim master in data science, lehramt informatik" ;
+    prop:semester "1st / 2nd semester" ;
+    prop:workload "self-study per semester: 98 h,• 70 h: pre and post lecture studying and revision,• 28 h: examination preparation,very good knowledge of database systems, good knowledge" .
+
+<https://www.uni-mannheim.de/en/academics/courses/cs_560_large_scale_data_management> a courseKG:course ;
+    prop:courseCode "CS 560" ;
+    prop:courseName "Large Scale Data Management" ;
+    prop:ects 6 ;
+    prop:isCourseOf <https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/modules/Data_Management> ;
+    prop:language "E" ;
+    prop:offering "HWS" .
+
+<https://www.uni-mannheim.de/en/academics/courses/cs_600_model-driven_development> a courseKG:course ;
+    prop:courseCode "CS 600" ;
+    prop:courseName "Model-driven Development" ;
+    prop:ects 6 ;
+    prop:isCourseOf <https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/modules/Data_Management> ;
+    prop:language "E" ;
+    prop:offering "HWS" .
+
+<https://www.uni-mannheim.de/en/academics/courses/cs_600_model_driven_development> prop:admission_requirements "nan,-" ;
+    prop:aim_of_module "• multi-level modeling,• meta-modeling,• ontology engineering versus model engineering,• model transformations,• domain specific language definition and use,• model creation and evolution best practices,• model-driven software development,• model checking and ontology validation,expertise:,students will be familiar with the accepted best practices and" ;
+    prop:duration_of_assessment "90 minutes" ;
+    prop:duration_of_module "1 semester" ;
+    prop:form_of_assessment "written examination" ;
+    prop:lecturer <https://www.uni-mannheim.de/en/academics/professor/Colin_Atkinson> ;
+    prop:methods "lectures, tutorials, independent study" ;
+    prop:prerequisites "advanced software engineering,the course focuses on the principles, practices and tools,involved in advanced model-driven development. this,includes established modelling standard languages (e. g. uml,,atl, ocl) and modelling infrastructures (e. g. mof, emf, etc.),as well as leading edge, state-of-the-art modelling,technologies (e. g. lml, plm . . .). key topics addressed,include:" ;
+    prop:range_of_application "nan,science, lehramt informatik" ;
+    prop:semester "1st/2nd/3rd semester" ;
+    prop:workload "• 28 h: pre and post lecture studying and revision,• 56 h: tutorial exercises,• 28 h: directed independent study (reading papers, books,etc.)" .
+
+<https://www.uni-mannheim.de/en/academics/courses/cs_652_data_security_and_privacy> a courseKG:course ;
+    prop:admission_requirements "nan,-" ;
+    prop:aim_of_module "security threats, e.g., traces left in the internet such as the use,of cookies or browser fingerprinting. in particular, the topic of,privacy preservation will be covered. this includes discussing,different approaches for defining the meaning of privacy but,also possible countermeasures such as anonymization of data,or the use of dedicated encryption schemes.,expertise:,students will acquire the knowledge to identify security and,privacy threats and to select and use appropriate,countermeasures.,(mk2),methodological competence:" ;
+    prop:courseCode "CS 652" ;
+    prop:courseName "Data Security and Privacy" ;
+    prop:duration_of_assessment "90 minutes" ;
+    prop:duration_of_module "1 semester" ;
+    prop:ects 6 ;
+    prop:form_of_assessment "written exam" ;
+    prop:isCourseOf <https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/modules/Responsible_Data_Science> ;
+    prop:language "E" ;
+    prop:lecturer <https://www.uni-mannheim.de/en/academics/professor/Frederik_Armknecht> ;
+    prop:methods "and working together on concrete examples. solving exercises,in self-study and in,students." ;
+    prop:offering "FSS" ;
+    prop:prerequisites "nan,attending the lectures “kryptographie i” or “selected topics,in it-security”,nowadays, users are more and more revealing data to the,outside – either willingly as in the context of data mining or,possibly unconsciously as in the case of the internet of things.,the aim of the module is to raise awareness, in particular with,respect to privacy violations. this is done by showing various" ;
+    prop:range_of_application "m.sc. wirtschaftsinformatik, lehramt informatik,,m.sc. mathematik" ;
+    prop:semester "1st/2nd/3rd semester" ;
+    prop:workload "nan,self-study: 112h,there are no formal prerequisites but knowledge in,cryptography or it-security is recommended, e.g., by" .
+
+<https://www.uni-mannheim.de/en/academics/courses/cs_662_types_and_programming_languages> a courseKG:course ;
+    prop:admission_requirements "nan,students" ;
+    prop:aim_of_module "nan,• static and dynamic semantics of programming,languages,• functional programming,• curry-howard correspondence,• computational logic,• proof assistants,• typed intermediate languages,expertise:,• get acquainted with the aims of the module,(mk1, mk2, mf1, mf3),methodological competence:,• students will get familiar with the jargon used in" ;
+    prop:courseCode "CS 662" ;
+    prop:courseName "Types and Programming Languages" ;
+    prop:duration_of_assessment "90 minutes written exam" ;
+    prop:duration_of_module "1 semester" ;
+    prop:ects 6 ;
+    prop:form_of_assessment "written examination (90 minutes),≥ 50% points in homework assignments in groups of 2-3" ;
+    prop:isCourseOf <https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/modules/Data_Management> ;
+    prop:language "E" ;
+    prop:lecturer <https://www.uni-mannheim.de/en/academics/professor/Roland_Lei%C3%9Fa> ;
+    prop:methods "nan,• weekly exercises/programming projects" ;
+    prop:offering "HWS" ;
+    prop:prerequisites "-,a type system is a syntactic method for enforcing levels of,abstraction in programs. the study of type systems—and of,programming languages from a type-theoretic perspective—,has important applications in software engineering, language,design, high-performance compilers, and security. in this,lecture, we will discuss the following topics:,• lambda calculus" ;
+    prop:range_of_application "nan,data science, lehramt informatik" ;
+    prop:semester "1st/2nd/3rd semester" ;
+    prop:workload "nan,self-study: 112h" .
+
+<https://www.uni-mannheim.de/en/academics/courses/cs_718_ai_and_data_science_in_fiction_and_society> a courseKG:course ;
+    prop:aim_of_module "nan,cal and societal aspects. the present the results orally and in,a written report.,expertise:,students will learn about societal effects of ai and data sci-,ence and become aware of potential threats and dangers,,but also of chances of those new technologies.,methodological competence:,students will develop methods and skills to find relevant lit-,erature for his/her topic, and to write a well-structured scien-,tific paper and to present his/her results. he/she will be also" ;
+    prop:courseCode "CS 718" ;
+    prop:courseName "AI and Data Science in Fiction and Society" ;
+    prop:duration_of_module "1 semester" ;
+    prop:ects 4 ;
+    prop:isCourseOf <https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/modules/Responsible_Data_Science> ;
+    prop:language "E" ;
+    prop:methods "professor or a research staff member" ;
+    prop:offering "HWS" ;
+    prop:prerequisites "bachelor degree,in this seminar, students analyze and discuss fictional works,in the area of ai and data science with respect to technologi-" ;
+    prop:semester "3. semester" ;
+    prop:workload "120 h per semester" .
+
+<https://www.uni-mannheim.de/en/academics/courses/da_110_computational_analysis_of_communication> a courseKG:course ;
+    prop:admission_requirements "nan,successful participation in 5 out of at least 7 online quizzes" ;
+    prop:aim_of_module "as “big data” and “algorithms” affect our daily communica- tion, new research questions arise at the intersection between societies and technologies. many of these questions are of greatsocialrelevanceandarethereforeprominentlydis- cussed both by researchers and in the media. one outstand- ing, recent example from the field of media psychology is a ris- ing interest in the association of (social) media use and men- tal-health. another example, from the realm of political com- munication, is the ongoing debate about the role of new com- munication technologies during political campaigns (e.g., to spread disinformation). both questions revolve around the process of communication. sound research in this area thus requires both a solid foundation from communication theory as well as expertise in handling new and “big” data. to close this gap, the growing discipline of computational communica- tion science (ccs) takes on a combinatory perspective be- tween social and computer science. the present course will provide an overview about the current state of ccs and in- tends to motivate students to approach pressing social ques- tions from a different perspective.,nan" ;
+    prop:courseCode "DA 110" ;
+    prop:courseName "Computational Analysis of Communication" ;
+    prop:duration_of_assessment "-,90 minutes" ;
+    prop:duration_of_module "1 semester" ;
+    prop:ects 6 ;
+    prop:form_of_assessment "written research report,written examination" ;
+    prop:isCourseOf <https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/modules/Data_Analytics> ;
+    prop:language "E" ;
+    prop:lecturer <https://www.uni-mannheim.de/en/academics/professor/MKW> ;
+    prop:methods "lecture elements, student presentations, weekly exercises, literature studies,nan,tures at the beginning of the semester. the content of these,videos will be discussed along with additional reading in the,individual class sessions." ;
+    prop:offering "HWS" ;
+    prop:prerequisites "basic skills in descriptive and inferential statistics, basic knowledge of data structures and data wrangling procedures, machine learning, web-scraping/web-mining,nan" ;
+    prop:range_of_application "m.sc. data science,mmds" ;
+    prop:semester "1st/ 2nd/3rdsemester,1st/2nd/3rd semester" ;
+    prop:workload "hours per semester present: 28 (2 sws),self-study: 145h (70h lectures/exercises, 75h research report),nan" .
+
+<https://www.uni-mannheim.de/en/academics/courses/ie_500_data_mining_i> a courseKG:course ;
+    prop:admission_requirements "nan,-" ;
+    prop:aim_of_module "the course provides an introduction to advanced data analysis techniques as a basis for analyzing business data and providing input for decision support systems. the course will cover the following topics: •goals and principles of data mining •data representation and preprocessing •clustering •classification •regression •association analysis •text mining •systemsandapplications(e.g.retail,finance,web analysis)" ;
+    prop:courseCode "IE 500" ;
+    prop:courseName "Data Mining I" ;
+    prop:duration_of_assessment "60 minutes (written examination)" ;
+    prop:duration_of_module "1 semester,ie 672 – data mining ii, ie 671 – web mining," ;
+    prop:ects 6 ;
+    prop:form_of_assessment "nan,presentation (5%)" ;
+    prop:isCourseOf <https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/modules/Data_Analytics> ;
+    prop:language "E" ;
+    prop:lecturer <https://www.uni-mannheim.de/en/academics/professor/Christian_Bizer>,
+        <https://www.uni-mannheim.de/en/academics/professor/Heiko_Paulheim> ;
+    prop:methods "sets. the team projects take place in the last third of the term.,within the projects, students realize more sophisticated data,mining projects of personal,results of their projects in the form of a written report as well,as an oral presentation.,written examination (75%), project report (20%), oral project" ;
+    prop:offering "HWS/FSS" ;
+    prop:prerequisites "foundations of statistics, practical informatics i" ;
+    prop:range_of_application "nan,science, lehramt informatik" ;
+    prop:semester "1st/2nd semester" ;
+    prop:workload "hours per semester: 56 h (4 sws),self-study per semester: 98 h •70 h: pre and post lecture studying and revision •28 h: examination preparation" .
+
+<https://www.uni-mannheim.de/en/academics/courses/ie_560_decision_support> a courseKG:course ;
+    prop:aim_of_module "thecourseprovidesanintroductiontodecisionsupport techniquesasabasisforthedesignofdecisionsupport systems. the course will cover the following topics: •decision theory •decision- and business rules •probabilistic graphical models •game theory and mechanism design" ;
+    prop:courseCode "IE 560" ;
+    prop:courseName "Decision Support" ;
+    prop:duration_of_assessment "written examina: 45+45 minutes" ;
+    prop:duration_of_module "1 semester" ;
+    prop:ects 6 ;
+    prop:form_of_assessment "written exam" ;
+    prop:isCourseOf <https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/modules/Data_Analytics> ;
+    prop:language "E" ;
+    prop:lecturer <https://www.uni-mannheim.de/en/academics/professor/Heiner_Stuckenschmidt> ;
+    prop:methods "the course consists of a lecture accompanied by practical homework and case studies. in the lecture, the students basic concepts and methods of decision theory will be explained both in theory and using concrete examples. the students will" ;
+    prop:offering "HWS" ;
+    prop:prerequisites "basic probability theory, basic knowledge of propositional and first-order logic" ;
+    prop:range_of_application "m.sc. wirtschaftsinformatik, m.sc. mannheim master in data science," ;
+    prop:semester "1st/2nd semester" ;
+    prop:workload "hours per semester: 28 h (2 sws),self-study per semester: 152 h •96 h: pre- and post lecture studying and revision •56 h: exam preparation" .
+
+<https://www.uni-mannheim.de/en/academics/courses/ie_630_query_optimization> a courseKG:course ;
+    prop:admission_requirements "nan,-" ;
+    prop:aim_of_module "nan,plan generator.,expertise: know basic plan generation concepts" ;
+    prop:courseCode "IE 630" ;
+    prop:courseName "Query Optimization" ;
+    prop:duration_of_assessment "30 minutes" ;
+    prop:ects 6 ;
+    prop:form_of_assessment "oral exam" ;
+    prop:isCourseOf <https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/modules/Data_Management> ;
+    prop:language "E" ;
+    prop:lecturer <https://www.uni-mannheim.de/en/academics/professor/Guido_Moerkotte> ;
+    prop:methods "nan,implement." ;
+    prop:offering "FSS" ;
+    prop:prerequisites "dbsi, algorithms & datastructures, c++,the lecture introduces basic concepts needed to implement a" ;
+    prop:range_of_application "m.sc. wirtschaftsinformatik, mmds" ;
+    prop:semester "1st / 2nd / 3rd semester" ;
+    prop:workload "nan,self-study: 4h per week" .
+
+<https://www.uni-mannheim.de/en/academics/courses/ie_650_knowledge_graphs> a courseKG:course ;
+    prop:admission_requirements "nan,project report and oral presentation" ;
+    prop:aim_of_module "nan,• knowledge modeling and ontologies,• logical reasoning with knowledge graphs,• machine learning with knowledge graphs and knowledge,graph embeddings,expertise:,the participants of this course learn about principles and,applications of knowledge graphs. they become familiar with,their technical foundations such as representation and query,languages, or logical inference. after taking this course, the,students will be aware of the problems and benefits of,knowledge graph technologies in the context of tasks such as,knowledge management, information search and data" ;
+    prop:courseCode "IE 650" ;
+    prop:courseName "Knowledge Graphs" ;
+    prop:duration_of_assessment "60 minutes" ;
+    prop:duration_of_module "1 semester" ;
+    prop:ects 6 ;
+    prop:form_of_assessment "written examination" ;
+    prop:isCourseOf <https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/modules/Data_Management> ;
+    prop:language "E" ;
+    prop:lecturer <https://www.uni-mannheim.de/en/academics/professor/Heiko_Paulheim> ;
+    prop:methods "subsequently present,besides the excercises,,references to relevant course materials and recommended,readings will be given by the lecturer. the lecturer as well as,the tutors offer individual,participants of the course." ;
+    prop:offering "HWS" ;
+    prop:prerequisites "java or python programming skills,• the role of knowledge graphs in the ai landscape,• semantic web and its representation languages,• labeled property graphs,• query languages for knowledge graphs" ;
+    prop:range_of_application "nan,science, lehramt informatik" ;
+    prop:semester "1st/2nd/3rd semester" ;
+    prop:workload "self-study: 124 h per semester,• 82 h: pre and post lecture studying and revision,• 42 h: examination preparation" .
+
+<https://www.uni-mannheim.de/en/academics/courses/ie_661_text_analytics> a courseKG:course ;
+    prop:aim_of_module "nan,state-of-the-art principles and methods of natural language,processing (nlp). the main focus will be on statistical,techniques, and their application to a wide variety of,problems. this is because statistics and nlp are nowadays,highly intertwined, since many nlp problems can be,formulated as problems of statistical inference, and statistical,methods, in turn, represent de-facto the standard way to solve,many, if not the majority, of nlp problems.,expertise:,students will acquire knowledge of state-of-the-art principles,and methods of natural language processing, with a specific,focus on the application of statistical methods to human" ;
+    prop:courseCode "IE 661" ;
+    prop:courseName "Text Analytics" ;
+    prop:duration_of_assessment "90 minutes" ;
+    prop:duration_of_module "1 semester" ;
+    prop:ects 6 ;
+    prop:form_of_assessment "written examination" ;
+    prop:isCourseOf <https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/modules/Data_Analytics> ;
+    prop:language "E" ;
+    prop:lecturer <https://www.uni-mannheim.de/en/academics/professor/Markus_Strohmaier> ;
+    prop:methods "lectures, tutorials" ;
+    prop:offering "HWS" ;
+    prop:prerequisites "fundamental notions of linear algebra and probability theory.,in the digital age, techniques to automatically process textual,content have become ubiquitous. given the breakneck speed,at which people produce and consume textual content online,– e.g., on micro-blogging and other collaborative web,platforms like wikis, forums, etc. – there is an ever-increasing,need for systems that automatically understand human,language, answer natural language questions, translate text,,and so on. this class will provide a complete introduction to" ;
+    prop:range_of_application "m.sc. wirtschaftsinformatik, msc. mannheim master in data science, lehramt informatik, m. sc. medien- und kommunikationswissenschaft, phd volkswirtschaftslehre" ;
+    prop:semester "1st/2nd/3rd semester" ;
+    prop:workload "self-study: 112 h per semester,• 84 h: pre and post lecture studying and revision,• 28 h: examination preparation" .
+
+<https://www.uni-mannheim.de/en/academics/courses/ie_663_information_retrieval_and_web_search> a courseKG:course ;
+    prop:admission_requirements "nan,-" ;
+    prop:aim_of_module "given the vastness and richness of the web, users need high- performing,scalableandefficientmethodstoaccessits wealth of information and satisfy their information needs. as such, being able to search and effectively retrieve relevant pieces of information from large text collections is a crucial task for the majority (if practically not all) of web applications. in this course, we will explore a variety of basic and advanced techniquesfortext-basedinformationretrievalandweb search. covered topics will include: •efficient text indexing; •boolean and vector space retrieval models; •probabilistic and semantic ad-hoc retrieval; •evaluation of retrieval systems; •text classification and clustering; •web search, crawling and link-based algorithms. thiscourseprovidestheoreticalinformationretrieval foundations. as such is highly to be attended together with the course information retrieval project (ie 691)." ;
+    prop:courseCode "IE 663" ;
+    prop:courseName "Information Retrieval and Web Search" ;
+    prop:duration_of_assessment "90 minutes" ;
+    prop:duration_of_module "1 semester" ;
+    prop:ects 3 ;
+    prop:form_of_assessment "written examination" ;
+    prop:isCourseOf <https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/modules/Data_Management> ;
+    prop:language "E" ;
+    prop:lecturer <https://www.uni-mannheim.de/en/academics/professor/Simone_Ponzetto> ;
+    prop:methods "techniques and models,,students are demonstrated,examples how theoretically introduced models work." ;
+    prop:offering "HWS" ;
+    prop:prerequisites "fundamental notions of linear algebra, probability theory, as well as algorithms and data structures" ;
+    prop:range_of_application "nan,science, lehramt informatik" ;
+    prop:semester "1st/2nd/3rd semester" ;
+    prop:workload "hours per semester present: 28h (2sws),self-study: 60h per semester •pre- and post- lecture studying and preparation (30h) •examination preparation (30h)" .
+
+<https://www.uni-mannheim.de/en/academics/courses/ie_670_web_data_integration> a courseKG:course ;
+    prop:aim_of_module "dataintegrationisoneofthekeychallengesinmostit projects and it is estimated that data scientists spend about 80% of their time on data integration. within the enterprise context, data integration problems arise whenever data from separate sources needs to be combined as the basis for new applications or data analysis projects. within the context of the web, data integration techniques form the foundation for taking advantage of the ever growing number of publicly- accessible data sources. the course will cover the following topics:  1.    heterogeneity and distributedness 2.    the data integration process 3.    structured data on the web 4.    data exchange formats 5.    schema mapping and data translation 6.    identity resolution 7.    data quality assessment 8.    data fusion  itishighlyrecommendedtoattendthecoursewebdata integration project in the same semester as this course as the schedules of both courses are aligned to each other." ;
+    prop:courseCode "IE 670" ;
+    prop:courseName "Web Data Integration" ;
+    prop:duration_of_assessment "60 minutes" ;
+    prop:duration_of_module "1 semester" ;
+    prop:ects 3 ;
+    prop:form_of_assessment "written examination" ;
+    prop:isCourseOf <https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/modules/Data_Management> ;
+    prop:language "E" ;
+    prop:lecturer <https://www.uni-mannheim.de/en/academics/professor/Christian_Bizer> ;
+    prop:methods "the course consists of a lecture that introduces students to state of the art data integration techniques." ;
+    prop:offering "HWS" ;
+    prop:prerequisites "-" ;
+    prop:range_of_application "m.sc. wirtschaftsinformatik, m.sc. mannheim master in data science, lehramt informatik" ;
+    prop:semester "1st/2nd/3rd semester" .
+
+<https://www.uni-mannheim.de/en/academics/courses/ie_671_web_mining> a courseKG:course ;
+    prop:aim_of_module "structuredandunstructureddataavailableontheweb provideuswithagoldmineofinformationthathasthe potential to enable cutting-edge intelligent applications.  this class covers a variety of topics focused on mining techniques forwebdata,includingextractingknowledgefromweb content (web content mining), the link structure of the web (web structure mining), as well as mining usage data gathered by web applications (web usage mining).  note: it is highly recommended to attend the module “web mining project” in the same semester since the schedule and topics of both modules are aligned." ;
+    prop:courseCode "IE 671" ;
+    prop:courseName "Web Mining" ;
+    prop:duration_of_assessment "60 minutes" ;
+    prop:duration_of_module "1 semester" ;
+    prop:ects 3 ;
+    prop:form_of_assessment "written examination" ;
+    prop:isCourseOf <https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/modules/Data_Analytics> ;
+    prop:language "E" ;
+    prop:lecturer <https://www.uni-mannheim.de/en/academics/professor/Christian_Bizer> ;
+    prop:methods "the course consists of a lecture together with accompanying practical exercises as well as student team projects. in the exercisestheparticipantswillgatherinitialexpertisein applying state of the art web mining tools." ;
+    prop:offering "FSS" ;
+    prop:prerequisites "ie 500 data mining i (recommended). fundamental notions of linear algebra and probability theory." ;
+    prop:range_of_application "m.sc. wirtschaftsinformatik, m.sc. mannheim master in data science, lehramt informatik" ;
+    prop:semester "1st/2nd/3rd semester" ;
+    prop:workload "hours per semester: 28 h (2 sws),self-study: 56 h per semester •31 h: pre and post lecture studying and revision •25 h: examination and presentation preparation" .
+
+<https://www.uni-mannheim.de/en/academics/courses/ie_672_data_mining_ii> a courseKG:course ;
+    prop:admission_requirements "nan,project report and oral presentation" ;
+    prop:aim_of_module "• data preprocessing,• dimensionality reduction,• anomaly detection,• time series analysis,• parameter tuning,• ensemble learning,expertise:,students will acquire knowledge of advanced techniques and,applications of data mining.,(mk2, mf1,mf3),methodological competence:,• successful participants will be able to address advanced" ;
+    prop:courseCode "IE 672" ;
+    prop:courseName "Data Mining II" ;
+    prop:duration_of_assessment "60 minutes" ;
+    prop:duration_of_module "1 semester" ;
+    prop:ects 6 ;
+    prop:form_of_assessment "written examination" ;
+    prop:isCourseOf <https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/modules/Data_Analytics> ;
+    prop:language "E" ;
+    prop:lecturer <https://www.uni-mannheim.de/en/academics/professor/Heiko_Paulheim> ;
+    prop:methods "nan,projects, which take place in the last third of the term, the,students work on an advanced data mining task, which is,provided by the annual data mining cup and/or the course,organizers." ;
+    prop:offering "FSS" ;
+    prop:prerequisites "knowledge in data mining, programming skills in java,data mining deals with the discovery of patterns in data, and,with making predictions for the future, based on observations,of the past. this course covers advanced issues in data mining,which need to be addressed when applying data mining,methods in real world projects, including:" ;
+    prop:range_of_application "nan,science, lehramt informatik" ;
+    prop:semester "1st/2nd/3rd semester" ;
+    prop:workload "self-study: 112 h per semester,• 56 h: pre and post lecture studying and revision,• 56 h: examination and presentation preparation" .
+
+<https://www.uni-mannheim.de/en/academics/courses/ie_675b_machine_learning> a courseKG:course ;
+    prop:admission_requirements "nan,homework assignments (pass at least 3 assignments)" ;
+    prop:aim_of_module "machine learning is concerned with building computer systems that improve with experience as well as the study of learning processes, including the design of algorithms that are able to make predictions or extract knowledge from data. the aim of this module is to provide an introduction into the field of machine learning, and study algorithms, underlying concepts, and theoretical principles. •basics of machine learning and probability theory •inference and prediction •selected classification and regression models •latent linear models •mixture models and em •kernel methods" ;
+    prop:courseCode "IE 675b" ;
+    prop:courseName "Machine Learning" ;
+    prop:duration_of_assessment "90 minutes" ;
+    prop:duration_of_module "1 semester" ;
+    prop:ects 9 ;
+    prop:form_of_assessment "written examination" ;
+    prop:isCourseOf <https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/modules/Data_Analytics> ;
+    prop:language "E" ;
+    prop:lecturer <https://www.uni-mannheim.de/en/academics/professor/Rainer_Gemulla> ;
+    prop:methods "in the exercises, students will deepen the material discussed,in the lecture, apply the methods in practice, and present the,result." ;
+    prop:offering "HWS" ;
+    prop:prerequisites "ie 500 data mining i (recommended), knowledge of probability and statistics; no attempted or completed exam in ie 675" ;
+    prop:range_of_application "nan,science (examination regulation from 10.12.2019)" ;
+    prop:semester "1st/2nd/3rd semester" ;
+    prop:workload "hours per semester: 70h (5 sws),assignments: 60h,self-study per semester: 100 h •70 h: pre- and post-lecture studying and revision •30 h: exam preparation" .
+
+<https://www.uni-mannheim.de/en/academics/courses/ie_676_network_analysis_replaced_by_is_622_%28fss%29> a courseKG:course ;
+    prop:admission_requirements "nan,successful completion of the programming exercises;" ;
+    prop:aim_of_module "participantswilllearnaboutthestructure,formationand processesthattakeplaceovernetworkssuchassocial networks, the web, financial networks, etc. they will learn basic concepts, measures and algorithms for analyzing such structures with a particular focus on the interpretation of the results and their implication in real-life situations." ;
+    prop:courseCode "IE 676" ;
+    prop:courseName "Network Analysis replaced by IS 622 (FSS)" ;
+    prop:duration_of_assessment "90 minutes" ;
+    prop:duration_of_module "1 semester" ;
+    prop:ects 6 ;
+    prop:form_of_assessment "written examination" ;
+    prop:isCourseOf <https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/modules/Data_Analytics> ;
+    prop:language "E" ;
+    prop:lecturer <https://www.uni-mannheim.de/en/academics/professor/Heiner_Stuckenschmidt> ;
+    prop:methods "nan,independent study" ;
+    prop:offering "HWS" ;
+    prop:prerequisites "recommended knowledge: •basic linear algebra •basic computer programming •basic probabilities" ;
+    prop:range_of_application "nan,science" ;
+    prop:semester "2.-4." ;
+    prop:workload "hours per semester present: 28h + 46 h (2 + 2 sws),self-study: 112 h per semester" .
+
+<https://www.uni-mannheim.de/en/academics/courses/ie_678_deep_learning> a courseKG:course ;
+    prop:admission_requirements "nan,homework assignments (pass at least 2 assignments)" ;
+    prop:aim_of_module "applications. tentative topics include:,• feedforward neural networks,• training deep learning models,• recurrent neural networks,• convolutional neural networks,• attention and self-attention,• deep learning for graphs,• deep generative modelling,• hyperparameter optimization,expertise:,deep understanding of fundamental concepts, models, and,algorithms of deep learning,(mk1, mf1),methodological competence:" ;
+    prop:courseCode "IE 678" ;
+    prop:courseName "Deep Learning" ;
+    prop:duration_of_assessment "25 minutes" ;
+    prop:duration_of_module "1 semester" ;
+    prop:ects 6 ;
+    prop:form_of_assessment "oral examination" ;
+    prop:isCourseOf <https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/modules/Data_Analytics> ;
+    prop:language "E" ;
+    prop:lecturer <https://www.uni-mannheim.de/en/academics/professor/Rainer_Gemulla> ;
+    prop:methods "in the exercises, students will deepen the material discussed,in the lecture, apply the methods in practice, and present the,result." ;
+    prop:offering "FSS" ;
+    prop:prerequisites "nan,must have been started in ie 674,machine learning is concerned with building computer,systems that improve with experience as well as the study of,learning processes, including the design of algorithms that,are able to make predictions or extract knowledge from data.,building upon ie 675b machine learning, this course focuses,on deep learning and introduces basic and advanced deep,learning architectures and techniques, training methods and,hyperparameter optimization, as well as selected" ;
+    prop:range_of_application "nan,science" ;
+    prop:semester "2nd/3rd semester" ;
+    prop:workload "self-study per semester: 98 h,• 70 h: pre- and post-lecture studying and revision,• 28 h: exam preparation,ie 675b machine learning or equivalent, no exam procedure" .
+
+<https://www.uni-mannheim.de/en/academics/courses/ie_683_web_data_integration_project> a courseKG:course ;
+    prop:aim_of_module "nan,data fusion.,it is highly recommended to attend the web data integration,lecture in the same semester as the web data integration,project as the schedules of both courses are aligned to each,other.,expertise:,students will be able to identify opportunities for employing,web data in business applications and will learn to apply,appropriate techniques for integrating and cleansing web,data.,(mk1, mf1),methodological competence:" ;
+    prop:courseCode "IE 683" ;
+    prop:courseName "Web Data Integration Project" ;
+    prop:duration_of_assessment "-" ;
+    prop:duration_of_module "1 semester" ;
+    prop:ects 3 ;
+    prop:form_of_assessment "project report (70%), oral project presentation (30%)" ;
+    prop:isCourseOf <https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/modules/Data_Management> ;
+    prop:language "E" ;
+    prop:lecturer <https://www.uni-mannheim.de/en/academics/professor/Christian_Bizer> ;
+    prop:methods "students work on their integration projects in teams and will report about the results of their projects in the form of a written report as well as an oral presentation." ;
+    prop:offering "HWS" ;
+    prop:prerequisites "programming skills in java,the web data integration project allows students to apply the,methods and techniques that they have learned in the lecture,web data integration in the context of a practical integration,project. the projects cover all steps of the data integration,process including data gathering, schema mapping, data,translation, identity resolution, data quality assessment, and" ;
+    prop:range_of_application "m.sc. wirtschaftsinformatik, mannheim master in data science lehramt informatik" ;
+    prop:semester "1. /2. /3. semester" ;
+    prop:workload "self-study: 56 h per semester,• 36 h: project work,• 20 h: report writing and presentation preparation" .
+
+<https://www.uni-mannheim.de/en/academics/courses/ie_684_web_mining_project> a courseKG:course ;
+    prop:admission_requirements "nan,-" ;
+    prop:aim_of_module "structure mining.,nan,note: it is highly recommended to attend the module ie 671,“web mining” in the same semester since the schedule and,topics of both modules are aligned.,expertise: students will be able to identify opportunities for,employing web mining techniques in business applications,and will learn to apply appropriate techniques for mining web,data.,(mk1, mf1),methodological competence:" ;
+    prop:courseCode "IE 684" ;
+    prop:courseName "Web Mining Project" ;
+    prop:duration_of_assessment "-" ;
+    prop:duration_of_module "1 semester" ;
+    prop:ects 3 ;
+    prop:form_of_assessment "project report (70%), oral project presentation (30%)" ;
+    prop:isCourseOf <https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/modules/Data_Analytics> ;
+    prop:language "E" ;
+    prop:lecturer <https://www.uni-mannheim.de/en/academics/professor/Christian_Bizer> ;
+    prop:methods "the results of their projects in the form of a written report as,well as an oral presentation." ;
+    prop:offering "FSS" ;
+    prop:prerequisites "nan,(recommended).,the web mining project allows students to apply the methods,and techniques that they have learned in the lecture web,mining in the context of a practical integration project. the,projects can cover any of the topic of web usage, content or" ;
+    prop:range_of_application "science,lehramt informatik" ;
+    prop:semester "1. /2. /3. semester" ;
+    prop:workload "self-study: 56 h per semester,• 36 h: project work,• 20 h: report writing and presentation preparation,programming skills in java or python. ie 671 web mining" .
+
+<https://www.uni-mannheim.de/en/academics/courses/ie_691_information_retrieval_project> a courseKG:course ;
+    prop:admission_requirements "nan,-" ;
+    prop:aim_of_module "students are expected to successfully complete a team project in teams of 2-4 members. the projects will focus on a variety of ir problems and implementation of ir models theoretically covered in the course information retrieval and web search (ie 663). it is thus highly recommended to attend this course together with the course ie 663. project deliverables include both software (i.e., code and documentation) and a short report explaining the work performed and its evaluation. the students are expected to clearly and coherently present the project results." ;
+    prop:courseCode "IE 691" ;
+    prop:courseName "Information Retrieval Project" ;
+    prop:duration_of_assessment "-" ;
+    prop:duration_of_module "1 semester" ;
+    prop:ects 3 ;
+    prop:form_of_assessment "• written project report (30%),• oral project presentation (10%)" ;
+    prop:isCourseOf <https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/modules/Data_Management> ;
+    prop:language "E" ;
+    prop:lecturer <https://www.uni-mannheim.de/en/academics/professor/Simone_Ponzetto> ;
+    prop:methods "work in teams, implement the programmatic solutions to the,tasks, organize their knowledge,report, and present the obtained results.,• software, code and documentation (60%)" ;
+    prop:offering "HWS" ;
+    prop:prerequisites "programming skills (preferably in one of the higher-level programming languages: java/python/c#/c++)." ;
+    prop:range_of_application "nan,science, lehramt informatik" ;
+    prop:semester "1st/2nd/3rd semester" ;
+    prop:workload "hours per semester present: 28h (2sws),self-study: 60h per semester •project work (45h) •report and presentation preparation (15h)" .
+
+<https://www.uni-mannheim.de/en/academics/courses/ie_692_advanced_process_mining> a courseKG:course ;
+    prop:aim_of_module "nan,and data perspectives of a process,• predictive monitoring, which aims to make predictions,about ongoing process instances,• techniques to preprocess, abstract, cluster event data for,improved analyses,for the above subjects, the course will cover fundamental,algorithms as well as advanced, state-of-the-art techniques.,during the exercises that follow each lecture, you will,practice through pen-and-paper exercises, as well as,implementation and evaluation using open source process,mining tools and libraries.,• the lectures and exercises are complemented by a,practical assignment in which students will work in" ;
+    prop:courseCode "IE 692" ;
+    prop:courseName "Advanced Process Mining" ;
+    prop:duration_of_assessment "the exam will take 60 minutes, the assignment will be spread over various weeks with a single deadline towards the end of the semester." ;
+    prop:duration_of_module "1 semester" ;
+    prop:ects 6 ;
+    prop:form_of_assessment "80% written exam 20% group assignment" ;
+    prop:isCourseOf <https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/modules/Data_Analytics> ;
+    prop:language "E" ;
+    prop:offering "FSS" ;
+    prop:prerequisites "bpmn for process modeling, and being able to do basic,programming in python. is 515 or having experience with,process mining are not prerequisites.,process mining is an emerging branch of data science that,aims at deriving qualitative and quantitative insights on the,execution of organizational processes, based on the analysis,of recorded event sequences.,the course features lectures and exercises that focus on the,formal foundations, algorithms, and techniques of process,mining. specifically, this course covers aspects such as:,• process discovery, which aims to derive a process model,from recorded events,• conformance checking, which aims to identify deviations,between event data and process models,• process enhancement, which aims to augment process,models with information on the temporal, organizational," ;
+    prop:semester "2nd semester" ;
+    prop:workload "you are expected to be familiar with the use of petri nets and" .
+
+<https://www.uni-mannheim.de/en/academics/courses/ie_694_artificial_intelligence_applications_in_industry> a courseKG:course ;
+    prop:admission_requirements "nan,n/a" ;
+    prop:aim_of_module "participants will learn about the use of artificial intelligence methods,mostlyfromthefieldofmachinelearningin differentsectorsandindustries.theywilllearnabout applicationareasintheprimary,secondaryandtertiary sector, get an introduction to examples of such applications that have been published on a scientific level and gather some experience in working with data from the respective fields using publically available datasets." ;
+    prop:courseCode "IE 694" ;
+    prop:courseName "Artificial Intelligence Applications in Industry" ;
+    prop:duration_of_assessment "-" ;
+    prop:duration_of_module "1 semester" ;
+    prop:ects 6 ;
+    prop:form_of_assessment "learning portfolio" ;
+    prop:isCourseOf <https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/modules/Data_Analytics> ;
+    prop:language "E" ;
+    prop:lecturer <https://www.uni-mannheim.de/en/academics/professor/Heiner_Stuckenschmidt> ;
+    prop:offering "FSS" ;
+    prop:prerequisites "recommended knowledge: •machine learning concepts and techniques •programming in python" ;
+    prop:range_of_application "nan,science" ;
+    prop:semester "2.-4." ;
+    prop:workload "hours per semester present: 56 h (2 + 2  sws),self-study: 124 h per semester including the creation of a learning portfolio" .
+
+<https://www.uni-mannheim.de/en/academics/courses/ie_696_advanced_methods_in_text_analytics> a courseKG:course ;
+    prop:aim_of_module "nan,present a variety of “deep learning” architectures for,different applications in human language technology (e.g.,,summarization, dialogue systems and machine translation).,moreover, we will cover open areas of research such as the,explainability and interpretability of nlp models and methods,to quantify the degree of bias that they exhibit.,expertise:,students will acquire knowledge of state-of-the-art principles,and methods of natural language processing, with a specific,focus on the application of statistical methods to human,language technologies.,(mk1, mk2, mf3)" ;
+    prop:courseCode "IE 696" ;
+    prop:courseName "Advanced Methods in Text Analytics" ;
+    prop:duration_of_assessment "90 minutes" ;
+    prop:duration_of_module "1 semester" ;
+    prop:ects 6 ;
+    prop:form_of_assessment "written examination" ;
+    prop:isCourseOf <https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/modules/Data_Analytics> ;
+    prop:language "E" ;
+    prop:lecturer <https://www.uni-mannheim.de/en/academics/professor/Simone_Ponzetto> ;
+    prop:methods "lectures, tutorials" ;
+    prop:offering "FSS" ;
+    prop:prerequisites "nan,successful completion of “text analytics” (ie661),this module builds upon the introduction to methods and,applications of natural language processing (nlp) from “text,analytics” (ie661) in order to introduce students to cutting-,edge problems, techniques and state-of-the-art methods in,nlp. the course will focus on neural models of meaning in,context (e.g., neural language models and topic models) and" ;
+    prop:range_of_application "m.sc. wirtschaftsinformatik, msc. mannheim master in data science, lehramt informatik, m. sc. medien- und kommunikationswissenschaft, phd volkswirtschaftslehre" ;
+    prop:semester "1st/2nd/3rd semester" ;
+    prop:workload "self-study: 112 h per semester,• 84 h: pre and post lecture studying and revision,• 28 h: examination preparation,fundamental notions of linear algebra and probability theory." .
+
+<https://www.uni-mannheim.de/en/academics/courses/is_540_management_of_enterprise_systems> a courseKG:course ;
+    prop:courseCode "IS 540" ;
+    prop:courseName "Management of Enterprise Systems" ;
+    prop:ects 6 ;
+    prop:isCourseOf <https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/modules/Data_Management> ;
+    prop:language "E" ;
+    prop:offering "HWS" .
+
+<https://www.uni-mannheim.de/en/academics/courses/is_556_public_blockchains> a courseKG:course ;
+    prop:courseCode "IS 556" ;
+    prop:courseName "Public Blockchains" ;
+    prop:ects 3 ;
+    prop:isCourseOf <https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/modules/Data_Management> ;
+    prop:language "E" ;
+    prop:offering "FSS" .
+
+<https://www.uni-mannheim.de/en/academics/courses/is_622_network_science%2A%2A> a courseKG:course ;
+    prop:courseCode "IS 622" ;
+    prop:courseName "Network Science**" ;
+    prop:ects 6 ;
+    prop:isCourseOf <https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/modules/Data_Analytics> ;
+    prop:language "E" ;
+    prop:offering "FSS" .
+
+<https://www.uni-mannheim.de/en/academics/courses/maa_519_stochastic_calculus> a courseKG:course ;
+    prop:courseCode "MAA 519" ;
+    prop:courseName "Stochastic Calculus" ;
+    prop:ects 5 ;
+    prop:isCourseOf <https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/modules/Data_Analytics> ;
+    prop:language "E" ;
+    prop:offering "HWS" .
+
+<https://www.uni-mannheim.de/en/academics/courses/mab_504_mathematics_and_information> a courseKG:course ;
+    prop:courseCode "MAB 504" ;
+    prop:courseName "Mathematics and Information" ;
+    prop:ects 8 ;
+    prop:isCourseOf <https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/modules/Data_Analytics> ;
+    prop:language "G" ;
+    prop:offering "irregular" .
+
+<https://www.uni-mannheim.de/en/academics/courses/mab_508_algebraische_statistik> a courseKG:course ;
+    prop:courseCode "MAB 508" ;
+    prop:courseName "Algebraische Statistik" ;
+    prop:ects 8 ;
+    prop:isCourseOf <https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/modules/Data_Analytics> ;
+    prop:language "G/E" ;
+    prop:offering "irregular" .
+
+<https://www.uni-mannheim.de/en/academics/courses/mac_404_optimierung> a courseKG:course ;
+    prop:courseCode "MAC 404" ;
+    prop:courseName "Optimierung" ;
+    prop:ects 8 ;
+    prop:isCourseOf <https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/modules/Data_Analytics> ;
+    prop:language "G" ;
+    prop:offering "HWS" .
+
+<https://www.uni-mannheim.de/en/academics/courses/mac_502_computational_finance> a courseKG:course ;
+    prop:courseCode "MAC 502" ;
+    prop:courseName "Computational Finance" ;
+    prop:ects 6 ;
+    prop:isCourseOf <https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/modules/Data_Analytics> ;
+    prop:language "G/E" ;
+    prop:offering "FSS" .
+
+<https://www.uni-mannheim.de/en/academics/courses/mac_507_nichtlineare_optimierung> a courseKG:course ;
+    prop:courseCode "MAC 507" ;
+    prop:courseName "Nichtlineare Optimierung" ;
+    prop:ects 6 ;
+    prop:isCourseOf <https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/modules/Data_Analytics> ;
+    prop:language "G/E" ;
+    prop:offering "FSS" .
+
+<https://www.uni-mannheim.de/en/academics/courses/mac_527_markov_processes> a courseKG:course ;
+    prop:courseCode "MAC 527" ;
+    prop:courseName "Markov Processes" ;
+    prop:ects 4 ;
+    prop:isCourseOf <https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/modules/Data_Analytics> ;
+    prop:language "E" ;
+    prop:offering "FSS" .
+
+<https://www.uni-mannheim.de/en/academics/courses/mkt_511_marketing_analytics> a courseKG:course ;
+    prop:courseCode "MKT 511" ;
+    prop:courseName "Marketing Analytics" ;
+    prop:ects 6 ;
+    prop:isCourseOf <https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/modules/Data_Analytics> ;
+    prop:language "E" ;
+    prop:offering "FSS" .
+
+<https://www.uni-mannheim.de/en/academics/courses/mkt_545_customers%2C_markets_and_firm_strategy> a courseKG:course ;
+    prop:courseCode "MKT 545" ;
+    prop:courseName "Customers, Markets and Firm Strategy" ;
+    prop:ects 6 ;
+    prop:isCourseOf <https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/modules/Data_Analytics> ;
+    prop:language "E" ;
+    prop:offering "FSS" .
+
+prop:admission_requirements a owl:DatatypeProperty ;
+    rdfs:domain courseKG:course ;
+    rdfs:range xsd:string .
+
+prop:aim_of_module a owl:DatatypeProperty ;
+    rdfs:domain courseKG:course ;
+    rdfs:range xsd:string .
+
+prop:courseCode a owl:DatatypeProperty ;
+    rdfs:domain courseKG:course ;
+    rdfs:range xsd:string .
+
+prop:courseName a owl:DatatypeProperty ;
+    rdfs:domain courseKG:course ;
+    rdfs:range xsd:string .
+
+prop:duration_of_assessment a owl:DatatypeProperty ;
+    rdfs:domain courseKG:course ;
+    rdfs:range xsd:string .
+
+prop:duration_of_module a owl:DatatypeProperty ;
+    rdfs:domain courseKG:course ;
+    rdfs:range xsd:string .
+
+prop:ects a owl:DatatypeProperty ;
+    rdfs:domain courseKG:course ;
+    rdfs:range xsd:integer .
+
+prop:form_of_assessment a owl:DatatypeProperty ;
+    rdfs:domain courseKG:course ;
+    rdfs:range xsd:string .
+
+prop:isCourseOf a owl:ObjectProperty ;
+    rdfs:domain courseKG:course ;
+    rdfs:range courseKG:module .
+
+prop:isModuleOf a owl:ObjectProperty ;
+    rdfs:domain courseKG:module ;
+    rdfs:range courseKG:programs .
+
+prop:language a owl:DatatypeProperty ;
+    rdfs:domain courseKG:course ;
+    rdfs:range xsd:string .
+
+prop:lecturer a owl:ObjectProperty ;
+    rdfs:domain courseKG:course ;
+    rdfs:range courseKG:professor .
+
+prop:methods a owl:DatatypeProperty ;
+    rdfs:domain courseKG:course ;
+    rdfs:range xsd:string .
+
+prop:moduleName a owl:DatatypeProperty ;
+    rdfs:domain courseKG:module ;
+    rdfs:range xsd:string .
+
+prop:offering a owl:DatatypeProperty ;
+    rdfs:domain courseKG:course ;
+    rdfs:range xsd:string .
+
+prop:prerequisites a owl:DatatypeProperty ;
+    rdfs:domain courseKG:course ;
+    rdfs:range xsd:string .
+
+prop:professorName a owl:DatatypeProperty ;
+    rdfs:domain courseKG:professor ;
+    rdfs:range xsd:string .
+
+prop:programName a owl:DatatypeProperty ;
+    rdfs:domain courseKG:programs ;
+    rdfs:range xsd:string .
+
+prop:range_of_application a owl:DatatypeProperty ;
+    rdfs:domain courseKG:course ;
+    rdfs:range xsd:string .
+
+prop:semester a owl:DatatypeProperty ;
+    rdfs:domain courseKG:course ;
+    rdfs:range xsd:string .
+
+prop:workload a owl:DatatypeProperty ;
+    rdfs:domain courseKG:course ;
+    rdfs:range xsd:string .
+
+<https://www.uni-mannheim.de/en/academics/professor/Frederik_Armknecht> a courseKG:professor ;
+    owl:sameAs <https://dblp.org/pid/65/6856>,
+        <https://www.wikidata.org/entity/Q102110273> ;
+    prop:professorName "Frederik_Armknecht" .
+
+<https://www.uni-mannheim.de/en/academics/professor/MKW> a courseKG:professor ;
+    prop:professorName "MKW" .
+
+<https://www.uni-mannheim.de/en/academics/professor/Marcus_Kessel> a courseKG:professor ;
+    owl:sameAs <https://dblp.org/pid/133/2140> ;
+    prop:professorName "Marcus_Kessel" .
+
+<https://www.uni-mannheim.de/en/academics/professor/Markus_Strohmaier> a courseKG:professor ;
+    owl:sameAs <https://dblp.org/pid/01/6659>,
+        <https://www.wikidata.org/entity/Q48612584> ;
+    prop:professorName "Markus_Strohmaier" .
+
+<https://www.uni-mannheim.de/en/academics/professor/Matthias_Krause> a courseKG:professor ;
+    owl:sameAs <https://dblp.org/pid/90/2046-1>,
+        <https://www.wikidata.org/entity/Q102110274> ;
+    prop:professorName "Matthias_Krause" .
+
+<https://www.uni-mannheim.de/en/academics/professor/Roland_Lei%C3%9Fa> a courseKG:professor ;
+    owl:sameAs <https://dblp.org/pid/05/10957>,
+        <https://www.wikidata.org/entity/Q108751937> ;
+    prop:professorName "Roland_Lei%C3%9Fa" .
+
+<https://www.uni-mannheim.de/en/academics/professor/Ursula_Rost> a courseKG:professor ;
+    owl:sameAs <https://dblp.org/pid/r/URost> ;
+    prop:professorName "Ursula_Rost" .
+
+<https://www.uni-mannheim.de/en/academics/professor/Colin_Atkinson> a courseKG:professor ;
+    owl:sameAs <https://dblp.org/pid/a/ColinAtkinson>,
+        <https://www.wikidata.org/entity/Q40100239> ;
+    prop:professorName "Colin_Atkinson" .
+
+<https://www.uni-mannheim.de/en/academics/professor/Guido_Moerkotte> a courseKG:professor ;
+    owl:sameAs <https://dblp.org/pid/m/GuidoMoerkotte>,
+        <https://www.wikidata.org/entity/Q40472650> ;
+    prop:professorName "Guido_Moerkotte" .
+
+<https://www.uni-mannheim.de/en/academics/professor/LHU> a courseKG:professor ;
+    prop:professorName "LHU" .
+
+<https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/modules/Responsible_Data_Science> a courseKG:module ;
+    prop:isModuleOf <https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/> ;
+    prop:moduleName "Responsible Data Science" .
+
+<https://www.uni-mannheim.de/en/academics/professor/Heiner_Stuckenschmidt> a courseKG:professor ;
+    owl:sameAs <http://www.wikidata.org/entity/Q38721681>,
+        <https://dblp.org/pid/50/5895> ;
+    prop:professorName "Heiner_Stuckenschmidt" .
+
+<https://www.uni-mannheim.de/en/academics/professor/Rainer_Gemulla> a courseKG:professor ;
+    owl:sameAs <http://www.wikidata.org/entity/Q39160786>,
+        <https://dblp.org/pid/32/5357> ;
+    prop:professorName "Rainer_Gemulla" .
+
+<https://www.uni-mannheim.de/en/academics/professor/Simone_Ponzetto> a courseKG:professor ;
+    owl:sameAs <http://www.wikidata.org/entity/Q28578432>,
+        <https://dblp.org/pid/04/2532> ;
+    prop:professorName "Simone_Ponzetto" .
+
+<https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/modules/Fundamentals> a courseKG:module ;
+    prop:isModuleOf <https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/> ;
+    prop:moduleName "Fundamentals" .
+
+<https://www.uni-mannheim.de/en/academics/professor/Heiko_Paulheim> a courseKG:professor ;
+    owl:sameAs <http://www.wikidata.org/entity/Q23709849>,
+        <https://dblp.org/pid/39/4064> ;
+    prop:professorName "Heiko_Paulheim" .
+
+<https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/> a courseKG:programs ;
+    prop:programName "mannheim-master-in-data-science" .
+
+<https://www.uni-mannheim.de/en/academics/professor/Christian_Bizer> a courseKG:professor ;
+    owl:sameAs <http://www.wikidata.org/entity/Q17744291>,
+        <https://dblp.org/pid/b/ChristianBizer> ;
+    prop:professorName "Christian_Bizer" .
+
+<https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/modules/Data_Management> a courseKG:module ;
+    prop:isModuleOf <https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/> ;
+    prop:moduleName "Data Management" .
+
+courseKG:professor rdfs:subClassOf courseKG:people .
+
+<https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/modules/Data_Analytics> a courseKG:module ;
+    prop:isModuleOf <https://www.uni-mannheim.de/en/academics/programs/mannheim-master-in-data-science/> ;
+    prop:moduleName "Data Analytics" .
+
